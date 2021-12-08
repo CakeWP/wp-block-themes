@@ -1,0 +1,24 @@
+name: Update Block Themes
+
+on: workflow_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+      - uses: actions/checkout@v2
+
+      - name: Reset all previous .git cache
+        run: git reset --hard
+      
+      - name: Update Themes
+        run: |
+          chmod +x ${{ github.workspace }}/scripts/update.sh
+          ${{ github.workspace }}/scripts/update.sh
+
+      - name: Push changed files to main
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: main
