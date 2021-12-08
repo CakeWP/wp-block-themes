@@ -17,6 +17,11 @@ jobs:
           chmod +x ${{ github.workspace }}/scripts/update.sh
           ${{ github.workspace }}/scripts/update.sh
 
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "😎 Update themes"
+
       - name: Push changed files to main
         uses: ad-m/github-push-action@master
         with:
