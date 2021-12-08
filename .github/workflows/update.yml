@@ -17,8 +17,14 @@ jobs:
           chmod +x ${{ github.workspace }}/scripts/update.sh
           ${{ github.workspace }}/scripts/update.sh
 
+      - name: Setup Git User
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "github-action"
+
       - name: Commit files
         run: |
+          
           git add .
           git commit -m "😎 Update themes"
 
