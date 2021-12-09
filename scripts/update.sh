@@ -29,6 +29,7 @@ do
         fi
 
         wget "https://themes.svn.wordpress.org/$THEME_SLUG/$THEME_VERSION/theme.json" -P "$THEME_SLUG"
+        wget "https://wp-themes.com/$THEME_SLUG/" -P "$THEME_SLUG-preview.html"
     done
 done
 
