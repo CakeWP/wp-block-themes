@@ -24,12 +24,12 @@ do
         echo "😎 Downloading theme.json for theme: $THEME_NAME"
 
         # Creating directory for the theme.json.
-        if [[ ! -z THEME_SLUG ]]; then
+        if [[ ! -d THEME_SLUG ]]; then
             mkdir "$THEME_SLUG"
         fi
 
         wget "https://themes.svn.wordpress.org/$THEME_SLUG/$THEME_VERSION/theme.json" -P "$THEME_SLUG"
-        wget "https://wp-themes.com/$THEME_SLUG/" -P "$THEME_SLUG-preview.html"
+        wget "https://wp-themes.com/$THEME_SLUG/" -P "$THEME_SLUG"
     done
 done
 
