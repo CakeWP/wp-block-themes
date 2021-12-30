@@ -6,6 +6,7 @@ jobs:
   generate-og:
     runs-on: ubuntu-20.04
     container: lironavon/docker-puppeteer-container:14.16.0
+    needs: update
     env:
       CI: true
     steps:
@@ -29,8 +30,8 @@ jobs:
       
       - name: Update Themes
         run: |
-          chmod +x ${{ github.workspace }}/scripts/update.sh
-          ${{ github.workspace }}/scripts/update.sh
+          chmod +x ${{ github.workspace }}/update.sh
+          ${{ github.workspace }}/update.sh
 
       - name: Setup Git User
         run: |
