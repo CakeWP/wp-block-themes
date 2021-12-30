@@ -1,0 +1,23 @@
+{
+  "name": "wp-block-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:og": "node ./og-images/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZafarKamal123/wp-block-themes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZafarKamal123/wp-block-themes/issues"
+  },
+  "homepage": "https://github.com/ZafarKamal123/wp-block-themes#readme",
+  "dependencies": {
+    "puppeteer": "^13.0.1"
+  }
+}
