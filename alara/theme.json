@@ -75,6 +75,11 @@
 			],
 			"gradients": [
 				{
+					"slug": "primary-tertiary-quaternary",
+					"name": "Primary Tertiary Quaternary",
+					"gradient": "linear-gradient(90deg, var(--wp--preset--color--primary) 33.33%, var(--wp--preset--color--tertiary) 33.33%, var(--wp--preset--color--tertiary) 66.66%, var(--wp--preset--color--quaternary) 66.66%)"
+				},
+				{
 					"slug": "foreground-fade",
 					"name": "Foreground Fade",
 					"gradient": "linear-gradient(150deg,var(--wp--preset--color--foreground) 0%,var(--wp--preset--color--tertiary) 90%)"
@@ -160,7 +165,7 @@
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--background) 25%, transparent 25%, transparent 75%, var(--wp--preset--color--background) 75%, var(--wp--preset--color--background)), linear-gradient(45deg, var(--wp--preset--color--background) 25%, transparent 25%, transparent 75%, var(--wp--preset--color--background) 75%, var(--wp--preset--color--background)), linear-gradient(to bottom, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))"
 				},
 				{ "slug": "steel", "name": "Steel", "gradient": "linear-gradient(150deg,#cfcfcb 0%,#7e7771 70%)" },
-				{ "slug": "bronze", "name": "Bronze", "gradient": "linear-gradient(150deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--primary) 70%)" },
+				{ "slug": "bronze", "name": "Bronze", "gradient": "linear-gradient(150deg,#ede4cf 0%,#c7ae88 70%)" },
 				{ "slug": "silver", "name": "Silver", "gradient": "linear-gradient(150deg,#d1d1d1 0%,#898989 40%,#d1d1d1 80%)" },
 				{ "slug": "gold", "name": "Gold", "gradient": "linear-gradient(150deg,#eecb58 0%,#be7f44 40% 60%,#eecb58 90%)" },
 				{
@@ -198,9 +203,63 @@
 					"slug": "system-font"
 				},
 				{
+					"fontFamily": "Rajdhani,sans-serif",
+					"name": "Rajdhani",
+					"slug": "rajdhani",
+					"google": "family=Rajdhani:wght@300;400;500;600;700"
+				},
+				{
+					"fontFamily": "Roboto,sans-serif",
+					"name": "Roboto",
+					"slug": "roboto",
+					"google": "family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900"
+				},
+				{
+					"fontFamily": "Poppins,sans-serif",
+					"name": "Poppins",
+					"slug": "poppins",
+					"google": "family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+				},
+				{
+					"fontFamily": "Lato,sans-serif",
+					"name": "Lato",
+					"slug": "lato",
+					"google": "family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900"
+				},
+				{
+					"fontFamily": "Nunito,sans-serif",
+					"name": "Nunito",
+					"slug": "nunito",
+					"google": "family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+				},
+				{
+					"fontFamily": "\"Maven Pro\",sans-serif",
+					"name": "Maven Pro",
+					"slug": "maven-pro",
+					"google": "family=Maven+Pro:wght@400;500;600;700;800;900"
+				},
+				{
 					"fontFamily": "Georgia,\"Times New Roman\",serif",
 					"name": "Georgia",
 					"slug": "georgia"
+				},
+				{
+					"fontFamily": "Merriweather,serif",
+					"name": "Merriweather",
+					"slug": "merriweather",
+					"google": "family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900"
+				},
+				{
+					"fontFamily": "Lora,serif",
+					"name": "Lora",
+					"slug": "lora",
+					"google": "family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700"
+				},
+				{
+					"fontFamily": "Arvo,serif",
+					"name": "Arvo",
+					"slug": "arvo",
+					"google": "family=Arvo:ital,wght@0,400;0,700;1,400;1,700"
 				},
 				{
 					"fontFamily": "Pilgi,\"Segoe Script\",cursive",
@@ -229,8 +288,8 @@
 			"width": true
 		},
 		"layout": {
-			"contentSize": "1280px",
-			"wideSize": "1440px",
+			"contentSize": "min( calc(100vw - 2rem), 80rem)",
+			"wideSize": "min( calc(100vw - 2rem), 90rem)",
 			"outerPadding": "0.5rem"
 		},
 		"spacing": {
@@ -365,6 +424,11 @@
 					}
 				}
 			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			},
 			"core/post-date": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
@@ -387,11 +451,6 @@
 				},
 				"border": {
 					"radius": "3px"
-				}
-			},
-			"core/media-text": {
-				"color": {
-					"background": "var:preset|color|background"
 				}
 			},
 			"core/pullquote": {
