@@ -3,14 +3,29 @@ name: Update Block Themes
 on: workflow_dispatch
 
 jobs:
+  generate-og:
+    runs-on: ubuntu-20.04
+    container: lironavon/docker-puppeteer-container:14.16.0
+    env:
+      CI: true
+    steps:
+      - name: setup git in container
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: install dependencies
+        run: npm ci
+
+      - name: generate og images
+        run: npm run generate:og
+
+
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-
-      - name: Reset all previous .git cache
-        run: git rm -r --cached .
       
       - name: Update Themes
         run: |
