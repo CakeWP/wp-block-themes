@@ -197,6 +197,12 @@
 					"fontFamily": "\"Nunito Sans\", sans-serif",
 					"name": "Nunito Sans",
 					"slug": "nunito-sans"
+				},
+
+				{
+					"fontFamily": "\"Kristi\", cursive",
+					"name": "Kristi",
+					"slug": "kristi"
 				}
 			],
 			"fontSizes": [
