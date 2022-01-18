@@ -251,7 +251,11 @@
 	},
 	"templateParts": [
 		{
-			"name": "header",
+			"name": "header-with-logo",
+			"area": "header"
+		},
+		{
+			"name": "header-with-title",
 			"area": "header"
 		},
 		{

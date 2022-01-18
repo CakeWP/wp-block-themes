@@ -203,6 +203,12 @@
 					"fontFamily": "\"Kristi\", cursive",
 					"name": "Kristi",
 					"slug": "kristi"
+				},
+
+				{
+					"fontFamily": "\"Inconsolata\", monospace",
+					"name": "Inconsolata",
+					"slug": "inconsolata"
 				}
 			],
 			"fontSizes": [
