@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"settings": {
 		"color": {
 			"link": true,
@@ -250,7 +250,6 @@
 			},
 			"core/button": {
 				"border": {
-					"width": "0px",
 					"radius": "4px"
 				}
 			},
