@@ -209,6 +209,12 @@
 					"fontFamily": "\"Inconsolata\", monospace",
 					"name": "Inconsolata",
 					"slug": "inconsolata"
+				},
+
+				{
+					"fontFamily": "\"Bestermind\", cursive",
+					"name": "Bestermind",
+					"slug": "bestermind"
 				}
 			],
 			"fontSizes": [

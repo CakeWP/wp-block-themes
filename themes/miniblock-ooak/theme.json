@@ -67,7 +67,7 @@
 	},
 	"styles": {
 		"color": {
-			"background": ";background:var(--wp--preset--gradient--pale-ocean)",
+			"gradient": "var(--wp--preset--gradient--pale-ocean)",
 			"text": "var(--wp--preset--color--black)"
 		},
 		"spacing":{

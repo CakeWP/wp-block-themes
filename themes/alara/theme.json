@@ -36,17 +36,22 @@
 		{
 			"name": "header",
 			"area": "header",
-			"title": "Header - Standard"
+			"title": "Header Standard"
 		},
 		{
 			"name": "header-cover",
 			"area": "header",
-			"title": "Header - Cover"
+			"title": "Header Cover"
 		},
 		{
 			"name": "header-with-top-bar",
 			"area": "header",
 			"title": "Header with Top Bar"
+		},
+		{
+			"name": "header-full-width",
+			"area": "header",
+			"title": "Header Full Width"
 		},
 		{
 			"name": "footer",
