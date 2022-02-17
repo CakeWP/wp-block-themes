@@ -57,6 +57,11 @@
 			"name": "footer",
 			"area": "footer",
 			"title": "Footer"
+		},
+		{
+			"name": "footer-centered",
+			"area": "footer",
+			"title": "Footer Centered"
 		}
 	],
 	"settings": {
