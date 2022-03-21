@@ -1,21 +1,24 @@
 {
-  "$schema": "https://json.schemastore.org/theme-v1.json",
-  "version": 1,
+  "version": 2,
   "templateParts": [
     {
       "name": "header",
+      "title": "Header",
       "area": "header"
     },
     {
       "name": "header-centered-logo",
+      "title": "Header Centered Logo",
       "area": "header"
     },
     {
       "name": "header-transparent",
+      "title": "Header Transparent",
       "area": "header"
     },
     {
       "name": "footer",
+      "title": "Footer",
       "area": "footer"
     }
   ],
@@ -70,8 +73,7 @@
           "color": "#F2F0EC",
           "name": "Background Light"
         }
-      ],
-      "gradients": []
+      ]
     },
     "custom": {
       "spacing": {

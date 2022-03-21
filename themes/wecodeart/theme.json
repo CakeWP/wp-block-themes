@@ -99,7 +99,7 @@
 				},
 				{
 					"slug": "primary-to-vivid-purple",
-					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--vivid-purple))",
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), purple)",
 					"name": "Primary to Purple"
 				},
 				{
@@ -140,7 +140,7 @@
 				"xxl": "1440px"
 			},
 			"shadows": {
-				"sm": "0 0.125rem 0.25rem rgba(0,0,0,.08)",
+				"sm": "0 0.125rem .25rem rgba(0,0,0,.08)",
 				"lg": "0 3px 1rem .25rem rgba(0,0,0,.10)"
 			},
 			"spacers": {
@@ -237,6 +237,30 @@
 			"core/quote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|normal"
+				}
+			},
+			"core/code": {
+				"border": {
+					"width": "1px",
+					"style": "solid",
+					"radius": "0.5rem",
+					"color": "var:preset|color|black"
+				},
+				"color": {
+					"background": "var:preset|color|dark",
+					"text": "var:preset|color|white"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--font-monospace)",
+					"fontSize": "var:preset|font-size|small"
+				},
+				"spacing": {
+					"padding": {
+						"top": "1rem",
+						"bottom": "1rem",
+						"left": "1rem",
+						"right": "1rem"
+					}
 				}
 			},
 			"core/button": {
