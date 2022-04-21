@@ -6,29 +6,39 @@
 			"link": true,
 			"palette": [
 				{
-					"slug": "primary",
-					"color": "#05b772",
+					"slug": "photology_primary",
+					"color": "#343333",
 					"name": "Primary"
 				},
 				{
-					"slug": "secondary",
-					"color": "#1D222A",
+					"slug": "photology_secondary",
+					"color": "#FFFFFF",
 					"name": "Secondary"
 				},
 				{
-					"slug": "third",
-					"color": "#798290",
-					"name": "Third"
+					"slug": "photology_brown",
+					"color": "#916C3D",
+					"name": "Brown"
 				},
 				{
-					"slug": "forth",
-					"color": "#BABABA",
-					"name": "Forth"
+					"slug": "photology_brown_soft",
+					"color": "#D1C8BB",
+					"name": "Brown Soft"
 				},
 				{
-					"slug": "fifth",
-					"color": "#FFFFFF",
-					"name": "Fifth"
+					"slug": "photology_text",
+					"color": "#8B8B8B",
+					"name": "Text"
+				},
+				{
+					"slug": "photology_text_hero",
+					"color": "#C2BABB",
+					"name": "Text Hero"
+				},
+				{
+					"slug": "photology_text_footer",
+					"color": "#949494",
+					"name": "Text Footer"
 				}
 			],
 			"gradients": [
@@ -44,8 +54,8 @@
 			"customFontSize": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "'Poppins'",
-					"name": "Poppins",
+					"fontFamily": "'Prata'",
+					"name": "Prata",
 					"slug": "primary"
 				},
 				{
@@ -105,7 +115,7 @@
 			]
 		},
 		"layout": {
-			"contentSize": "1140px",
+			"contentSize": "1170px",
 			"wideSize": "1200px"
 		},
 		"border": {
@@ -125,13 +135,13 @@
 	"styles": {
 		"color": {
 			"background": "#ffffff",
-			"text": "#798290"
+			"text": "#8B8B8B"
 		},
 		"typography": {},
 		"elements": {
 			"link": {
 				"color": {
-					"text": "#05b772"
+					"text": "#916C3D"
 				}
 			},
 			"h1": {

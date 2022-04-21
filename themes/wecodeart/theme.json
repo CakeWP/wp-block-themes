@@ -3,6 +3,34 @@
 	"version": 2,
 	"customTemplates": [
 		{
+			"name": "taxonomy-product_cat",
+			"title": "Products by Category",
+			"postTypes": [
+				"product"
+			]
+		},
+		{
+			"name": "taxonomy-product_tag",
+			"title": "Products by Tag",
+			"postTypes": [
+				"product"
+			]
+		},
+		{
+			"name": "archive-product",
+			"title": "Product Catalog",
+			"postTypes": [
+				"product"
+			]
+		},
+		{
+			"name": "single-product",
+			"title": "Product Single",
+			"postTypes": [
+				"product"
+			]
+		},
+		{
 			"name": "page-sidebar",
 			"title": "Page - Sidebar",
 			"postTypes": [
@@ -26,8 +54,33 @@
 			"area": "header"
 		},
 		{
+			"title": "Header (Logo left)",
+			"name": "header-left",
+			"area": "header"
+		},
+		{
+			"title": "Header (with Search)",
+			"name": "header-search",
+			"area": "header"
+		},
+		{
+			"title": "Header (with Topbar)",
+			"name": "header-top",
+			"area": "header"
+		},
+		{
+			"title": "Header (Dark)",
+			"name": "header-dark",
+			"area": "header"
+		},
+		{
 			"title": "Footer",
 			"name": "footer",
+			"area": "footer"
+		},
+		{
+			"title": "Footer (Dark)",
+			"name": "footer-dark",
 			"area": "footer"
 		},
 		{
@@ -127,6 +180,7 @@
 			"custom": true,
 			"customDuotone": true,
 			"customGradient": true,
+			"defaultDuotone": true,
 			"defaultGradients": false,
 			"defaultPalette": false
 		},
@@ -150,6 +204,14 @@
 				"3": "1rem",
 				"4": "2rem",
 				"5": "3rem"
+			},
+			"display": {
+				"1": "clamp(3.5rem, 2.95rem + 2.75vw, 5rem)",
+				"2": "clamp(3.25rem, 2.8rem + 2.3vw, 4.5rem)",
+				"3": "clamp(3rem, 2.65rem + 1.8vw, 4rem)",
+				"4": "clamp(2.75rem, 2.5rem + 1.35vw, 3.5rem)",
+				"5": "clamp(2.5rem, 2.3rem + 0.9vw, 3rem)",
+				"6": "clamp(2.25rem, 2rem + 0.5vw, 2.5rem)"
 			},
 			"mobileBreakpoint": "lg"
 		},
@@ -205,8 +267,13 @@
 					"name": "Large"
 				},
 				{
-					"slug": "huge",
+					"slug": "x-large",
 					"size": "2rem",
+					"name": "Large"
+				},
+				{
+					"slug": "huge",
+					"size": "3rem",
 					"name": "Huge"
 				}
 			]
@@ -214,7 +281,23 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/heading": {
+				"typography": {
+					"fontWeight": "500",
+					"lineHeight": "1.2"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "1.5rem"
+					}
+				}
+			},
 			"core/post-author": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"core/post-author-name": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
@@ -251,7 +334,7 @@
 					"text": "var:preset|color|white"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--font-monospace)",
+					"fontFamily": "var:preset|font-family|monospace",
 					"fontSize": "var:preset|font-size|small"
 				},
 				"spacing": {
@@ -288,22 +371,39 @@
 						"right": ".75rem"
 					}
 				}
-			},
-			"core/buttons": {
-				"spacing": {
-					"blockGap": "1rem"
-				}
-			},
-			"core/columns": {
-				"spacing": {
-					"padding": {
-						"left": "var:custom|gutter",
-						"right": "var:custom|gutter"
-					}
-				}
 			}
 		},
 		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "clamp(2.5rem, 2.25rem + 1.35vw, 3.25rem)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "clamp(2rem, 1.815rem + .9vw, 2.5rem)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "clamp(1.75rem, 1.65rem + .45vw, 2rem)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "clamp(1.5rem, 1.20rem + .4vw, 1.5rem)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "1.25rem"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "1rem"
+				}
+			},
 			"link": {
 				"color": {
 					"text": "var:preset|color|primary"
