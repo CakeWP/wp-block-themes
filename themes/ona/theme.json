@@ -40,6 +40,7 @@
     }
   ],
   "settings": {
+    "appearanceTools": true,
     "color": {
       "link": true,
       "palette": [

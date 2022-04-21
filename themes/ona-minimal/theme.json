@@ -94,6 +94,11 @@
 					"fontFamily": "\"Nunito Sans\", sans-serif",
 					"name": "Nunito Sans",
 					"slug": "base"
+				},
+				{
+					"fontFamily": "\"Bestermind\", sans-serif",
+					"name": "Bestermind",
+					"slug": "alt"
 				}
 			],
 			"fontSizes": [
