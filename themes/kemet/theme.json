@@ -37,6 +37,12 @@
       "slug": "three-levels-header"
     },
     {
+      "area": "header",
+      "name": "header-with-button-socialicons",
+      "title": "Header with Button & Social Icons",
+      "slug": "header-with-button-socialicons"
+    },
+    {
       "area": "footer",
       "name": "footer",
       "title": "Footer"
