@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"settings": {
+		"appearanceTools": true,
 		"color": {
 			"link": true,
 			"customGradient": true,
@@ -107,15 +108,29 @@
 			"customLineHeight": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"PT Sans Narrow\", sans-serif",
-					"slug": "pt-sans-narrow",
+					"fontFamily": "\"PT Sans Narrow\"",
 					"name": "PT Sans Narrow",
-					"google": "family=PT+Sans+Narrow:ital,wght@0,400;0,700"
-				},
-				{
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
-					"slug": "system-fonts",
-					"name": "System Fonts"
+					"slug": "pt-sans-narrow",
+					"fontFace": [
+						{
+							"fontFamily": "PT Sans Narrow",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/pt-sans-narrow-v16-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "PT Sans Narrow",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/pt-sans-narrow-v16-latin-700.woff2"
+							]
+						}
+					]
 				},
 				{
 					"fontFamily": "Helvetica Neue, Helvetica, sans-serif",
@@ -197,6 +212,7 @@
 			]
 		},
 		"spacing": {
+			"blockGap": true,
 			"customPadding": true,
 			"customMargin": true,
 			"units": [
@@ -220,6 +236,13 @@
 		},
 		"custom": {
 			"preset": {
+				"fontSize": {
+					"small": "6px",
+					"normal": "16px",
+					"medium": "24px",
+					"large": "48px",
+					"huge": "72px"
+				},
 				"padding": {
 					"small": "6px",
 					"normal": "16px",
@@ -255,7 +278,9 @@
 						"desktop": "80vw",
 						"wide": "80vw"
 					}
-				},
+				}
+			},
+			"elements": {
 				"body": {
 					"color": {
 						"default": "var(--wp--preset--color--color-eight)"
@@ -316,7 +341,7 @@
 					"padding": "0 119px 0 0",
 					"margin": "29px 0 23px",
 					"typography": {
-						"fontSize": "1rem",
+						"fontSize": "18px",
 						"textTransform": "uppercase",
 						"fontWeight": "700",
 						"fontStyle": "normal",
@@ -335,7 +360,7 @@
 					},
 					"typography": {
 						"fontFamily": "Courier",
-						"fontSize": "0.9375rem",
+						"fontSize": "16.875px",
 						"textTransform": "none",
 						"fontWeight": "400",
 						"fontStyle": "normal",
@@ -366,15 +391,15 @@
 					},
 					"padding": "5px 12px 8px 12px",
 					"typography": {
-						"fontSize": "0.7777777777777778rem",
-						"lineHeight": "1.6rem",
+						"fontSize": "14px",
+						"lineHeight": "28.8px",
 						"letterSpacing": "0.06em",
 						"textTransform": "none",
 						"fontWeight": "400"
 					},
 					"heading-typography": {
-						"fontSize": "0.7777777777777778rem",
-						"lineHeight": "1.6rem",
+						"fontSize": "14px",
+						"lineHeight": "28.8px",
 						"letterSpacing": "0.06em",
 						"textTransform": "uppercase",
 						"fontWeight": "600"
@@ -382,12 +407,12 @@
 				},
 				"verse": {
 					"typography": {
-						"fontSize": "0.7777777777777778rem"
+						"fontSize": "14px"
 					},
 					"padding": "15px 20px 15px 20px"
 				},
 				"paragraph": {
-					"margin": "0.5rem 0 0.7222222222222222rem 0"
+					"margin": "13px 0 13px 0"
 				},
 				"code": {
 					"color": {
@@ -403,7 +428,7 @@
 						"style": "none"
 					},
 					"typography": {
-						"fontSize": "0.7777777777777778rem"
+						"fontSize": "14px"
 					},
 					"margin": "0",
 					"padding": "25px"
@@ -425,10 +450,10 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "3.33rem",
-						"lineHeight": "4.77rem"
+						"fontSize": "59.94px",
+						"lineHeight": "85.85999999999999px"
 					},
-					"margin": "1.66rem 0rem 0.5rem 0rem"
+					"margin": "29.88px 0px 9px 0px"
 				},
 				"h2": {
 					"color": {
@@ -436,11 +461,11 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "2.22rem",
-						"lineHeight": "3.22rem",
-						"letterSpacing": "0.13rem"
+						"fontSize": "39.96px",
+						"lineHeight": "57.96px",
+						"letterSpacing": "2.34px"
 					},
-					"margin": "2.05rem 0rem 0.88rem 0rem"
+					"margin": "36.9px 0px 15.84px 0px"
 				},
 				"h3": {
 					"color": {
@@ -448,11 +473,11 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "1.44rem",
-						"lineHeight": "2.05rem",
-						"letterSpacing": "0.08rem"
+						"fontSize": "25.919999999999998px",
+						"lineHeight": "36.9px",
+						"letterSpacing": "1.44px"
 					},
-					"margin": "2.38rem 0rem 1.16rem 0rem"
+					"margin": "42.839999999999996px 0px 20.88px 0px"
 				},
 				"h4": {
 					"color": {
@@ -460,11 +485,11 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "1rem",
-						"lineHeight": "1.44rem",
-						"letterSpacing": "0.06rem"
+						"fontSize": "18px",
+						"lineHeight": "25.919999999999998px",
+						"letterSpacing": "1.08px"
 					},
-					"margin": "2.61rem 0rem 1.27rem 0rem"
+					"margin": "46.98px 0px 22.86px 0px"
 				},
 				"h5": {
 					"color": {
@@ -472,11 +497,11 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "0.88rem",
-						"lineHeight": "1.27rem",
-						"letterSpacing": "0.05rem"
+						"fontSize": "15.84px",
+						"lineHeight": "22.86px",
+						"letterSpacing": "0.9px"
 					},
-					"margin": "2.93rem 0rem 0.72rem 0rem"
+					"margin": "52.74px 0px 12.959999999999999px 0px"
 				},
 				"h6": {
 					"color": {
@@ -484,12 +509,12 @@
 					},
 					"typography": {
 						"fontFamily": "var(--wp--preset--font-family--pt-sans-narrow)",
-						"fontSize": "1rem",
-						"lineHeight": "1.44rem",
-						"letterSpacing": "0rem",
+						"fontSize": "18px",
+						"lineHeight": "25.919999999999998px",
+						"letterSpacing": "0px",
 						"textTransform": "none"
 					},
-					"margin": "2.38rem 0rem 0.72rem 0rem"
+					"margin": "42.839999999999996px 0px 12.959999999999999px 0px"
 				}
 			}
 		}
@@ -581,7 +606,7 @@
 				},
 				"typography": {
 					"fontSize": "14px",
-					"letterSpacing": "0.08rem",
+					"letterSpacing": "1.44px",
 					"lineHeight": "26px",
 					"textTransform": "uppercase",
 					"fontWeight": "600",
@@ -603,7 +628,7 @@
 						},
 						"typography": {
 							"fontSize": "14px",
-							"letterSpacing": "0.08rem",
+							"letterSpacing": "1.44px",
 							"textTransform": "uppercase",
 							"fontWeight": "600",
 							"textDecoration": "none"
@@ -652,7 +677,7 @@
 			"core/post-featured-image": {
 				"spacing": {
 					"margin": {
-						"bottom": "2.5rem"
+						"bottom": "45px"
 					}
 				}
 			},

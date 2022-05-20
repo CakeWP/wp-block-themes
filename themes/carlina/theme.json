@@ -1,0 +1,233 @@
+{
+    "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "slug": "foreground",
+                    "color": "#2d221b",
+                    "name": "Foreground"
+                },
+                {
+                    "slug": "background",
+                    "color": "#e6e9e2",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#b14924",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#394d29",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#e6d8b9",
+                    "name": "Tertiary"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "diagonal-secondary-to-tertiary",
+                    "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--tertiary) 50%)",
+                    "name": "Diagonal secondary to tertiary"
+                },
+                {
+                    "slug": "diagonal-tertiary-to-background",
+                    "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
+                    "name": "Diagonal tertiary to background"
+                },
+                {
+                    "slug": "diagonal-tertiary-to-white",
+                    "gradient": "linear-gradient(to bottom right, var(--wp--preset--color--tertiary), white)",
+                    "name": "Diagonal tertiary to white"
+                }
+            ]
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "slug": "x-small",
+                    "size": "0.8rem",
+                    "name": "x-small"
+                },
+                {
+                    "slug": "small",
+                    "size": "1rem",
+                    "name": "small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.4rem",
+                    "name": "medium"
+                },
+                {
+                    "slug": "medium-large",
+                    "size": "2rem",
+                    "name": "medium-large"
+                },
+                {
+                    "slug": "large",
+                    "size": "2.5rem",
+                    "name": "large"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "4rem",
+                    "name": "x-large"
+                },
+                {
+                    "slug": "xx-large",
+                    "size": "6rem",
+                    "name": "xx-large"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Abril Fatface\", serif",
+                    "name": "Abril Fatface",
+                    "slug": "abril-fatface"
+                },
+                {
+                    "fontFamily": "\"Roboto\", sans-serif",
+                    "name": "Roboto",
+                    "slug": "Roboto"
+                }
+            ],
+            "lineHeight": true,
+            "customFontSize": false,
+            "dropCap": false
+            
+        },
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "custom": {
+            "featuredImageHeight": "500px",
+            "headerImageHeight": "300px",
+            "containerColor": "white"
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--background)",
+            "text": "var(--wp--preset--color--foreground)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--primary)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--x-large)"
+                }
+            },
+            "h2": {
+                "typography": {
+					"fontFamily": "var(--wp--preset--font-family--abril-fatface)",
+					"fontWeight": "300",
+                    "fontSize": "var(--wp--preset--font-size--large)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto)",
+                    "fontSize": "var(--wp--preset--font-size--small)",
+                    "fontWeight": "500"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--roboto)",
+            "fontWeight": "300"
+        },
+        "blocks": {
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--abril-fatface)",
+                    "fontWeight": "300",
+                    "fontSize": "var(--wp--preset--font-size--xx-large)"
+                }
+            },
+            "core/site-tagline": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--Roboto)",
+                    "fontWeight": "100",
+                    "fontSize": "var(--wp--preset--font-size--medium)",
+                    "lineHeight": "1.5",
+                    "fontStyle": "italic"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--secondary)"
+                }
+            },
+            "core/search": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--Roboto)",
+                    "fontWeight": "200",
+                    "fontSize": "var(--wp--preset--font-size--small)"
+                }
+            },
+            "core/button": {
+				"border": {
+					"radius": "3rem"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "white"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+            "core/post-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--abril-fatface)",
+					"fontWeight": "300",
+                    "fontSize": "var(--wp--preset--font-size--large)",
+                    "lineHeight": "1.15"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--abril-fatface)",
+					"fontWeight": "300",
+                    "fontSize": "var(--wp--preset--font-size--large)"
+				}
+			}
+        }
+    }
+}

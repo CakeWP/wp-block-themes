@@ -90,10 +90,11 @@
 			]
 		},
 		{
-			"name":"page-alt",
-			"title": "Page, Alternate",
+			"name":"sidebar",
+			"title": "Sidebar",
 			"postTypes": [
-				"page"
+				"page",
+				"post"
 			]
 		},
 		{
