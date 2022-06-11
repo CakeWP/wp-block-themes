@@ -95,8 +95,8 @@
       "units": ["%", "px", "em", "rem", "vh", "vw"]
     },
     "layout": {
-      "contentSize": "min( calc(100vw - 2rem), 80rem)",
-      "wideSize": "min( calc(100vw - 2rem), 90rem)"
+      "contentSize": "1100px",
+	    "wideSize": "1200px"
     },
     "typography": {
       "dropCap": true,

@@ -35,8 +35,8 @@
 	],
 	"customTemplates": [
 		{
-			"name": "page-no-title",
-			"title": "Page No Title",
+			"name": "page-title",
+			"title": "Page with Title",
 			"postTypes": [ "page" ]
 		}
 	],

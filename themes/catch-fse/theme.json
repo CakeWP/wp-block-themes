@@ -151,6 +151,11 @@
 					"slug": "horizontal-bean-red-to-rose",
 					"gradient": "linear-gradient(to right,var(--wp--preset--color--bean-red) 0%,var(--wp--preset--color--rose) 100%)",
 					"name": "Horizontal Bean Red to Rose"
+				},
+				{
+					"slug": "horizontal-color-gradient-first-to-gradient-second",
+					"gradient": "linear-gradient(to right,var(--wp--preset--color--background) 0%,var(--wp--preset--color--background) 100%)",
+					"name": "Horizontal Gradient Background to Background"
 				}
 			],
 			"palette": [
@@ -203,6 +208,36 @@
 					"slug": "bean-red",
 					"color": "#ff575d",
 					"name": "Bean Red"
+				},
+				{
+					"slug": "ironside-grey",
+					"color": "#666666",
+					"name": "Ironside Grey"
+				},
+				{
+					"slug": "white-smoke",
+					"color": "#f6f6f6",
+					"name": "White Smoke"
+				},
+				{
+                    "slug": "dune",
+                    "color": "#333333",
+                    "name": "Dune"
+                },
+				{
+					"slug": "color-light",
+					"color": "#fefefe",
+					"name": "Color Light"
+				},
+				{
+					"slug": "color-dark",
+					"color": "#010101",
+					"name": "Color Dark"
+				},
+				{
+					"slug": "woodsmoke",
+					"color": "#0e0c0c",
+					"name": "Woodsmoke"
 				}
 			]
 		},
@@ -311,7 +346,7 @@
 				},
 				"color": {
 					"gradient": "var(--wp--preset--gradient--horizontal-rose-to-bean-red)",
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--color-light)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--open-sans)",

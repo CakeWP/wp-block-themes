@@ -36,6 +36,16 @@
 			"postTypes": [
 				"page"
 			]
+		},
+		{
+			"name": "single-product",
+			"postTypes": [ "product" ],
+			"title": "WooCommerce Single Product"
+		},
+		{
+			"name": "archive-product",
+			"postTypes": [ "product" ],
+			"title": "WooCommerce Archive Product"
 		}
 	],
 	"settings": {

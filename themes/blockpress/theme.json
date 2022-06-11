@@ -72,8 +72,8 @@
 			"area": "uncategorized"
 		},
 		{
-			"name": "titlecolorbg",
-			"title": "Title on colored background",
+			"name": "titlecoverbg",
+			"title": "Title on cover image",
 			"area": "uncategorized"
 		}
 	],
@@ -122,6 +122,13 @@
 			"postTypes": [
 				"post"
 			]
+		},
+		{
+			"name": "post-covertitle",
+			"title": "Post with cover image",
+			"postTypes": [
+				"post"
+			]
 		}
 	],
 	"settings": {
@@ -136,6 +143,7 @@
 			"custom": true,
 			"customGradient": true,
 			"defaultPalette": false,
+			"defaultGradients": false,
 			"gradients": [
 				{
 					"slug": "diagonal-primary-to-secondary",
@@ -277,7 +285,8 @@
 			},
 			"color": {
 				"black": "#000",
-				"white": "#fff"
+				"white": "#fff",
+				"light": "#f9fafb"
 			},
 			"spacing": {
 				"outer": "min(5vw, 30px)",
@@ -304,7 +313,7 @@
 		},
 		"typography": {
 			"customFontSize": true,
-			"dropCap": false,
+			"dropCap": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
