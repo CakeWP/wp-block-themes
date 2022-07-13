@@ -236,13 +236,6 @@
 		},
 		"custom": {
 			"preset": {
-				"fontSize": {
-					"small": "6px",
-					"normal": "16px",
-					"medium": "24px",
-					"large": "48px",
-					"huge": "72px"
-				},
 				"padding": {
 					"small": "6px",
 					"normal": "16px",
@@ -366,18 +359,8 @@
 						"fontStyle": "normal",
 						"lineHeight": "1.6em"
 					},
-					"margin": {
-						"top": "0em",
-						"bottom": "1.6em",
-						"right": "0em",
-						"left": "0em"
-					},
-					"padding": {
-						"top": "1.6em",
-						"bottom": "1.6em",
-						"right": "1.6em",
-						"left": "1.6em"
-					}
+					"margin": "0em 1.6em 0em 0em",
+					"padding": "1.6em 1.6em 1.6em 1.6em"
 				},
 				"table": {
 					"color": {

@@ -12,7 +12,23 @@
 				{
 					"fontFamily": "\"Open Sans\", serif",
 					"name": "Open Sans",
-					"slug": "open-sans"
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "300 400 500 600 700 800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/open-sans/OpenSans-VariableFont_wdth_wght.woff2" ]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "300 400 500 600 700 800",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/open-sans/OpenSans-Italic-VariableFont_wdth_wght.woff2" ]
+						}
+					]
 				}
 			],
 			"fontSizes": [

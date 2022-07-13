@@ -48,6 +48,11 @@
 					"slug": "tertiary",
 					"color": "#EBF3F3",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "stroke",
+					"color": "#E7E7E7",
+					"name": "Stroke"
 				}
 			],
 			"gradients": []
@@ -113,9 +118,9 @@
 					"slug": "small"
 				},
 				{
-					"name": "Normal",
+					"name": "Base",
 					"size": "1.125rem",
-					"slug": "normal"
+					"slug": "base"
 				},
 				{
 					"name": "Medium",
@@ -133,9 +138,9 @@
 					"slug": "large"
 				},
 				{
-					"name": "Huge",
+					"name": "X-Large",
 					"size": "3.75rem",
-					"slug": "huge"
+					"slug": "x-large"
 				}
 			]
 		},
@@ -156,7 +161,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--base)",
-					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontSize": "var(--wp--preset--font-size--base)",
 					"fontWeight": "600"
 				}
 			},
@@ -291,11 +296,6 @@
 						"bottom": "0px"
 					}
 				}
-			},
-			"core/separator": {
-				"color": {
-					"text": "var(--wp--preset--color--text-light)"
-				}
 			}
 		},
 		"color": {
@@ -365,7 +365,7 @@
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--base)",
 			"lineHeight": "var(--wp--custom--typography--line-height--normal)",
-			"fontSize": "var(--wp--preset--font-size--normal)"
+			"fontSize": "var(--wp--preset--font-size--base)"
 		}
 	}
 }

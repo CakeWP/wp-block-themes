@@ -37,6 +37,11 @@
 			"name": "footer",
 			"area": "footer",
 			"title": "Footer"
+		},
+		{
+			"name": "comments",
+			"area": "uncategorized",
+			"title": "Comments"
 		}
 	],
 	"settings": {
