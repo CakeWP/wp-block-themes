@@ -18,12 +18,23 @@ const getThemes = () => {
 		.map( ( dirent ) => dirent.name );
 };
 
-const getThemeStyles = (slug) => {
-    let themeDemo = fs.readFileSync(path.resolve(__dirname, `../themes/${slug}/index.html`), "utf8");
+const getThemeStyles = async (slug) => {
 
-    let parsedStyles = parse(themeDemo).querySelectorAll('link, style').map(styleElem => styleElem.outerHTML).join('');
+    
+    try {
+        let indexPath = path.resolve(__dirname, `../themes/${slug}/index.html`);
+        
+        if (fs.existsSync(indexPath)) {
+            let themeDemo = fs.readFileSync(path.resolve(__dirname, `../themes/${slug}/index.html`), "utf8");
+            let parsedStyles = parse(themeDemo).querySelectorAll('link, style').map(styleElem => styleElem.outerHTML).join('');
+            return parsedStyles;
+        }
 
-    return parsedStyles;
+
+    } catch (err) {
+        return [];
+    }
+
 }
 
 async function updateTemplateWithDetails( page, themeDetails ) {
@@ -36,7 +47,7 @@ async function updateTemplateWithDetails( page, themeDetails ) {
     } = themeDetails;
 
     const themeJSON = require(`../themes/${slug}/theme.json`);
-    const themeStyles = getThemeStyles(slug);
+    const themeStyles = await getThemeStyles(slug);
 
     const colorPalette = get(themeJSON, 'settings.color.palette', []).map(color => {
         return get(color, 'color');
