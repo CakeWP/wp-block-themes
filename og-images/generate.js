@@ -32,6 +32,7 @@ const getThemeStyles = async (slug) => {
 
 
     } catch (err) {
+        console.log('Template index not found for: ', slug);
         return [];
     }
 
