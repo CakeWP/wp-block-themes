@@ -19,7 +19,6 @@ const getThemes = () => {
 };
 
 const getThemeStyles = async (slug) => {
-
     
     try {
         let indexPath = path.resolve(__dirname, `../themes/${slug}/index.html`);
@@ -46,8 +45,23 @@ async function updateTemplateWithDetails( page, themeDetails ) {
         description,
         slug
     } = themeDetails;
+    
+    const themeJSONPath = `../themes/${slug}/theme.json`;
 
-    const themeJSON = require(`../themes/${slug}/theme.json`);
+    if (! fs.existsSync(path.resolve(__dirname, themeJSONPath)) ) {
+        console.log('🚫 Theme json not found for: ', slug);
+        
+        
+        const leftoversJSONPath = path.resolve(__dirname, `../data/leftovers.json`);
+
+        const leftoversJSON = require(leftoversJSONPath);
+        leftoversJSON.push(slug);
+        fs.writeFileSync(leftoversJSONPath, JSON.stringify(leftoversJSON, null, 2));
+        return;
+    }
+
+    const themeJSON = require(themeJSONPath);
+
     const themeStyles = await getThemeStyles(slug);
 
     const colorPalette = get(themeJSON, 'settings.color.palette', []).map(color => {
