@@ -177,7 +177,7 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Ubuntu Mono\", serif",
+					"fontFamily": "\"Ubuntu Mono\", monospace",
 					"name": "Ubuntu Mono",
 					"slug": "ubuntu-mono",
 					"fontFace": [
@@ -268,9 +268,9 @@
 			},
 			"lineHeight": {
 				"one": 1,
-				"heading": 1.1,
+				"heading": 1.2,
 				"medium": 1.3,
-				"body": 1.2
+				"body": 1.5
 			},
 			"spacing": {
 				"outer": "30px"
@@ -279,7 +279,7 @@
 	},
 	"styles": {
 		"spacing":{
-			"blockGap": "10px",
+			"blockGap": "30px",
 			"margin": {
 				"top": "0px",
 				"right": "0px",
