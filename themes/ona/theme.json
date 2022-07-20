@@ -21,6 +21,26 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
+		},
+		{
+			"name": "archive",
+			"title": "Archive",
+			"area": "uncategorized"
+		},
+		{
+			"name": "archive-masonry",
+			"title": "Archive Masonry",
+			"area": "uncategorized"
+		},
+		{
+			"name": "single",
+			"title": "Single",
+			"area": "uncategorized"
+		},
+		{
+			"name": "single-split",
+			"title": "Single Split",
+			"area": "uncategorized"
 		}
 	],
 	"customTemplates": [
@@ -143,16 +163,7 @@
 				{
 					"fontFamily": "\"Bestermind\", sans-serif",
 					"name": "Bestermind",
-					"slug": "alt",
-					"fontFace": [
-						{
-							"fontFamily": "Bestermind",
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontStretch": "normal",
-							"src": ["file:./assets/fonts/bestermind/BestermindRegular.woff"]
-						}
-					]
+					"slug": "alt"
 				}
 			],
 			"fontSizes": [
@@ -202,6 +213,7 @@
 		"blocks": {
 			"core/button": {
 				"border": {
+					"width": "1px",
 					"radius": "0"
 				},
 				"color": {
@@ -352,7 +364,8 @@
 			"core/template-part": {
 				"spacing": {
 					"margin": {
-						"bottom": "0px"
+						"bottom": "0px",
+						"top": "0px"
 					}
 				}
 			},

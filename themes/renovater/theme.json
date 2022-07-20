@@ -21,6 +21,11 @@
 					"name": "Background"
 				},
 				{
+					"slug": "renovater-background-2",
+					"color": "#efefef",
+					"name": "Background 2"
+				},
+				{
 					"slug": "renovater-body-text",
 					"color": "#444444",
 					"name": "Body/Text"
