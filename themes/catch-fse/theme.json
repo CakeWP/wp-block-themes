@@ -236,10 +236,10 @@
 					"name": "White Smoke"
 				},
 				{
-                    "slug": "dune",
-                    "color": "#333333",
-                    "name": "Dune"
-                },
+					"slug": "dune",
+					"color": "#333333",
+					"name": "Dune"
+				},
 				{
 					"slug": "color-light",
 					"color": "#fefefe",
@@ -633,9 +633,19 @@
 			"area": "uncategorized"
 		},
 		{
+			"name": "page-content",
+			"title": "Page Content",
+			"area": "uncategorized"
+		},
+		{
 			"name": "sidebar",
 			"title": "Sidebar",
 			"area": "uncategorized"
+		},
+		{
+			"name": "header-with-cart",
+			"title": "Header (With Cart)",
+			"area": "header"
 		}
 
 	],
@@ -707,6 +717,29 @@
 		{
 			"name": "single-page-sidebar-on-left",
 			"title": "Single Page (Sidebar on Left)",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "archive-product",
+			"title": "Archive Product",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "single-product",
+			"title": "Single Product",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "page-woo-commerce",
+			"title": "Page (With Products)",
 			"postTypes": [
 				"page"
 			]

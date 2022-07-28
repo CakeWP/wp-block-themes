@@ -29,9 +29,9 @@
 					"name": "Text Normal "
 				},
 				{
-					"slug": "text-bright",
+					"slug": "text-secondary",
 					"color": "rgba(0,0,0,0.5)",
-					"name": "Text Bright"
+					"name": "Text Secondary"
 				},
 				{
 					"slug": "border-normal",
@@ -55,18 +55,28 @@
 				},
 				{
 					"slug": "text-normal-darkbg",
-					"color": "rgba( 255,255,255,0.9 )",
+					"color": "rgba( 255,255,255,0.8 )",
 					"name": "Text Normal (Dark BG)"
+				},
+				{
+					"slug": "text-secondary-darkbg",
+					"color": "rgba( 255,255,255,0.6 )",
+					"name": "Text Secondary (Dark BG)"
+				},
+				{
+					"slug": "border-normal-darkbg",
+					"color": "rgba( 255,255,255,0.1 )",
+					"name": "Border Normal (Dark BG)"
+				},
+				{
+					"slug": "text-bright",
+					"color": "rgba(0,0,0,0.5)",
+					"name": "Text Bright (Will be abolished)"
 				},
 				{
 					"slug": "text-dark-darkbg",
 					"color": "rgba( 255,255,255,0.6 )",
-					"name": "Text Dark (Dark BG)"
-				},
-				{
-					"slug": "border-normal-darkbg",
-					"color": "rgba( 255,255,255,0.15 )",
-					"name": "Border Normal (Dark BG)"
+					"name": "Text Dark (Will be abolished)"
 				}
 			],
             "customGradient": true,
@@ -147,16 +157,20 @@
         },
         "custom": {
 			"content-size":{
-				"normal": "min( 1110px, 90% )"
+				"normal": "min( 1110px, 90vw )"
+			},
+			"layout":{
+				"sidebar": "220px"
 			},
 			"spacing":{
 				"x-small": "calc(var(--wp--custom--spacing--medium) / 4)",
 				"small": "calc(var(--wp--custom--spacing--medium) / 2)",
 				"medium": "1.5rem",
 				"large": "calc(var(--wp--custom--spacing--medium) * 1.5)",
-				"x-large":  "calc(var(--wp--custom--spacing--medium) * 3)",
+				"x-large":  "calc(var(--wp--custom--spacing--medium) * 2)",
+				"editor-padding": "2rem",
 				"button-sm":  "0.3em 1em",
-				"menu-indent":  "1rem"
+				"menu-indent":  "0.875rem"
 			},
             "typography": {
                 "line-height": {
@@ -223,18 +237,17 @@
 				"typography": {
 					"lineHeight": "1.5"
 				}
-			},
-			"core/query-pagination": {
-				"spacing": {
-					"margin": { 
-						"top":"var(--wp--custom--spacing--medium)",
-						"bottom":"var(--wp--custom--spacing--medium)"
-					 }
-				}
-			}				
+			}			
 		}
     },
 	"customTemplates": [
+		{
+			"name": "page-2col",
+			"title": "Page 2column",
+			"postTypes": [
+				"page"
+			]
+		},
 		{
 			"name": "page-lp",
 			"title": "Page LP",
@@ -261,6 +274,11 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
+		},
+		{
+			"name": "sidebar-post",
+			"title": "Sidebar Post",
+			"area": "uncategorized"
 		}
 	]
 }

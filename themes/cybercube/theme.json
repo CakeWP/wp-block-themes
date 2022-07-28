@@ -39,6 +39,11 @@
 			"name": "blank",
 			"title": "Blank template",
 			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-full-width",
+			"title": "Page Full Width",
+			"postTypes": [ "page" ]
 		}
 	],
 	"settings": {
