@@ -568,7 +568,7 @@
       }
     },
     "spacing": {
-      "blockGap": "1.5rem",
+      "blockGap": "2rem",
       "margin": {
         "top": 0,
         "bottom": 0,
