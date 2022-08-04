@@ -3,11 +3,19 @@
   "version": 2,
   "customTemplates": [
     {
-      "name": "Blank",
+      "title": "Blank",
+      "name": "blank",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "title": "Page Cover",
+      "name": "page-cover",
       "postTypes": [
         "page"
-      ],
-      "title": "Blank"
+      ]
     }
   ],
   "templateParts": [
@@ -439,12 +447,12 @@
         },
         ":hover": {
           "color": {
-            "text": "var(--wp--preset--color--primary-600) !important"
+            "text": "var(--wp--preset--color--primary-600)"
           }
         },
         ":focus": {
           "color": {
-            "text": "var(--wp--preset--color--primary-600) !important"
+            "text": "var(--wp--preset--color--primary-600)"
           }
         }
       }
@@ -551,12 +559,6 @@
       "core/navigation-link": {
         "typography": {
           "fontWeight": "var(--wp--custom--font-weight--medium)"
-        },
-        "spacing": {
-          "padding": {
-            "top": "calc(var(--wp--style--block-gap) / 2)",
-            "bottom": "calc(var(--wp--style--block-gap) / 2)"
-          }
         }
       },
       "core/paragraph": {
@@ -568,14 +570,6 @@
         },
         "typography": {
           "lineHeight": "var(--wp--custom--line-height--text)"
-        }
-      },
-      "core/post-title": {
-        "spacing": {
-          "margin": {
-            "top": "0",
-            "bottom": "1em"
-          }
         }
       },
       "core/search": {
