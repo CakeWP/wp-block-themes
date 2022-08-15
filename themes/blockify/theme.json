@@ -9,13 +9,6 @@
         "page",
         "post"
       ]
-    },
-    {
-      "title": "Page Cover",
-      "name": "page-cover",
-      "postTypes": [
-        "page"
-      ]
     }
   ],
   "templateParts": [
@@ -97,7 +90,8 @@
         "rem",
         "vh",
         "vw"
-      ]
+      ],
+      "customSpacingSize": true
     },
     "color": {
       "customDuotone": true,
@@ -463,8 +457,7 @@
           "radius": "var(--wp--custom--border--radius)"
         },
         "color": {
-          "background": "var(--wp--preset--color--primary-600)",
-          "text": "#ffffff !important"
+          "background": "var(--wp--preset--color--primary-600)"
         },
         "spacing": {
           "padding": {
@@ -590,6 +583,11 @@
         },
         "typography": {
           "textDecoration": "none"
+        }
+      },
+      "core/site-logo": {
+        "color": {
+          "text": "var(--wp--preset--color--neutral-900)"
         }
       },
       "core/video": {
