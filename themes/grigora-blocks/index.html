@@ -37,13 +37,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word;word-break:normal}.wp-block-navigation .wp-block-navigation-item__description{display:none}
 </style>
 <style id='wp-block-search-inline-css'>
-.wp-block-search__button{margin-left:.625em;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{fill:currentColor;min-height:1.5em;min-width:1.5em}:where(.wp-block-search__button){border:1px solid #ccc;padding:.375em .625em}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search__input{border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;line-height:inherit;min-width:3em;padding:8px}.wp-block-search.wp-block-search__button-only .wp-block-search__button{margin-left:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 0 0 .25em}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:.125em .5em}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}
+.wp-block-search__button{margin-left:.625em;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{fill:currentColor;min-height:1.5em;min-width:1.5em}:where(.wp-block-search__button){border:1px solid #ccc;padding:.375em .625em}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search__input{border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3em;padding:8px}.wp-block-search.wp-block-search__button-only .wp-block-search__button{margin-left:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 0 0 .25em}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:.125em .5em}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}
 .wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}
 .wp-block-search .wp-block-search__label{font-weight:700}
 </style>
-<link rel='stylesheet' id='wp-block-navigation-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=13.8.2' media='all' />
+<link rel='stylesheet' id='wp-block-navigation-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=13.9.0' media='all' />
 <style id='wp-block-navigation-inline-css'>
-.wp-block-navigation a{color: inherit;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 </style>
 <style id='wp-block-template-part-inline-css'>
 .wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
@@ -62,16 +62,16 @@ ul.is-style-grigora-no-marker-list,ol.is-style-grigora-no-marker-list{list-style
 <style id='wp-block-post-author-inline-css'>
 .wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{font-size:.5em;margin-bottom:0;margin-top:0;width:100%}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{font-size:.7em;margin-bottom:.7em}.wp-block-post-author__content{flex-basis:0;flex-grow:1}.wp-block-post-author__name{margin:0}
 .wp-block-post-author{color: var(--wp--preset--color--primary);font-size: var(--wp--preset--font-size--extra-small);}
-.wp-block-post-author a{color: inherit;}
+.wp-block-post-author a:where(:not(.wp-element-button)){color: inherit;}
 </style>
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{color: var(--wp--preset--color--primary);font-size: var(--wp--preset--font-size--extra-small);}
-.wp-block-post-date a{color: inherit;}
+.wp-block-post-date a:where(:not(.wp-element-button)){color: inherit;}
 </style>
 <style id='wp-block-post-terms-inline-css'>
 .wp-block-post-terms__separator{white-space:pre-wrap}
 .wp-block-post-terms{color: var(--wp--preset--color--primary);font-size: var(--wp--preset--font-size--extra-small);}
-.wp-block-post-terms a{color: inherit;}
+.wp-block-post-terms a:where(:not(.wp-element-button)){color: inherit;}
 </style>
 <style id='wp-block-post-excerpt-inline-css'>
 .wp-block-post-excerpt__more-link{display:inline-block}
@@ -85,12 +85,12 @@ ul.is-style-grigora-no-marker-list,ol.is-style-grigora-no-marker-list{list-style
 .wp-block-post-template{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.wp-block-post-template{background:none}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}
 </style>
 <style id='wp-block-query-pagination-inline-css'>
-.wp-block-query-pagination>.wp-block-query-pagination-next,.wp-block-query-pagination>.wp-block-query-pagination-numbers,.wp-block-query-pagination>.wp-block-query-pagination-previous{margin-bottom:.5em;margin-right:.5em}.wp-block-query-pagination>.wp-block-query-pagination-next:last-child,.wp-block-query-pagination>.wp-block-query-pagination-numbers:last-child,.wp-block-query-pagination>.wp-block-query-pagination-previous:last-child{margin-right:0}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow{display:inline-block;margin-right:1ch}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination .wp-block-query-pagination-next-arrow{display:inline-block;margin-left:1ch}.wp-block-query-pagination .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination.aligncenter{justify-content:center}
+.wp-block-query-pagination>.wp-block-query-pagination-next,.wp-block-query-pagination>.wp-block-query-pagination-numbers,.wp-block-query-pagination>.wp-block-query-pagination-previous{margin-bottom:.5em;margin-right:.5em}.wp-block-query-pagination>.wp-block-query-pagination-next:last-child,.wp-block-query-pagination>.wp-block-query-pagination-numbers:last-child,.wp-block-query-pagination>.wp-block-query-pagination-previous:last-child{margin-right:0}.wp-block-query-pagination.is-content-justification-space-between>.wp-block-query-pagination-next:last-child{margin-inline-start:auto}.wp-block-query-pagination.is-content-justification-space-between>.wp-block-query-pagination-previous:first-child{margin-inline-end:auto}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow{display:inline-block;margin-right:1ch}.wp-block-query-pagination .wp-block-query-pagination-previous-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination .wp-block-query-pagination-next-arrow{display:inline-block;margin-left:1ch}.wp-block-query-pagination .wp-block-query-pagination-next-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-query-pagination.aligncenter{justify-content:center}
 .wp-block-query-pagination{margin-top: calc(var(--wp--custom--v-spacing) * 3) !important;}
 </style>
 <style id='wp-block-heading-inline-css'>
 h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color: inherit;}
+h1 a:where(:not(.wp-element-button)),h2 a:where(:not(.wp-element-button)),h3 a:where(:not(.wp-element-button)),h4 a:where(:not(.wp-element-button)),h5 a:where(:not(.wp-element-button)),h6 a:where(:not(.wp-element-button)){color: inherit;}
 </style>
 <style id='wp-block-categories-inline-css'>
 .wp-block-categories.alignleft{margin-right:2em}.wp-block-categories.alignright{margin-left:2em}
@@ -107,22 +107,15 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 <style id='wp-block-library-inline-css'>
 :root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}
 </style>
+<style id='core-block-supports-inline-css'>
+.wp-elements-686b8ded56a1ae0a40f8fe687e3df5f5 a{color:var(--wp--preset--color--foreground);}.wp-block-group.wp-container-6,.wp-block-query-pagination.wp-container-15{justify-content:space-between;}.wp-block-query.wp-container-16 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-block-group.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-block-group.wp-container-22 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:768px;margin-left:auto !important;margin-right:auto !important;}.wp-block-query.wp-container-16 > .alignwide,.wp-block-group.wp-container-19 > .alignwide,.wp-block-group.wp-container-22 > .alignwide{max-width:1200px;}.wp-block-query.wp-container-16 .alignfull,.wp-block-group.wp-container-19 .alignfull,.wp-block-group.wp-container-22 .alignfull{max-width:none;}.wp-block-columns.wp-container-21,.wp-block-columns.wp-container-26{flex-wrap:nowrap;}.wp-block-group.wp-container-27,.wp-block-group.wp-container-28{justify-content:center;}
+</style>
 <link rel='stylesheet' id='grigora-style-css'  href='https://wp-themes.com/wp-content/themes/grigora-blocks/assets/css/global.min.css?ver=2.08.001' media='all' />
 <script src='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/view.min.js?ver=d8b4322c6e0cdc1fc353' id='wp-block-navigation-view-js'></script>
 <script src='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/view-modal.min.js?ver=a308a84545a768017eeb' id='wp-block-navigation-view-modal-js'></script>
 <link rel="https://api.w.org/" href="https://wp-themes.com/grigora-blocks/?rest_route=/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wp-themes.com/wp/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wp-themes.com/wp/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 6.1-alpha-53900" />
-<style>.wp-block-group.wp-container-6 {justify-content: space-between;}</style>
-<style>.wp-block-query-pagination.wp-container-15 {justify-content: space-between;}</style>
-<style>.wp-block-query.wp-container-16 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 768px;margin-left: auto !important;margin-right: auto !important;}.wp-block-query.wp-container-16 > .alignwide { max-width: 1200px;}.wp-block-query.wp-container-16 .alignfull { max-width: none; }</style>
-<style>.wp-block-group.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 768px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-19 > .alignwide { max-width: 1200px;}.wp-block-group.wp-container-19 .alignfull { max-width: none; }</style>
-<style>.wp-block-columns.wp-container-21 { flex-wrap: nowrap; }</style>
-<style>.wp-block-group.wp-container-22 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 768px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-22 > .alignwide { max-width: 1200px;}.wp-block-group.wp-container-22 .alignfull { max-width: none; }</style>
-<style>.wp-elements-686b8ded56a1ae0a40f8fe687e3df5f5 a { color: var(--wp--preset--color--foreground); }</style>
-<style>.wp-block-columns.wp-container-26 { flex-wrap: nowrap; }</style>
-<style>.wp-block-group.wp-container-27 {justify-content: center;}</style>
-<style>.wp-block-group.wp-container-28 {justify-content: center;}</style>
+<meta name="generator" content="WordPress 6.1-alpha-53901" />
 </head>
 
 <body class="home blog wp-embed-responsive">
@@ -132,7 +125,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 	
 	<div class="is-layout-flex wp-block-group">
 		
-		<h1 class="is-style-default wp-block-site-title has-medium-font-size"><a href="https://wp-themes.com/grigora-blocks" rel="home"  aria-current="page">Grigora Blocks</a></h1>
+		<h1 class="is-style-default wp-block-site-title has-medium-font-size"><a href="https://wp-themes.com/grigora-blocks" target="_self" rel="home" aria-current="page">Grigora Blocks</a></h1>
 	</div>
 	
 
@@ -167,7 +160,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 			
 			<div class="is-layout-flow wp-container-16 wp-block-query grigora-archive-query">
 				<ul class="is-layout-flow wp-block-post-template"><li class="wp-block-post post-19 post type-post status-publish format-standard hentry category-uncategorized tag-boat tag-lake">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=19" target="_self" rel="">Worth A Thousand Words</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=19" target="_self" >Worth A Thousand Words</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -181,7 +174,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-36 post type-post status-publish format-standard hentry category-uncategorized">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=36" target="_self" rel="">Elements</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=36" target="_self" >Elements</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -195,7 +188,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-14 post type-post status-publish format-standard hentry category-uncategorized tag-wordpress">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=14" target="_self" rel="">More Tags</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=14" target="_self" >More Tags</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -209,7 +202,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-8 post type-post status-publish format-standard hentry category-uncategorized tag-html tag-wordpress">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=8" target="_self" rel="">HTML</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=8" target="_self" >HTML</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -223,7 +216,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-6 post type-post status-publish format-standard hentry category-uncategorized">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=6" target="_self" rel="">Links</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=6" target="_self" >Links</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -237,7 +230,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-4 post type-post status-publish format-standard hentry category-first-child-category category-one-grandchild-category category-parent category-second-child-category">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=4" target="_self" rel="">Category Hierarchy</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=4" target="_self" >Category Hierarchy</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -251,7 +244,7 @@ ol,ul{box-sizing:border-box}ol.has-background,ul.has-background{padding:1.25em 2
 				<hr class="wp-block-separator has-text-color has-background has-secondary-background-color has-secondary-color is-style-wide" />
 				
 				</li><li class="wp-block-post post-1 post type-post status-publish format-standard hentry category-uncategorized">
-				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=1" target="_self" rel="">Hello world!</a></h2>
+				<h2 class="is-style-no-text-decoration wp-block-post-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks/?p=1" target="_self" >Hello world!</a></h2>
 				
 				
 				<div class="is-layout-flex wp-block-group" style="padding-bottom:0.5rem">
@@ -310,7 +303,7 @@ style="border-radius:4px;border-style:solid">
 	
 <div class="is-layout-flow wp-elements-686b8ded56a1ae0a40f8fe687e3df5f5 wp-block-group alignfull has-foreground has-foreground-color has-background-background-color has-text-color has-background has-link-color">
 	<div class="is-layout-flex wp-container-26 wp-block-columns are-vertically-aligned-center">
-	<div class="is-layout-flow wp-block-column is-vertically-aligned-center"><h1 class="wp-block-site-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks" rel="home"  aria-current="page">Grigora Blocks</a></h1>
+	<div class="is-layout-flow wp-block-column is-vertically-aligned-center"><h1 class="wp-block-site-title has-large-font-size"><a href="https://wp-themes.com/grigora-blocks" target="_self" rel="home" aria-current="page">Grigora Blocks</a></h1>
 	
 	<p class="wp-block-site-tagline">Grigora Blocks.</p></div>
 	
@@ -350,7 +343,7 @@ style="border-radius:4px;border-style:solid">
 		<div class="is-content-justification-center is-layout-flex wp-container-28 wp-block-group" style="padding-bottom:10px">
 		<div class="is-content-justification-center is-layout-flex wp-container-27 wp-block-group">
 		 <p class="has-extra-small-font-size">Copyright 2022</p>
-		<p class="wp-block-site-title has-extra-small-font-size"><a href="https://wp-themes.com/grigora-blocks" rel="home"  aria-current="page">Grigora Blocks</a></p>
+		<p class="wp-block-site-title has-extra-small-font-size"><a href="https://wp-themes.com/grigora-blocks" target="_self" rel="home" aria-current="page">Grigora Blocks</a></p>
 		 <p class="has-extra-small-font-size">Built with <a href="https://wpgrigora.com/">Grigora</a></p>
 		</div>
 		</div>

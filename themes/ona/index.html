@@ -9,7 +9,7 @@
 <link rel="alternate" type="application/rss+xml" title="Ona &raquo; Feed" href="https://wp-themes.com/ona/?feed=rss2" />
 <link rel="alternate" type="application/rss+xml" title="Ona &raquo; Comments Feed" href="https://wp-themes.com/ona/?feed=comments-rss2" />
 <script>
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wp-themes.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1-alpha-53900"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wp-themes.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1-alpha-53901"}};
 /*! This file is auto-generated */
 !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
@@ -29,7 +29,7 @@ img.emoji {
 </style>
 	<style id='wp-block-site-title-inline-css'>
 .wp-block-site-title{font-family: var(--wp--preset--font-family--base);font-size: 1.875rem;font-weight: normal;line-height: 1;margin-top: 0;margin-bottom: 0;}
-.wp-block-site-title a{text-decoration: none;}
+.wp-block-site-title a:where(:not(.wp-element-button)){text-decoration: none;}
 </style>
 <style id='wp-block-site-tagline-inline-css'>
 .wp-block-site-tagline{margin-top: 0;margin-bottom: 0;}
@@ -82,7 +82,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <style id='wp-block-navigation-link-inline-css'>
 .wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word;word-break:normal}.wp-block-navigation .wp-block-navigation-item__description{display:none}
 </style>
-<link rel='stylesheet' id='wp-block-navigation-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=13.8.2' media='all' />
+<link rel='stylesheet' id='wp-block-navigation-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=13.9.0' media='all' />
 <style id='wp-block-navigation-inline-css'>
 @media only screen and (max-width: 781px) {
 				.is-style-ona-tablet-justify-center {
@@ -109,9 +109,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				}
 			}
 .wp-block-navigation.is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}.wp-block-navigation.is-layout-flow > * + *{margin-block-start: 2rem;margin-block-end: 0;}.wp-block-navigation.is-layout-flex{gap: 2rem;}
-.wp-block-navigation a{color: inherit;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 </style>
-<link rel='stylesheet' id='wp-block-social-links-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/social-links/style.css?ver=13.8.2' media='all' />
+<link rel='stylesheet' id='wp-block-social-links-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/social-links/style.css?ver=13.9.0' media='all' />
 <style id='wp-block-social-links-inline-css'>
 .wp-block-social-links{font-size: 1.25rem;}
 </style>
@@ -160,12 +160,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <style id='wp-block-template-part-inline-css'>
 .wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
 .wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+.wp-block-template-part{margin-top: 0px;margin-bottom: 0px;}
 </style>
 <style id='wp-block-heading-inline-css'>
 h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}
 .is-style-ona-alt-font { font-family: var(--wp--preset--font-family--alt); }
 </style>
-<link rel='stylesheet' id='wp-block-cover-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/cover/style.css?ver=13.8.2' media='all' />
+<link rel='stylesheet' id='wp-block-cover-css'  href='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/cover/style.css?ver=13.9.0' media='all' />
 <style id='wp-block-cover-inline-css'>
 .is-style-ona-stroke-frame > span {
 				margin: 1.5rem;
@@ -215,16 +216,16 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 <style id='wp-block-post-terms-inline-css'>
 .wp-block-post-terms__separator{white-space:pre-wrap}
 .wp-block-post-terms{font-size: var(--wp--preset--font-size--tiny);text-transform: uppercase;}
-.wp-block-post-terms a{color: var(--wp--preset--color--text-light);text-decoration: none;}
+.wp-block-post-terms a:where(:not(.wp-element-button)){color: var(--wp--preset--color--text-light);text-decoration: none;}
 </style>
 <style id='wp-block-post-title-inline-css'>
 .wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}
 .wp-block-post-title{font-family: var(--wp--preset--font-family--headings);font-size: var(--wp--preset--font-size--medium);font-weight: normal;line-height: var(--wp--custom--typography--line-height--tiny);}
-.wp-block-post-title a{text-decoration: none;}
+.wp-block-post-title a:where(:not(.wp-element-button)){text-decoration: none;}
 </style>
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{color: var(--wp--preset--color--text-light);font-size: var(--wp--preset--font-size--small);}
-.wp-block-post-date a{text-decoration: none;}
+.wp-block-post-date a:where(:not(.wp-element-button)){text-decoration: none;}
 </style>
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.wp-block-post-template{background:none}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}
@@ -273,7 +274,10 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 					font-weight: 700;
 				}
 </style>
-<link rel='stylesheet' id='ona-style-css'  href='https://wp-themes.com/wp-content/themes/ona/assets/css/style.min.css?ver=6.1-alpha-53900' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-block-column.wp-container-1 > *{margin-block-start:0;margin-block-end:0;}.wp-block-column.wp-container-1.wp-block-column.wp-container-1 > * + *{margin-block-start:0px;margin-block-end:0;}.wp-block-navigation.wp-container-3{justify-content:center;}.wp-block-social-links.wp-container-5{gap:10px;justify-content:flex-end;}.wp-block-group.wp-container-9 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:720px;margin-left:auto !important;margin-right:auto !important;}.wp-block-group.wp-container-9 > .alignwide{max-width:720px;}.wp-elements-ed62c7312b8281e9e06771f6ef1c9f2b a{color:var(--wp--preset--color--background);}.wp-block-social-links.wp-container-44{gap:10px;justify-content:center;}.wp-block-navigation.wp-container-46{gap:20px;justify-content:center;}.wp-block-columns.wp-container-7,.wp-block-columns.wp-container-32{flex-wrap:nowrap;gap:0px;}.wp-block-group.wp-container-9 .alignfull,.wp-block-group.wp-container-19 .alignfull,.wp-block-group.wp-container-28 .alignfull,.wp-block-group.wp-container-42 .alignfull{max-width:none;}.wp-block-columns.wp-container-18,.wp-block-columns.wp-container-48{flex-wrap:nowrap;}.wp-block-group.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-block-group.wp-container-28 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-block-group.wp-container-42 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1170px;margin-left:auto !important;margin-right:auto !important;}.wp-block-group.wp-container-19 > .alignwide,.wp-block-group.wp-container-28 > .alignwide,.wp-block-group.wp-container-42 > .alignwide{max-width:1170px;}
+</style>
+<link rel='stylesheet' id='ona-style-css'  href='https://wp-themes.com/wp-content/themes/ona/assets/css/style.min.css?ver=6.1-alpha-53901' media='all' />
 <style id='ona-style-inline-css'>
 
 		@font-face{
@@ -331,21 +335,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 <script src='https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/view-modal.min.js?ver=a308a84545a768017eeb' id='wp-block-navigation-view-modal-js'></script>
 <link rel="https://api.w.org/" href="https://wp-themes.com/ona/?rest_route=/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wp-themes.com/wp/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wp-themes.com/wp/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 6.1-alpha-53900" />
-<style>.wp-block-column.wp-container-1 > * { margin-block-start: 0; margin-block-end: 0; }.wp-block-column.wp-container-1 > * + * { margin-block-start: 0px; margin-block-end: 0; }</style>
-<style>.wp-block-navigation.wp-container-3 {justify-content: center;}</style>
-<style>.wp-block-social-links.wp-container-5 {gap: 10px;}.wp-block-social-links.wp-container-5 {justify-content: flex-end;}</style>
-<style>.wp-block-columns.wp-container-7 { flex-wrap: nowrap; }.wp-block-columns.wp-container-7 {gap: 0px;}</style>
-<style>.wp-block-group.wp-container-9 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 720px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-9 > .alignwide { max-width: 720px;}.wp-block-group.wp-container-9 .alignfull { max-width: none; }</style>
-<style>.wp-block-columns.wp-container-18 { flex-wrap: nowrap; }</style>
-<style>.wp-block-group.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 1170px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-19 > .alignwide { max-width: 1170px;}.wp-block-group.wp-container-19 .alignfull { max-width: none; }</style>
-<style>.wp-block-group.wp-container-28 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 1170px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-28 > .alignwide { max-width: 1170px;}.wp-block-group.wp-container-28 .alignfull { max-width: none; }</style>
-<style>.wp-block-columns.wp-container-32 { flex-wrap: nowrap; }.wp-block-columns.wp-container-32 {gap: 0px;}</style>
-<style>.wp-block-group.wp-container-42 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {max-width: 1170px;margin-left: auto !important;margin-right: auto !important;}.wp-block-group.wp-container-42 > .alignwide { max-width: 1170px;}.wp-block-group.wp-container-42 .alignfull { max-width: none; }</style>
-<style>.wp-elements-ed62c7312b8281e9e06771f6ef1c9f2b a { color: var(--wp--preset--color--background); }</style>
-<style>.wp-block-social-links.wp-container-44 {gap: 10px;}.wp-block-social-links.wp-container-44 {justify-content: center;}</style>
-<style>.wp-block-navigation.wp-container-46 {gap: 20px;}.wp-block-navigation.wp-container-46 {justify-content: center;}</style>
-<style>.wp-block-columns.wp-container-48 { flex-wrap: nowrap; }</style>
+<meta name="generator" content="WordPress 6.1-alpha-53901" />
 </head>
 
 <body class="home blog wp-embed-responsive">
@@ -355,9 +345,9 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
   
   <div class="is-layout-flex wp-container-7 wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile is-style-no-spacing">
     
-    <div class="is-layout-flow wp-container-1 wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><h1 style="text-transform: uppercase; letter-spacing: 10px;" class="ona-site-title wp-block-site-title has-base-font-family"><a href="https://wp-themes.com/ona" rel="home"  aria-current="page">Ona</a></h1>
+    <div class="is-layout-flow wp-container-1 wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><h1 style="text-transform:uppercase;letter-spacing:10px;" class="ona-site-title wp-block-site-title has-base-font-family"><a href="https://wp-themes.com/ona" target="_self" rel="home" aria-current="page">Ona</a></h1>
 
-    <p style="font-size: 12px;" class="wp-block-site-tagline">Ona is a Full Site Editing WordPress theme based on the minimal design style.</p></div>
+    <p style="font-size:12px;" class="wp-block-site-tagline">Ona is a Full Site Editing WordPress theme based on the minimal design style.</p></div>
     
 
     
@@ -490,7 +480,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=19" target="_self" rel="">Worth A Thousand Words</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=19" target="_self" >Worth A Thousand Words</a></h2>
         </div>
         
 
@@ -506,7 +496,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=36" target="_self" rel="">Elements</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=36" target="_self" >Elements</a></h2>
         </div>
         
 
@@ -522,7 +512,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=14" target="_self" rel="">More Tags</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=14" target="_self" >More Tags</a></h2>
         </div>
         
 
@@ -595,7 +585,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=8" target="_self" rel="">HTML</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=8" target="_self" >HTML</a></h2>
         </div>
         
 
@@ -611,7 +601,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=6" target="_self" rel="">Links</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=6" target="_self" >Links</a></h2>
         </div>
         
 
@@ -627,7 +617,7 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 
         
         <div class="is-layout-flow wp-block-group" style="padding-right: 10%; padding-left: 10%">
-          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=4" target="_self" rel="">Category Hierarchy</a></h2>
+          <h2 class="has-text-align-center wp-block-post-title"><a href="https://wp-themes.com/ona/?p=4" target="_self" >Category Hierarchy</a></h2>
         </div>
         
 
@@ -654,9 +644,9 @@ p{color: var(--wp--preset--color--text-regular);margin-bottom: 2em;}
 			<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 			
 
-			<h1 style="font-size: 40px; line-height: 1.5; text-transform: uppercase; letter-spacing: 18px;" class="wp-elements-ed62c7312b8281e9e06771f6ef1c9f2b has-text-align-center ona-site-title wp-block-site-title has-base-font-family"><a href="https://wp-themes.com/ona" rel="home"  aria-current="page">Ona</a></h1>
+			<h1 style="font-size:40px;line-height:1.5;text-transform:uppercase;letter-spacing:18px;" class="wp-elements-ed62c7312b8281e9e06771f6ef1c9f2b has-text-align-center ona-site-title wp-block-site-title has-base-font-family"><a href="https://wp-themes.com/ona" target="_self" rel="home" aria-current="page">Ona</a></h1>
 
-			<p style="font-size: 12px;" class="has-text-align-center has-text-color has-text-light-color wp-block-site-tagline">Ona is a Full Site Editing WordPress theme based on the minimal design style.</p>
+			<p style="font-size:12px;" class="has-text-align-center has-text-color has-text-light-color wp-block-site-tagline">Ona is a Full Site Editing WordPress theme based on the minimal design style.</p>
 
 			
 			<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
