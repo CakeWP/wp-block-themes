@@ -10,6 +10,13 @@
 			]
 		},
 		{
+			"name": "fullwidth",
+			"title": "FullWidth Template",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
 			"name": "aboutus",
 			"title": "About Us",
 			"postTypes": [
