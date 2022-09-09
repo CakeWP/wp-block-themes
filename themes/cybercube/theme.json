@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
-	"patterns": [ "blog-hero","home-slider","home-about-2","home-features","home-hero-2","home-pricing","home-team","home-counter","home-info","home-about","page-breadcrumb","home-blog" ],
+	"patterns": [ "blog-hero","home-slider","home-about-2","home-features","home-hero-2","home-pricing","home-team","home-counter","home-info","home-about","page-breadcrumb","home-blog","header-without-button" ],
 	"templateParts": [
 		{
 			"name": "header",

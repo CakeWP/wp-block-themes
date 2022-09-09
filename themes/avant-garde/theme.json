@@ -1,21 +1,22 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"customTemplates": [
 		{
 			"name": "blank",
-			"title": "Blank",
 			"postTypes": [
 				"page",
 				"post"
-			]
+			],
+			"title": "Blank"
 		},
 		{
 			"name": "no-title",
-			"title": "No Title",
 			"postTypes": [
 				"page",
 				"post"
-			]
+			],
+			"title": "No Title"
 		}
 	],
 	"settings": {
@@ -25,19 +26,19 @@
 			"defaultPalette": false,
 			"palette": [
 				{
+					"color": "#121212",
 					"name": "Primary",
-					"slug": "primary",
-					"color": "#121212"
+					"slug": "primary"
 				},
 				{
+					"color": "#fff",
 					"name": "Secondary",
-					"slug": "secondary",
-					"color": "#fff"
+					"slug": "secondary"
 				},
 				{
+					"color": "#eee",
 					"name": "Tertiary",
-					"slug": "tertiary",
-					"color": "#eee"
+					"slug": "tertiary"
 				}
 			]
 		},
@@ -54,10 +55,10 @@
 				"black": 900
 			},
 			"lineHeight": {
-				"one": 1,
+				"body": 1.75,
 				"heading": 1.1,
 				"medium": 1.5,
-				"body": 1.75
+				"one": 1
 			},
 			"spacing": {
 				"outer": "40px"
@@ -68,7 +69,14 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
-			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
 		},
 		"typography": {
 			"dropCap": false,
@@ -97,63 +105,63 @@
 			"fontSizes": [
 				{
 					"name": "xSmall",
-					"slug": "x-small",
-					"size": "16px"
+					"size": "16px",
+					"slug": "x-small"
 				},
 				{
 					"name": "Small",
-					"slug": "small",
-					"size": "20px"
+					"size": "20px",
+					"slug": "small"
 				},
 				{
 					"name": "Medium",
-					"slug": "medium",
-					"size": "24px"
+					"size": "24px",
+					"slug": "medium"
 				},
 				{
 					"name": "Large",
-					"slug": "large",
-					"size": "30px"
+					"size": "30px",
+					"slug": "large"
 				},
 				{
 					"name": "xLarge",
-					"slug": "x-large",
-					"size": "36px"
+					"size": "36px",
+					"slug": "x-large"
 				},
 				{
 					"name": "48px",
-					"slug": "max-48",
-					"size": "clamp(24px, 4vw, 48px)"
+					"size": "clamp(24px, 4vw, 48px)",
+					"slug": "max-48"
 				},
 				{
 					"name": "60px",
-					"slug": "max-60",
-					"size": "clamp(30px, 5vw, 60px)"
+					"size": "clamp(30px, 5vw, 60px)",
+					"slug": "max-60"
 				},
 				{
 					"name": "72px",
-					"slug": "max-72",
-					"size": "clamp(36px, 6vw, 72px)"
+					"size": "clamp(36px, 6vw, 72px)",
+					"slug": "max-72"
 				},
 				{
 					"name": "96px",
-					"slug": "max-96",
-					"size": "clamp(48px, 8vw, 96px)"
+					"size": "clamp(48px, 8vw, 96px)",
+					"slug": "max-96"
 				},
 				{
 					"name": "120px",
-					"slug": "max-120",
-					"size": "clamp(60px, 10vw, 120px)"
+					"size": "clamp(60px, 10vw, 120px)",
+					"slug": "max-120"
 				},
 				{
 					"name": "144px",
-					"slug": "max-144",
-					"size": "clamp(72px, 12vw, 144px)"
+					"size": "clamp(72px, 12vw, 144px)",
+					"slug": "max-144"
 				},
 				{
 					"name": "240px",
-					"slug": "max-240",
-					"size": "clamp(120px, 20vw, 240px)"
+					"size": "clamp(120px, 20vw, 240px)",
+					"slug": "max-240"
 				}
 			]
 		}
@@ -173,10 +181,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "12px",
-						"right": "25px",
 						"bottom": "12px",
-						"left": "25px"
+						"left": "25px",
+						"right": "25px",
+						"top": "12px"
 					}
 				},
 				"typography": {
@@ -196,10 +204,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "25px",
-						"right": "30px",
 						"bottom": "25px",
-						"left": "30px"
+						"left": "30px",
+						"right": "30px",
+						"top": "25px"
 					}
 				},
 				"typography": {
@@ -233,10 +241,10 @@
 			"core/cover": {
 				"spacing": {
 					"padding": {
-						"top": "30px",
-						"right": "30px",
 						"bottom": "30px",
-						"left": "30px"
+						"left": "30px",
+						"right": "30px",
+						"top": "30px"
 					}
 				}
 			},
@@ -248,8 +256,8 @@
 			"core/heading": {
 				"spacing": {
 					"margin": {
-						"top": "0px",
-						"bottom": "10px"
+						"bottom": "10px",
+						"top": "0px"
 					}
 				},
 				"typography": {
@@ -260,10 +268,10 @@
 			"core/image": {
 				"spacing": {
 					"margin": {
-						"top": "0",
-						"right": "0",
 						"bottom": "30px",
-						"left": "0"
+						"left": "0",
+						"right": "0",
+						"top": "0"
 					}
 				}
 			},
@@ -277,8 +285,8 @@
 			"core/paragraph": {
 				"spacing": {
 					"margin": {
-						"top": "0px",
-						"bottom": "30px"
+						"bottom": "30px",
+						"top": "0px"
 					}
 				}
 			},
@@ -327,10 +335,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "25px",
-						"right": "30px",
 						"bottom": "25px",
-						"left": "30px"
+						"left": "30px",
+						"right": "30px",
+						"top": "25px"
 					}
 				},
 				"typography": {
@@ -350,10 +358,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"right": "40px",
 						"bottom": "40px",
-						"left": "40px"
+						"left": "40px",
+						"right": "40px",
+						"top": "40px"
 					}
 				}
 			},
@@ -374,21 +382,14 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "40px",
-						"right": "40px",
 						"bottom": "40px",
-						"left": "40px"
+						"left": "40px",
+						"right": "40px",
+						"top": "40px"
 					}
 				},
 				"typography": {
 					"lineHeight": "var(--wp--custom--line-height--medium)"
-				}
-			},
-			"core/spacer": {
-				"spacing": {
-					"margin": {
-						"top": "0 !important"
-					}
 				}
 			},
 			"core/separator": {
@@ -405,6 +406,13 @@
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--one)",
 					"textTransform": "uppercase"
+				}
+			},
+			"core/spacer": {
+				"spacing": {
+					"margin": {
+						"top": "0 !important"
+					}
 				}
 			}
 		},
@@ -461,14 +469,14 @@
 	},
 	"templateParts": [
 		{
+			"area": "header",
 			"name": "header",
-			"title": "Header",
-			"area": "header"
+			"title": "Header"
 		},
 		{
+			"area": "footer",
 			"name": "footer",
-			"title": "Footer",
-			"area": "footer"
+			"title": "Footer"
 		}
 	]
 }

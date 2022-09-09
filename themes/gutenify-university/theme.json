@@ -192,6 +192,101 @@
           "slug": "boulder",
           "color": "#777",
           "name": "Boulder"
+        },
+        {
+          "slug": "background-secondary",
+          "color": "#f9faff",
+          "name": "Secondary Background"
+        },
+        {
+          "slug": "body-text",
+          "color": "#717171",
+          "name": "Body Text"
+        },
+        {
+          "slug": "text-link",
+          "color": "#000",
+          "name": "Text Link"
+        },
+        {
+          "slug": "border",
+          "color": "#f2f2f2",
+          "name": "Border"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#c3d9e7",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "input-field",
+          "color": "#1c1c1c",
+          "name": "Input Field"
+        },
+        {
+          "slug": "boulder",
+          "color": "#777",
+          "name": "Boulder"
+        },
+        {
+          "slug": "coffee",
+          "color": "#7d6043",
+          "name": "coffee"
+        },
+        {
+          "slug": "cyan",
+          "color": "#25d6a2",
+          "name": "Cyan"
+        },
+        {
+          "slug": "dark-blue",
+          "color": "#1b67cc",
+          "name": "Dark Blue"
+        },
+        {
+          "slug": "sky-blue",
+          "color": "#30b4da",
+          "name": "Sky Blue"
+        },
+        {
+          "slug": "dark-green",
+          "color": "#0fb36c",
+          "name": "Dark Green"
+        },
+        {
+          "slug": "lite-green",
+          "color": "#6ba518",
+          "name": "Lite Green"
+        },
+        {
+          "slug": "purple",
+          "color": "#c74a73",
+          "name": "Purple"
+        },
+        {
+          "slug": "dark-purple",
+          "color": "#9261c6",
+          "name": "Dark Purple"
+        },
+        {
+          "slug": "orange",
+          "color": "#f78550",
+          "name": "Orange"
+        },
+        {
+          "slug": "lite-red",
+          "color": "#f9556d",
+          "name": "Lite Red"
+        },
+        {
+          "slug": "hexadecimal",
+          "color": "#27808c",
+          "name": "Hexadecimal"
+        },
+        {
+          "slug": "pink",
+          "color": "#ff6b98",
+          "name": "Pink"
         }
       ]
     },

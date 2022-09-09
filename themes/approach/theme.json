@@ -36,6 +36,21 @@
 			"postTypes": [
 				"page"
 			]
+		},
+		{
+			"name": "page-with-left-sidebar",
+			"title": "Page-With-Left-Sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blank",
+			"title": "Blank",
+			"postTypes": [
+				"page",
+				"post"
+			]
 		}
 			
 	],

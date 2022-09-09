@@ -435,7 +435,7 @@
         },
         "color": {
           "background": "var(--wp--preset--color--primary)",
-          "text": "var(--wp--preset--color--foreground)"
+          "text": "var(--wp--preset--color--white)"
         },
         "typography": {
           "lineHeight": "1.7",
