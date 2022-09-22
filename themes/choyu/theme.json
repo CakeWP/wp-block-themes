@@ -17,6 +17,7 @@
 			]
 		}
 	],
+	"useRootPaddingAwareAlignments": true,
 	"settings": {
 		"appearanceTools": true,
 		"color": {
