@@ -40,8 +40,8 @@
 			"fontSizes": []
 		},
 		"layout": {
-			"contentSize": "min( calc( 100% - var(--tw-gutter) * 2 ), var(--tw-content-size) )",
-			"wideSize": "min( calc( 100% - var(--tw-gutter) * 2 ), var(--tw-wide-size) )"
+			"contentSize": "min( calc( 100% - var(--gutter, 2rem) * 2 ), var(--content-size, 60rem) )",
+			"wideSize": "min( calc( 100% - var(--gutter, 2rem) * 2 ), var(--wide-size, 80rem) )"
 		},
 		"blocks": {
 			"core/paragraph": {
@@ -66,6 +66,11 @@
 					"margin": {
 						"bottom": "0"
 					}
+				}
+			},
+			"core/button": {
+				"color": {
+					"background": "transparent"
 				}
 			},
 			"core/image": {

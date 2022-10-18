@@ -15,6 +15,11 @@
       "name": "blank-canvas",
       "title": "Blank Canvas",
       "postTypes": ["page"]
+    },
+    {
+      "name": "full-width",
+      "title": "Full width",
+      "postTypes": ["page"]
     }
   ],
   "templateParts": [

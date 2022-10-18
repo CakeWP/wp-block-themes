@@ -1,5 +1,4 @@
 {
-	"version": 2,
 	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
 	"customTemplates": [
 		{
@@ -218,6 +217,11 @@
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
 			},
+			"core/separator": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)"
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var(--wp--custom--font-family--font-primary)",
@@ -303,5 +307,6 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	]
+	],
+	"version": 2
 }

@@ -39,6 +39,11 @@
 					"slug": "zeever-button-border",
 					"color": "#4ABDB4",
 					"name": "Button Border"
+				},
+				{
+					"slug": "zeever-form",
+					"color": "#252525",
+					"name": "Form"
 				}
 			],
 			"gradients": [

@@ -1,0 +1,272 @@
+{
+	"version": 2,
+	"settings": {
+		
+		"appearanceTools": true,
+
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#6e7bff",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#000000",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#6ABE45",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#00838f",
+					"name": "Quaternary"
+				},
+				{
+					"slug": "quinary",
+					"color": "#ffffff",
+					"name": "Quinary"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+					{
+					"fontFamily": "Montserrat",
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Oswald",
+					"name": "Oswald",
+					"slug": "oswald",
+					"fontFace": [
+						{
+							"fontFamily": "Oswald",
+							"fontWeight": "200 300 400 500 600 700",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/oswald/Oswald-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+		       	],
+				"fontSizes": [
+					{
+						"slug": "extra-small",
+						"size": "1rem",
+						"name": "Extra small"
+					},
+					{
+						"slug": "small",
+						"size": "1.125rem",
+						"name": "Small"
+					},
+					{
+						"slug": "medium",
+						"size": "1.25rem",
+						"name": "Medium"
+					},
+					{
+						"slug": "large",
+						"size": "1.5rem",
+						"name": "Large"
+					},
+					{
+						"slug": "extra-large",
+						"size": "2.5rem",
+						"name": "Extra large"
+					}
+			]
+		},
+		"layout": {				
+			"contentSize": "840px",
+			"wideSize": "1200px"
+		}
+	},
+
+	"styles": {
+
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--black)"
+		},
+		"elements": {
+			"h1": {
+                "color": {
+                        "text": "var(--wp--preset--color--secondary)"
+                }
+            },
+            "h2": {
+                    "color": {
+                            "text": "var(--wp--preset--color--secondary)"
+                    }
+            },
+            "h3": {
+                    "color": {
+                            "text": "var(--wp--preset--color--secondary)"
+                    }
+            },
+            "h4": {
+                    "color": {
+                            "text": "var(--wp--preset--color--secondary)"
+                    }
+            },
+            "h5": {
+                    "color": {
+                            "text": "var(--wp--preset--color--secondary)"
+                    }
+            },
+            "h6": {
+                    "color": {
+                            "text": "var(--wp--preset--color--secondary)"
+                    }
+            },
+			"link": {
+				"color": {
+					 "text": "var(--wp--preset--color--secondary)"
+				}
+			}
+		},
+		"typography": {
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontFamily": "var(--wp--preset--font-family--system-fonts)",
+			"lineHeight": "1.7"
+		}
+	},
+
+	"customTemplates": [
+		{
+			"name": "front",
+			"title": "Business template",
+			"postTypes": [
+				"page"
+			]
+		},	
+		{
+			"name": "about",
+			"title": "About us",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "service",
+			"title": "Service",
+			"postTypes": [
+				"page"
+			]
+		},		
+		{
+			"name": "blog-leftsidebar",
+			"title": "Blog left sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-rightsidebar",
+			"title": "Blog right sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-fullwidth",
+			"title": "Blog full width",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-grid-view-sidebar",
+			"title": "Blog grid view sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-grid-view",
+			"title": "Blog grid view",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-list-view-sidebar",
+			"title": "Blog list view sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blog-list-view",
+			"title": "Blog list view",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "page-with-sidebar",
+			"title": "Page sidebar",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "portfolio",
+			"title": "Portfolio",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "team",
+			"title": "Team",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "testimonial",
+			"title": "Testimonial",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "stretched",
+			"title": "Stretched",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "contact",
+			"title": "Contact us",
+			"postTypes": [
+				"page"
+			]
+		}
+		
+	]
+}

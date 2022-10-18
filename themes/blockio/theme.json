@@ -16,14 +16,29 @@
     "color": {
       "palette": [
         {
-          "slug": "purple-main",
-          "color": "#5b3e62",
-          "name": "purple_main"
+          "slug": "background",
+          "color": "#ffffff",
+          "name": "background"
         },
         {
-          "slug": "purple-light",
+          "slug": "main",
+          "color": "#5b3e62",
+          "name": "main"
+        },
+        {
+          "slug": "title",
+          "color": "#5b3e62",
+          "name": "title"
+        },
+        {
+          "slug": "texts",
+          "color": "#ffffff",
+          "name": "texts"
+        },
+        {
+          "slug": "light",
           "color": "#B379BE",
-          "name": "purple_light"
+          "name": "light"
         },
         {
           "slug": "purple-neon",
@@ -48,14 +63,14 @@
       ],
       "gradients": [
         {
-          "slug": "purple-main-to-purple-light",
-          "gradient": "linear-gradient(160deg, var(--wp--preset--color--purple-main), var(--wp--preset--color--purple-light))",
+          "slug": "main-to-light",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--main), var(--wp--preset--color--light))",
           "name": "Main to Light"
         },
         {
-          "slug": "purple-fly-gradient",
+          "slug": "fly-gradient",
           "gradient": "linear-gradient(135deg, #5d335d,#c59ad1)",
-          "name": "Purple Fly"
+          "name": "Fly"
         }
       ],
       "link": true
@@ -134,29 +149,27 @@
     "spacing": {
       "padding": true,
       "margin": true,
-      "units": ["px","em","rem","vh","vw","%"]
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ]
     },
     "blocks": {
       "core/heading": {
-        "color": {
-          "palette": [
-            {
-              "slug": "tertiary",
-              "color": "#1d1f35",
-              "name": "Tertiary"
-            },
-            {
-              "slug": "purple-main",
-              "color": "#5b3e62",
-              "name": "purple_main"
-            }
-          ],
-          "link": true
-        },
         "spacing": {
           "padding": true,
           "margin": true,
-          "units": [ "px", "em", "rem", "vh", "vw" ]
+          "units": [
+            "px",
+            "em",
+            "rem",
+            "vh",
+            "vw"
+          ]
         },
         "border": {
           "color": true,
@@ -168,42 +181,64 @@
     }
   },
   "styles": {
-      "elements":{
+    "elements": {
       "link": {
         "color": {
-          "text": "var(--wp--preset--color--purple-light)"
+          "text": "var(--wp--preset--color--light)"
         }
       }
     },
     "blocks": {
+      "core/template-part": {
+        "color": {
+          "background": "var(--wp--preset--color--background)",
+          "text": "var(--wp--preset--color--main)"
+        }
+      },
+      "core/post-title": {
+        "color": {
+          "text": "var(--wp--preset--color--title)"
+        }
+      },
+      "core/button": {
+        "border": {
+          "radius": "0"
+        },
+        "color": {
+          "background": "var(--wp--preset--color--main)"
+        },
+        "typography": {
+          "fontSize": "normal"
+        }
+      },
       "core/navigation": {
         "color": {
-          "text": "var(--wp--preset--color--purple-main)"
-          },
+          "text": "var(--wp--preset--color--main)"
+        },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--small)",
           "fontWeight": "900"
-          }
-        },
+        }
+      },
       "core/heading": {
         "color": {
-          "text": "var(--wp--preset--color--purple-main)"
+          "text": "var(--wp--preset--color--title)"
         }
       },
       "core/site-title": {
         "color": {
-          "text": "var(--wp--preset--color--purple-main)"
+          "text": "var(--wp--preset--color--main)"
         }
       },
       "footer/page-list": {
         "color": {
-          "text": "var(--wp--preset--color--white)"
+          "text": "var(--wp--preset--color--text)"
         }
       }
     },
     "color": {
-      "background": "var(--wp--preset--color--white)",
-      "text": "var(--wp--preset--color--purple-main)"
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--main)"
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--montserrat)"
