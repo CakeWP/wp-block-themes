@@ -101,6 +101,7 @@
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
+							"fontDisplay": "swap",
 							"src": ["file:./assets/fonts/outfit/Outfit-Regular.ttf"]
 						},
 						{
@@ -108,6 +109,7 @@
 							"fontWeight": "500",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
+							"fontDisplay": "swap",
 							"src": ["file:./assets/fonts/outfit/Outfit-Medium.ttf"]
 						}
 					]

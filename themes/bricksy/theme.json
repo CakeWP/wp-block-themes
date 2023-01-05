@@ -192,39 +192,210 @@
 				},
 
 				{
-					"fontFamily": "\"Source Serif Pro\", serif",
-					"name": "Source Serif Pro",
-					"slug": "source-serif-pro"
-				},
-
-				{
+					"fontFace": [
+						{
+							"fontFamily": "Gilda Display",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/gilda-display/GildaDisplay-Regular.woff2"
+							]
+						}
+					],
 					"fontFamily": "\"Gilda Display\", serif",
-					"name": "Gilda Display",
+					"name": "Gilda",
 					"slug": "gilda-display"
 				},
 
 				{
-					"fontFamily": "\"Nunito Sans\", sans-serif",
-					"name": "Nunito Sans",
-					"slug": "nunito-sans"
-				},
-
-				{
+					"fontFace": [
+						{
+							"fontFamily": "Kristi",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/kristi/kristi-regular.woff2"
+							]
+						}
+					],
 					"fontFamily": "\"Kristi\", cursive",
 					"name": "Kristi",
 					"slug": "kristi"
 				},
 
 				{
-					"fontFamily": "\"Inconsolata\", monospace",
-					"name": "Inconsolata",
-					"slug": "inconsolata"
-				},
-
-				{
+					"fontFace": [
+						{
+							"fontFamily": "Bestermind",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/bestermind/BestermindRegular.woff2"
+							]
+						}
+					],
 					"fontFamily": "\"Bestermind\", cursive",
 					"name": "Bestermind",
 					"slug": "bestermind"
+				},
+
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Nunito Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito-sans/NunitoSans-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nunito-sans/NunitoSans-Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nunito-sans/NunitoSans-SemiBold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/nunito-sans/NunitoSans-Bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Nunito Sans\", sans-serif",
+					"name": "Nunito Sans",
+					"slug": "nunito-sans"
+				},
+
+				{
+					"fontFamily": "Outfit, sans-serif",
+					"name": "Outfit",
+					"slug": "outfit",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Outfit",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/outfit/Outfit-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "Figtree, sans-serif",
+					"name": "Figtree",
+					"slug": "figtree",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Figtree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/figtree/Figtree-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "Caveat, cursive",
+					"name": "Caveat",
+					"slug": "caveat",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "caveat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"src": [ "file:./assets/fonts/caveat/Caveat-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "Inconsolata, monospace",
+					"name": "Inconsolata",
+					"slug": "inconsolata",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "inconsolata",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/inconsolata/Inconsolata-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "Lora, serif",
+					"name": "Lora",
+					"slug": "lora",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "lora",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/lora/Lora-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "Oswald, sans-serif",
+					"name": "Oswald",
+					"slug": "oswald",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "oswald",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/oswald/Oswald-Variable.woff2" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "BodoniModa, serif",
+					"name": "BodoniModa",
+					"slug": "bodonimoda",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "bodonimoda",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [ "file:./assets/fonts/bodonimoda/BodoniModa-Variable.woff2" ]
+						}
+					]
 				}
 			],
 			"fontSizes": [
@@ -333,7 +504,6 @@
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--colossal)"
@@ -341,7 +511,6 @@
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
@@ -349,7 +518,6 @@
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--preset--font-size--huge)"
@@ -357,7 +525,6 @@
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "300",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--preset--font-size--large)"
@@ -365,7 +532,6 @@
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "700",
 					"textTransform": "uppercase",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
@@ -374,11 +540,15 @@
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gilda-display)",
 					"fontWeight": "400",
 					"textTransform": "uppercase",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
 					"fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--gilda-display)"
 				}
 			},
 			"link": {
@@ -411,6 +581,11 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "comments",
+			"title": "Comments"
 		}
 	]
 }

@@ -99,7 +99,42 @@
 					"slug": "gigantic",
 					"size": "144px",
 					"name": "Gigantic"
-				}
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(55px, 4.444vw, 72px )",
+                    "name": "Heading 1"
+                },
+	        	{
+                    "slug": "heading-1-alt",
+                    "size": "clamp(45px, 3.888vw, 56px)",
+                    "name": "Heading 1 Alt" 
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(30px, 3.888vw, 32px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(22px, 3.333vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(38px, 2.777vw, 40px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(16px, 2.222vw, 18px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(16px, 1.666vw, 16px)",
+                    "name": "Heading 6"
+                }
 			]
 		},
 		"spacing": {
@@ -187,5 +222,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }

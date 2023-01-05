@@ -580,6 +580,11 @@
 			"name": "post-meta",
 			"title": "Post Meta",
 			"area": "uncategorized"
+		},
+		{
+			"name": "form-cf7",
+			"title": "Contact Form (CF7)",
+			"area": "uncategorized"
 		}
 	],
 	"customTemplates": [

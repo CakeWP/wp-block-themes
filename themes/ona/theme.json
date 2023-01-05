@@ -33,13 +33,28 @@
 			"area": "uncategorized"
 		},
 		{
+			"name": "taxonomy-projects_categories",
+			"title": "Taxonomy Projects",
+			"area": "uncategorized"
+		},
+		{
 			"name": "single",
 			"title": "Single",
 			"area": "uncategorized"
 		},
 		{
-			"name": "single-split",
-			"title": "Single Split",
+			"name": "single-layout-2",
+			"title": "Single Layout 2",
+			"area": "uncategorized"
+		},
+		{
+			"name": "single-layout-3-with-sidebar",
+			"title": "Single Layout 3 With Sidebar",
+			"area": "uncategorized"
+		},
+		{
+			"name": "single-project",
+			"title": "Single Project",
 			"area": "uncategorized"
 		}
 	],
@@ -63,12 +78,29 @@
 			"name": "page-header-footer-only",
 			"title": "Header and Footer Only",
 			"postTypes": ["page", "post"]
+		},
+		{
+			"name": "single-layout-2",
+			"title": "Single Layout 2",
+			"postTypes": ["post"]
+		},
+		{
+			"name": "single-layout-3-with-sidebar",
+			"title": "Single Layout 3 With Sidebar",
+			"postTypes": ["post"]
 		}
 	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
 			"link": true,
+			"gradients": [
+				{
+					"slug": "vertical-background-to-background-light",
+					"gradient": "linear-gradient(0deg, #fff 35%, var(--wp--preset--color--background-light) 35%)",
+					"name": "Background Light to White"
+				}
+			],
 			"palette": [
 				{
 					"slug": "foreground",
@@ -322,11 +354,6 @@
 					"fontFamily": "var(--wp--preset--font-family--headings)"
 				}
 			},
-			"core/social-links": {
-				"typography": {
-					"fontSize": "1.25rem"
-				}
-			},
 			"core/spacer": {
 				"spacing": {
 					"blockGap": "0px"
@@ -365,7 +392,8 @@
 				"spacing": {
 					"margin": {
 						"bottom": "0px",
-						"top": "0px"
+						"top": "0px",
+						"block-start": "0px"
 					}
 				}
 			},

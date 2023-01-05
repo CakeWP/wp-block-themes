@@ -34,6 +34,31 @@
 					"slug": "sixth",
 					"color": "#1F386A",
 					"name": "Sixth"
+				},
+				{
+					"slug": "seventh",
+					"color": "#BBCAEA",
+					"name": "Seventh"
+				},
+				{
+					"slug": "eighth",
+					"color": "#070707",
+					"name": "Eighth"
+				},
+				{
+					"slug": "ninth",
+					"color": "#FFFFFF",
+					"name": "Ninth"
+				},
+				{
+					"slug": "tenth",
+					"color": "#ffffff38",
+					"name": "Tenth"
+				},
+				{
+					"slug": "Eleventh",
+					"color": "#F8FAFF",
+					"name": "Eleventh"
 				}
 			],
 			"gradients": [
@@ -182,5 +207,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }

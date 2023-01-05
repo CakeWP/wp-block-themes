@@ -39,6 +39,36 @@
 					"slug": "photology-text-footer",
 					"color": "#949494",
 					"name": "Text Footer"
+				},
+				{
+					"slug": "photology-soft-grey",
+					"color": "#F8F8F8",
+					"name": "Soft Grey"
+				},
+				{
+					"slug": "photology-overlay",
+					"color": "#000000b3",
+					"name": "Overlay"
+				},
+				{
+					"slug": "photology-border-dark",
+					"color": "#262626",
+					"name": "Border Dark"
+				},
+				{
+					"slug": "photology-bg-overlay",
+					"color": "#030303",
+					"name": "Background Overlay"
+				},
+				{
+					"slug": "photology-bg-grey",
+					"color": "#E9E9E9",
+					"name": "Background Grey"
+				},
+				{
+					"slug": "photology-quote",
+					"color": "#F1F1F1",
+					"name": "Quote"
 				}
 			],
 			"gradients": [
@@ -99,7 +129,37 @@
 					"slug": "gigantic",
 					"size": "144px",
 					"name": "Gigantic"
-				}
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(32px, 4.445vw, 64px)",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(24px, 2.639vw, 38px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(22px, 1.667vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(21px, 1.458vw, 21px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(16px, 1.25vw, 18px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(16px, 1.112vw, 16px)",
+                    "name": "Heading 6"
+                }
 			]
 		},
 		"spacing": {
@@ -187,5 +247,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }

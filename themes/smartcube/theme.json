@@ -331,7 +331,8 @@
 		},
 		{
 			"name": "sidebar",
-			"title": "Sidebar"
+			"title": "Sidebar",
+			"area": "uncategorized"
 		}
 	]
 }

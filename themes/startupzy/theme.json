@@ -34,6 +34,31 @@
 					"slug": "startupzy-border",
 					"color": "#DBE0E9",
 					"name": "Border"
+				},
+				{
+					"slug": "startupzy-quote",
+					"color": "#FEFEFE33",
+					"name": "Quote Color"
+				},
+				{
+					"slug": "startupzy-bg-overlay",
+					"color": "#02132D",
+					"name": "BG Overlay"
+				},
+				{
+					"slug": "startupzy-bg-footer",
+					"color": "#031530",
+					"name": "BG Footer"
+				},
+				{
+					"slug": "startupzy-border-2",
+					"color": "#213349",
+					"name": "Border 2"
+				},
+				{
+					"slug": "startupzy-team-overlay",
+					"color": "#02132de6",
+					"name": "Team Overlay"
 				}
 			],
 			"gradients": [
@@ -94,7 +119,37 @@
 					"slug": "gigantic",
 					"size": "144px",
 					"name": "Gigantic"
-				}
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(32px, 4.167vw, 60px)",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(24px, 2.5vw, 36px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(22px, 1.667vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(21px, 1.458vw, 21px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(12px, 0.973vw, 14px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(16px, 1.112vw, 16px)",
+                    "name": "Heading 6"
+                }
 			]
 		},
 		"spacing": {
@@ -182,5 +237,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }

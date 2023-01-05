@@ -374,6 +374,26 @@
       "name": "footer",
       "title": "Footer",
       "area": "footer"
+    },
+    {
+      "name": "about-us",
+      "title": "About Us",
+      "area": "uncategorized"
+    },
+    {
+      "name": "team-query",
+      "title": "Team List",
+      "area": "uncategorized"
+    },
+    {
+      "name": "services-query",
+      "title": "Services List",
+      "area": "uncategorized"
+    },
+    {
+      "name": "blog-query",
+      "title": "Blog Posts List",
+      "area": "uncategorized"
     }
   ]
 }

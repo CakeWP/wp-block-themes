@@ -29,6 +29,41 @@
 					"slug": "fifth",
 					"color": "#FFFFFF",
 					"name": "Fifth"
+				},
+				{
+					"slug": "sixth",
+					"color": "#F8F8F8",
+					"name": "Sixth"
+				},
+				{
+					"slug": "seventh",
+					"color": "#050505",
+					"name": "Seventh"
+				},
+				{
+					"slug": "eighth",
+					"color": "#F1F1F1",
+					"name": "Eighth"
+				},
+				{
+					"slug": "ninth",
+					"color": "#000000c7",
+					"name": "Ninth"
+				},
+				{
+					"slug": "tenth",
+					"color": "#E1E1E1",
+					"name": "Tenth"
+				},
+				{
+					"slug": "eleventh",
+					"color": "#393E44",
+					"name": "Eleventh"
+				},
+				{
+					"slug": "twelveth",
+					"color": "#04B16D",
+					"name": "Twelveth"
 				}
 			],
 			"gradients": [
@@ -89,7 +124,37 @@
 					"slug": "gigantic",
 					"size": "144px",
 					"name": "Gigantic"
-				}
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(32px, 3.889vw, 56px )",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(24px, 2.223vw, 32px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(22px, 1.667vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(21px, 1.458vw, 21px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(16px, 1.25vw, 18px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(16px, 1.112vw, 16px)",
+                    "name": "Heading 6"
+                }
 			]
 		},
 		"spacing": {
@@ -177,5 +242,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }

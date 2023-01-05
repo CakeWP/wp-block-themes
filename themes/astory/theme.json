@@ -235,8 +235,8 @@
 	"styles": {
 		"blocks": {
 			"core/button": {
-				"border": {				
-					"radius": "50px"					
+				"border": {
+					"radius": "50px"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--main)",

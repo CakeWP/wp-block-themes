@@ -46,11 +46,6 @@
 					"name": "Header titles"
 				},
 				{
-					"slug": "header-titles",
-					"color": "#007565",
-					"name": "Header titles"
-				},
-				{
 					"slug": "secondary-background",
 					"color": "#e8e8e8",
 					"name": "Secondary background"
@@ -80,6 +75,7 @@
 		},
 		"typography": {
 			"dropCap": true,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"name": "System",
@@ -667,36 +663,64 @@
 			],
 			"fontSizes":[
 				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "0.875rem"
+					},
 					"name": "Extra Small",
 					"size": "0.875rem",
 					"slug": "x-small"
 				},
 				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.08rem"
+					},
 					"name": "Small",
 					"size": "1rem",
 					"slug": "small"
 				},
 				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
 					"name": "Normal",
 					"size": "1.125rem",
 					"slug": "normal"
 				},
 				{
+					"fluid": {
+						"min": "1.3rem",
+						"max": "1.5rem"
+					},
 					"name": "Medium",
 					"size": "1.5rem",
 					"slug": "medium"
 				},
 				{
+					"fluid": {
+						"min": "1.3125rem",
+						"max": "1.75rem"
+					},
 					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
 				},
 				{
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					},
 					"name": "Extra Large",
 					"size": "2rem",
 					"slug": "x-large"
 				},
 				{
+					"fluid": {
+						"min": "2.1875rem",
+						"max": "3rem"
+					},
 					"name": "Huge",
 					"size": "3rem",
 					"slug": "huge"
@@ -731,7 +755,7 @@
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
 			"fontFamily": "var(--wp--preset--font-family--mulish)",
-			"lineHeight": "1.75"
+			"lineHeight": "1.5"
 		},
 		"elements": {
 			"link": {
@@ -758,6 +782,11 @@
 							"textDecoration": "none"
 						}
 					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"lineHeight": "1.75"
 				}
 			},
 			"core/site-title": {

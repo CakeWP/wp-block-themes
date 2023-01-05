@@ -429,9 +429,14 @@
 					"size": "clamp(2.8rem, 6vw, 3.25rem)"
 				},
 				{
-					"name": "Fluid - max 60px",
+					"name": "Fluid - Boss",
 					"slug": "max-60",
 					"size": "clamp(42px, 5vw, 60px)"
+				},
+				{
+					"name": "Fluid - Colossus",
+					"slug": "max-80",
+					"size": "clamp(4rem, 8vw, 10rem)"
 				}
 			]
 		}
@@ -689,7 +694,6 @@
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
-
 			"core/separator": {
 				"color": {
 					"text": "var(--wp--preset--color--lightborder)"
@@ -783,7 +787,7 @@
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h6": {
@@ -794,6 +798,21 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--custom--color--black)"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "0"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--textonprimary)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--textonprimary)"
+					}
 				}
 			}
 		},

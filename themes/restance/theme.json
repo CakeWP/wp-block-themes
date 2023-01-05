@@ -34,6 +34,11 @@
 					"slug": "sixth",
 					"color": "#141416",
 					"name": "Sixth"
+				},
+				{
+					"slug": "seventh",
+					"color": "#f2f2f2",
+					"name": "Seventh"
 				}
 			],
 			"gradients": [
@@ -94,7 +99,37 @@
 					"slug": "gigantic",
 					"size": "144px",
 					"name": "Gigantic"
-				}
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(40px, 6.25vw, 90px)",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(30px, 3.61vw, 52px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(24px, 1.667vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(38px, 2.639vw, 38px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(15px, 1.041vw, 15px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(18px, 1.25vw, 18px)",
+                    "name": "Heading 6"
+                }
 			]
 		},
 		"spacing": {
@@ -182,5 +217,14 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-basic",
+			"title": "Basic Template"
+		}
+    ]
 }
