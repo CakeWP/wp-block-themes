@@ -285,6 +285,7 @@
 		"typography": {
 			"dropCap": true,
 			"customFontSize": true,
+			"fluid": false,
 			"fontFamilies": [
 				{
 					"fontFamily": "var(--wp--font-system)",
@@ -433,8 +434,8 @@
 					"padding": {
 						"top": ".5rem",
 						"bottom": ".5rem",
-						"left": ".75rem",
-						"right": ".75rem"
+						"left": "1rem",
+						"right": "1rem"
 					}
 				}
 			},
@@ -503,7 +504,7 @@
 		},
 		"typography": {
 			"fontSize": "var:preset|font-size|normal",
-			"fontFamily": "var:preset|font-family|base",
+			"fontFamily": "var:preset|font-family|open-sans",
 			"lineHeight": "1.5"
 		}
 	}
