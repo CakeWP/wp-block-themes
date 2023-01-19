@@ -93,12 +93,58 @@
 				{
 					"fontFamily": "\"Jost\", sans-serif",
 					"name": "Jost",
-					"slug": "headings"
+					"slug": "headings",
+					"fontFace": [
+						{
+							"fontFamily": "Jost",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/jost/Jost-Regular.woff"]
+						}
+					]
 				},
 				{
 					"fontFamily": "\"Nunito Sans\", sans-serif",
 					"name": "Nunito Sans",
-					"slug": "base"
+					"slug": "base",
+					"fontFace": [
+						{
+							"fontFamily": "Nunito Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Regular.woff"]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Italic.woff"]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/nunito-sans/NunitoSans-SemiBold.woff"
+							]
+						},
+						{
+							"fontFamily": "Nunito Sans",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Bold.woff"]
+						}
+					]
 				},
 				{
 					"fontFamily": "\"Bestermind\", sans-serif",
