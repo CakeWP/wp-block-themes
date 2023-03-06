@@ -25,6 +25,11 @@
            "name": "Secondary"
          },
          {
+         	"slug": "tertiary",
+         	"color": "#808080",
+         	"name": "Tertiary"
+         },
+         {
            "slug": "link",
            "color": "#c4c4ff",
            "name": "Link"
@@ -241,6 +246,11 @@
     	    ]
     	  }
     	},
+    	"core/post-title": {
+    	  "color": {
+    	    "link": false
+    	  }
+    	},
     	"core/navigation": {
     	  "color": {
     	  	 "custom": false,
@@ -311,6 +321,7 @@
     },
     "typography": {
       "customFontWeight": false,
+      "textDecoration": false,
       "fontFamilies": [
       	{
       		"fontFamily": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif",
@@ -361,7 +372,12 @@
     	  "border": "var(--wp--preset--color--background)",
     	  "borderSticky": "var(--wp--preset--color--background)",
     	  "hoverBg": "var(--wp--preset--color--background)",
-    	  "hoverFg": "var(--wp--preset--color--foreground)"
+    	  "hoverFg": "var(--wp--preset--color--foreground)",
+    	  "postTitleHover": "var(--wp--preset--color--background)"
+    	},
+    	"gradient": {
+    	  "light-to-dark": "linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%)",
+    	  "dark-to-light": "linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%)"
     	},
       "widths": {
         "default": "60%",
@@ -418,7 +434,15 @@
     "elements": {
       "link": {
         "color": {
-          "text": "var(--wp--preset--color--pastel-blue)"
+          "text": "var(--wp--preset--color--link)"
+        },
+        ":hover": {
+          "color": {
+            "text": "var(--wp--preset--color--link-hover)"
+          }
+        },
+        "typography": {
+          "textDecoration": "none"
         }
       },
       "h1": {

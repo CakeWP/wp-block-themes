@@ -10,6 +10,14 @@
         "post"
       ]
     },
+
+{
+  "name": "blog-listing",
+  "title": "Blog Listing",
+  "postTypes": [
+  "page"
+  ]
+  },
     {
       "name": "page-no-title",
       "title": "Page (No Title / Feature Image)",

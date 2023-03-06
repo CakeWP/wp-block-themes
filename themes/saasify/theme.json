@@ -32,17 +32,6 @@
     }
   ],
   "settings": {
-    "layout": {
-      "contentSize": "min(calc((100vw - var(--scrollbar-width,0px)) - var(--wp--preset--spacing--xs,2rem)), 768px)",
-      "wideSize": "min(calc((100vw - var(--scrollbar-width,0px)) - var(--wp--preset--spacing--xs,2rem)), 1152px)"
-    },
-    "appearanceTools": true,
-    "border": {
-      "color": true,
-      "radius": true,
-      "style": true,
-      "width": true
-    },
     "custom": {
       "border": {
         "width": "1px",
@@ -76,15 +65,16 @@
       "transition": "all 0.2s ease",
       "darkMode": {
         "palette": {
-          "contrast": "#ffffff",
+          "contrast": "#fff",
           "heading": "#f6f6f9",
           "body": "#d0d4e3",
+          "shadow": "#b7afff1c",
           "outline": "#3f4c7c",
           "surface": "#1d243c",
           "base": "#070b1b"
         },
         "gradients": {
-          "primary": "radial-gradient(50% 50% at 120% 51%, #62abfe33 0%, #62ABFE00 100%),radial-gradient(50% 50% at 57% 43%, #6afff933 0%, #6AFFF900 100%),radial-gradient(50% 50% at 96% 42%, #6afff933 0%, #6AFFF900 100%),radial-gradient(50% 50% at -4% 5%, #6574fd33 0%, #6574FD00 100%),radial-gradient(50% 50% at 94% 88%, #62ABFF33 0%, #62ABFE00 100%),radial-gradient(50% 50% at 76% 110%, #a087ff33 0%, #A087FF00 100%),radial-gradient(50% 50% at 34% -4%, #a087ff33 0%, #A087FF00 100%)"
+          "primary": "radial-gradient(15% 15% at 8% 50%, var(--wp--preset--color--gradient-one) 1%, #FF000000 99%),radial-gradient(33% 33% at -1% 43%, var(--wp--preset--color--gradient-two) 1%, #FF000000 99%),radial-gradient(15% 15% at 71% 43%, var(--wp--preset--color--gradient-three) 1%, #FF000000 99%),radial-gradient(20% 20% at 82% 77%, var(--wp--preset--color--gradient-four) 1%, #FF000000 99%),radial-gradient(40% 40% at 89% 61%, var(--wp--preset--color--gradient-five) 1%, #FF000000 99%),linear-gradient(144deg, var(--wp--preset--color--base) 1%, var(--wp--preset--color--base) 99%)"
         }
       },
       "surface": {
@@ -109,6 +99,12 @@
       },
       "videoButton": {
         "background": "var(--wp--preset--gradient--primary),#fff"
+      },
+      "subHeading": {
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "fontWeight": "var(--wp--custom--font-weight--semi-bold)",
+        "fontSize": "var(--wp--preset--font-size--16)"
       }
     },
     "spacing": {
@@ -177,11 +173,6 @@
       "link": true,
       "palette": [
         {
-          "color": "#ceafff24",
-          "name": "Shadow",
-          "slug": "shadow"
-        },
-        {
           "color": "#000",
           "name": "Contrast",
           "slug": "contrast"
@@ -235,11 +226,41 @@
           "color": "transparent",
           "name": "Transparent",
           "slug": "transparent"
+        },
+        {
+          "color": "#b7afff33",
+          "name": "Shadow",
+          "slug": "shadow"
+        },
+        {
+          "color": "#4c00ff3b",
+          "name": "Gradient One",
+          "slug": "gradient-one"
+        },
+        {
+          "color": "#00c1ff47",
+          "name": "Gradient Two",
+          "slug": "gradient-two"
+        },
+        {
+          "color": "#00e4ff3b",
+          "name": "Gradient Three",
+          "slug": "gradient-three"
+        },
+        {
+          "color": "#0039FF3D",
+          "name": "Gradient Four",
+          "slug": "gradient-four"
+        },
+        {
+          "color": "#5800ff4a",
+          "name": "Gradient Five",
+          "slug": "gradient-five"
         }
       ],
       "gradients": [
         {
-          "gradient": "radial-gradient(50% 50% at 120% 51%, #62abfe 0%, #62ABFE00 100%),radial-gradient(50% 50% at 57% 43%, #6afff9 0%, #6AFFF900 100%),radial-gradient(50% 50% at 96% 42%, #6afff9 0%, #6AFFF900 100%),radial-gradient(50% 50% at -4% 5%, #6574fd 0%, #6574FD00 100%),radial-gradient(50% 50% at 94% 88%, #62abfe 0%, #62ABFE00 100%),radial-gradient(50% 50% at 76% 110%, #a087ff 0%, #A087FF00 100%),radial-gradient(50% 50% at 34% -4%, #a087ff 0%, #A087FF00 100%)",
+          "gradient": "radial-gradient(15% 15% at 8% 50%, var(--wp--preset--color--gradient-one) 1%, #FF000000 99%),radial-gradient(33% 33% at -1% 43%, var(--wp--preset--color--gradient-two) 1%, #FF000000 99%),radial-gradient(15% 15% at 71% 43%, var(--wp--preset--color--gradient-three) 1%, #FF000000 99%),radial-gradient(20% 20% at 82% 77%, var(--wp--preset--color--gradient-four) 1%, #FF000000 99%),radial-gradient(40% 40% at 89% 61%, var(--wp--preset--color--gradient-five) 1%, #FF000000 99%)",
           "name": "Primary",
           "slug": "primary"
         },
@@ -381,18 +402,18 @@
       ],
       "fontFamilies": [
         {
-          "fontFamily": "Lexend,var(--wp--preset--font-family--sans-serif)",
-          "name": "Lexend",
-          "slug": "lexend",
+          "fontFamily": "Figtree,var(--wp--preset--font-family--sans-serif)",
+          "name": "Figtree",
+          "slug": "figtree",
           "fontFace": [
             {
-              "fontFamily": "Lexend",
+              "fontFamily": "Figtree",
               "fontStyle": "normal",
               "fontStretch": "normal",
               "fontDisplay": "swap",
               "fontWeight": "100 900",
               "src": [
-                "file:./assets/fonts/lexend.woff2"
+                "file:./assets/fonts/figtree.woff2"
               ]
             }
           ]
@@ -426,9 +447,9 @@
       "blockGap": "var(--wp--preset--spacing--sm)"
     },
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--lexend)",
+      "fontFamily": "var(--wp--preset--font-family--figtree)",
       "fontSize": "var(--wp--preset--font-size--medium)",
-      "fontWeight": "var(--wp--custom--font-weight--regular)",
+      "fontWeight": "var(--wp--custom--font-weight--medium)",
       "lineHeight": "1.5"
     },
     "elements": {
@@ -443,10 +464,10 @@
         },
         "spacing": {
           "padding": {
-            "top": "0.9em",
-            "right": "1.3em",
-            "bottom": "0.9em",
-            "left": "1.3em"
+            "top": "1em",
+            "right": "1.5em",
+            "bottom": "1em",
+            "left": "1.5em"
           }
         },
         "typography": {
@@ -458,9 +479,9 @@
       },
       "heading": {
         "typography": {
-          "fontWeight": "var(--wp--custom--font-weight--medium)",
+          "fontWeight": "var(--wp--custom--font-weight--semi-bold)",
           "lineHeight": "1.1",
-          "letterSpacing": "-0.0333em"
+          "letterSpacing": "-0.02em"
         },
         "color": {
           "text": "var(--wp--preset--color--contrast)"

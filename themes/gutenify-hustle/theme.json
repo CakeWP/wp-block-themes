@@ -18,6 +18,13 @@
       ]
     },
     {
+      "name": "blog-listing",
+      "title": "Blog Listing",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
       "name": "single-product",
       "title": "Single Product"
     },
@@ -35,46 +42,46 @@
     },
     {
       "name": "blog-sidebar-on-left",
-			"title": "Blog Page (Sidebar on Left)",
-			"postTypes": [
-				"page"
-			]
+      "title": "Blog Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
     },
     {
       "name": "blog-sidebar-on-right",
-			"title": "Blog Page (Sidebar on Right)",
-			"postTypes": [
-				"page"
-			]
+      "title": "Blog Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
     },
-		{
-			"name": "single-post-sidebar-on-right",
-			"title": "Single Post (Sidebar on Right)",
-			"postTypes": [
-				"post"
-			]
-		},
-		{
-			"name": "single-post-sidebar-on-left",
-			"title": "Single Post (Sidebar on Left)",
-			"postTypes": [
-				"post"
-			]
-		},
-		{
-			"name": "single-page-sidebar-on-right",
-			"title": "Single Page (Sidebar on Right)",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "single-page-sidebar-on-left",
-			"title": "Single Page (Sidebar on Left)",
-			"postTypes": [
-				"page"
-			]
-		}
+    {
+      "name": "single-post-sidebar-on-right",
+      "title": "Single Post (Sidebar on Right)",
+      "postTypes": [
+        "post"
+      ]
+    },
+    {
+      "name": "single-post-sidebar-on-left",
+      "title": "Single Post (Sidebar on Left)",
+      "postTypes": [
+        "post"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-right",
+      "title": "Single Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-left",
+      "title": "Single Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    }
   ],
   "templateParts": [
     {
@@ -97,11 +104,11 @@
       "title": "Footer",
       "area": "footer"
     },
-		{
-			"name": "sidebar",
-			"title": "Sidebar",
-			"area": "uncategorized"
-		}
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "area": "uncategorized"
+    }
   ],
   "settings": {
     "appearanceTools": true,
@@ -198,123 +205,123 @@
           "name": "Diagonal background to tertiary"
         }
       ],
-    	"palette": [
-				{
-					"color": "#fff",
-					"name": "Foreground",
-					"slug": "foreground"
-				},
-				{
-					"color": "#031728",
-					"name": "Background",
-					"slug": "background"
-				},
-				{
-					"color": "#66fcf1",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#f78550",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#041c2d",
-					"name": "Secondary Background",
-					"slug": "background-secondary"
-				},
-				{
-					"color": "#f7f7f7",
-					"name": "Body Text",
-					"slug": "body-text"
-				},
-				{
-					"color": "#10172b",
-					"name": "Text Link",
-					"slug": "text-link"
-				},
-				{
-					"color": "#47b2ab",
-					"name": "Border",
-					"slug": "border"
-				},
-				{
-					"color": "#c3d9e7",
-					"name": "Tertiary",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#03293b",
-					"name": "Input Field",
-					"slug": "input-field"
-				},
-				{
-					"color": "#777",
-					"name": "Boulder",
-					"slug": "boulder"
-				},
-				{
-					"color": "#7d6043",
-					"name": "coffee",
-					"slug": "coffee"
-				},
-				{
-					"color": "#25d6a2",
-					"name": "Cyan",
-					"slug": "cyan"
-				},
-				{
-					"color": "#1b67cc",
-					"name": "Dark Blue",
-					"slug": "dark-blue"
-				},
-				{
-					"color": "#30b4da",
-					"name": "Sky Blue",
-					"slug": "sky-blue"
-				},
-				{
-					"color": "#0fb36c",
-					"name": "Dark Green",
-					"slug": "dark-green"
-				},
-				{
-					"color": "#6ba518",
-					"name": "Lite Green",
-					"slug": "lite-green"
-				},
-				{
-					"color": "#c74a73",
-					"name": "Purple",
-					"slug": "purple"
-				},
-				{
-					"color": "#9261c6",
-					"name": "Dark Purple",
-					"slug": "dark-purple"
-				},
-				{
-					"color": "#f78550",
-					"name": "Orange",
-					"slug": "orange"
-				},
-				{
-					"color": "#f9556d",
-					"name": "Lite Red",
-					"slug": "lite-red"
-				},
-				{
-					"color": "#27808c",
-					"name": "Hexadecimal",
-					"slug": "hexadecimal"
-				},
-				{
-					"color": "#ff6b98",
-					"name": "Pink",
-					"slug": "pink"
-				}
-			]
+      "palette": [
+        {
+          "color": "#fff",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#031728",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#66fcf1",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#f78550",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#041c2d",
+          "name": "Secondary Background",
+          "slug": "background-secondary"
+        },
+        {
+          "color": "#f7f7f7",
+          "name": "Body Text",
+          "slug": "body-text"
+        },
+        {
+          "color": "#10172b",
+          "name": "Text Link",
+          "slug": "text-link"
+        },
+        {
+          "color": "#47b2ab",
+          "name": "Border",
+          "slug": "border"
+        },
+        {
+          "color": "#c3d9e7",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#03293b",
+          "name": "Input Field",
+          "slug": "input-field"
+        },
+        {
+          "color": "#777",
+          "name": "Boulder",
+          "slug": "boulder"
+        },
+        {
+          "color": "#7d6043",
+          "name": "coffee",
+          "slug": "coffee"
+        },
+        {
+          "color": "#25d6a2",
+          "name": "Cyan",
+          "slug": "cyan"
+        },
+        {
+          "color": "#1b67cc",
+          "name": "Dark Blue",
+          "slug": "dark-blue"
+        },
+        {
+          "color": "#30b4da",
+          "name": "Sky Blue",
+          "slug": "sky-blue"
+        },
+        {
+          "color": "#0fb36c",
+          "name": "Dark Green",
+          "slug": "dark-green"
+        },
+        {
+          "color": "#6ba518",
+          "name": "Lite Green",
+          "slug": "lite-green"
+        },
+        {
+          "color": "#c74a73",
+          "name": "Purple",
+          "slug": "purple"
+        },
+        {
+          "color": "#9261c6",
+          "name": "Dark Purple",
+          "slug": "dark-purple"
+        },
+        {
+          "color": "#f78550",
+          "name": "Orange",
+          "slug": "orange"
+        },
+        {
+          "color": "#f9556d",
+          "name": "Lite Red",
+          "slug": "lite-red"
+        },
+        {
+          "color": "#27808c",
+          "name": "Hexadecimal",
+          "slug": "hexadecimal"
+        },
+        {
+          "color": "#ff6b98",
+          "name": "Pink",
+          "slug": "pink"
+        }
+      ]
     },
     "custom": {
       "spacing": {
@@ -432,7 +439,7 @@
     },
     "layout": {
       "contentSize": "750px",
-     "wideSize": "1300px"
+      "wideSize": "1300px"
     }
   },
   "styles": {
@@ -471,7 +478,7 @@
         "color": {
           "background": "#999"
         }
-      },  
+      },
       "core/navigation": {
         "elements": {
           "link": {
@@ -692,13 +699,12 @@
             "textDecoration": "none"
           }
         }
-     
       }
     },
     "spacing": {
       "blockGap": "2rem",
       "margin": {
-        "top":"0px",
+        "top": "0px",
         "bottom": "0px",
         "right": "0px",
         "left": "0px"

@@ -16,7 +16,13 @@
       "postTypes": [
         "page"
       ]
-    }
+    },{
+      "name": "blog-listing",
+      "title": "Blog Listing",
+      "postTypes": [
+      "page"
+      ]
+      }
   ],
   "templateParts": [
     {

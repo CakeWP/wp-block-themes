@@ -74,6 +74,13 @@
       "postTypes": [
         "page"
       ]
+    },
+    {
+      "name": "blog-listing",
+      "title": "Blog Listing",
+      "postTypes": [
+        "page"
+      ]
     }
   ],
   "templateParts": [
@@ -271,7 +278,7 @@
         },
         {
           "slug": "input-field",
-          "color": "#1c1c1c",
+          "color": "#f1f1f1",
           "name": "Input Field"
         },
         {
@@ -487,7 +494,7 @@
             },
             ":hover": {
               "color": {
-                "text": "var(--wp--preset--color--primary)"
+                "text": "var(--wp--preset--color--secondary)"
               },
               "typography": {
                 "textDecoration": "none"
@@ -495,7 +502,7 @@
             },
             ":focus": {
               "color": {
-                "text": "var(--wp--preset--color--primary)"
+                "text": "var(--wp--preset--color--secondary)"
               },
               "typography": {
                 "textDecoration": "none"
@@ -503,7 +510,7 @@
             },
             ":active": {
               "color": {
-                "text": "var(--wp--preset--color--primary)"
+                "text": "var(--wp--preset--color--secondary)"
               },
               "typography": {
                 "textDecoration": "none"

@@ -55,6 +55,13 @@
       ]
     },
     {
+      "name": "blog-listing",
+      "title": "Blog Listing",
+      "postTypes": [
+        "post"
+      ]
+    },
+    {
       "name": "single-post-sidebar-on-left",
       "title": "Single Post (Sidebar on Left)",
       "postTypes": [
@@ -229,7 +236,7 @@
         },
         {
           "slug": "input-field",
-          "color": "#1c1c1c",
+          "color": "#f1f1f1",
           "name": "Input Field"
         },
         {

@@ -18,6 +18,13 @@
       ]
     },
     {
+      "name": "blog-listing",
+      "title": "Blog Listing",
+      "postTypes": [
+      "page"
+      ]
+      },
+    {
       "name": "single-product",
       "title": "Single Product"
     },

@@ -10,6 +10,14 @@
         "post"
       ]
     },
+
+{
+  "name": "blog-listing",
+  "title": "Blog Listing",
+  "postTypes": [
+  "page"
+  ]
+  },
     {
       "name": "page-no-title",
       "title": "Page (No Title / Feature Image)",
@@ -447,7 +455,7 @@
         "elements": {
           "link": {
             "color": {
-              "text": "var(--wp--preset--color--black)"
+              "text": "var(--wp--preset--color--white)"
             },
             ":hover": {
               "color": {

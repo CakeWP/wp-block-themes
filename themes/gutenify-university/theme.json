@@ -51,6 +51,13 @@
 			]
     },
     {
+      "name": "blog-listing",
+			"title": "Blog Listing",
+			"postTypes": [
+				"page"
+			]
+    },
+    {
       "name": "blog-sidebar-on-right",
 			"title": "Blog Page (Sidebar on Right)",
 			"postTypes": [
@@ -221,7 +228,7 @@
         },
         {
           "slug": "input-field",
-          "color": "#1c1c1c",
+          "color": "#f1f1f1",
           "name": "Input Field"
         },
         {
@@ -553,8 +560,7 @@
         },
         "typography": {
             "lineHeight": "1.7",
-            "fontSize": "var(--wp--custom--typography--font-size--small)",
-            "fontWeight": "var(--wp--custom--typography--font-weight--normal)"
+            "fontSize": "var(--wp--preset--typography--font-size--small)"
         }
     },
       "h1": {
