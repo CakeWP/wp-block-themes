@@ -29,7 +29,7 @@
 				},
 				{
 					"slug": "base-darker",
-					"color": "#F0F1F3",
+					"color": "#EDECEB",
 					"name": "Base (Darker)"
 				},
 				{
@@ -43,9 +43,14 @@
                     "name": "Contrast"
                 },
                 {
+                    "slug": "contrast-medium",
+                    "color": "#333333",
+                    "name": "Contrast (Medium)"
+                },
+                {
                     "slug": "contrast-light",
                     "color": "#AEAEAE",
-                    "name": "Contrast (Lighter)"
+                    "name": "Contrast (Light)"
                 }
 			]
 		},
@@ -79,11 +84,105 @@
 					"fontFace": [
 						{
 							"fontFamily": "Inter",
-							"fontWeight": "400 800",
+							"fontWeight": "100 900",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/Inter.ttf" ]
+							"src": [ "file:./assets/fonts/Inter-VariableFont_slnt,wght.ttf" ]
 						}
 					]
+				},
+				{
+					"fontFamily": "\"Golos Text\", sans-serif",
+					"name": "Golos Text",
+					"slug": "golos-text",
+					"fontFace": [
+						{
+							"fontFamily": "Golos Text",
+							"fontWeight": "400 900",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/GolosText-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Anton\", sans-serif",
+					"name": "Anton",
+					"slug": "anton",
+					"fontFace": [
+						{
+							"fontFamily": "Anton",
+							"fontWeight": "400",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Anton-Regular.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Roboto Mono\", monospace",
+					"name": "Roboto Mono",
+					"slug": "roboto-mono",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto Mono",
+							"fontWeight": "100 700",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/RobotoMono-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Playfair Display",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Playfair Display\", serif",
+					"name": "Playfair Display",
+					"slug": "playfair-display"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lora",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/Lora-VariableFont_wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "Playfair Display",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/Lora-Italic-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Lora\", serif",
+					"name": "Lora",
+					"slug": "lora"
+				},
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
 				}
 			],
 			"fontSizes": [
@@ -234,16 +333,16 @@
                     "padding": {
                     	"top": "8px",
 						"bottom": "8px",
-						"right": "14px",
-						"left": "14px"
+						"right": "16px",
+						"left": "16px"
                     }
                 }
 			},
 			"heading": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontWeight": "500",
-					"textTransform": "none",
-					"letterSpacing": "-0.025em"
+					"textTransform": "none"
 				},
 				"spacing": {
 					"margin": {
@@ -296,6 +395,9 @@
 						"bottom": "3rem"
 					}
 				},
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
 				"elements": {
 					"link": {
 						"color": {
@@ -316,6 +418,9 @@
 				}
 			},
 			"core/heading": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
 				"elements": {
 					"link": {
 						"color": {
@@ -333,6 +438,9 @@
 				}
 			},
             "core/navigation": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"	
+				},
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--medium)",
                     "fontWeight": 400
@@ -341,7 +449,7 @@
 					"blockGap": "1.25rem"
 				},
 				"elements": {
-					"link": {				
+					"link": {
 						":hover": {
 							"typography": {
 								"textDecoration": "none"
@@ -383,13 +491,14 @@
 				},
 				"typography": {
 					"lineHeight": "1",
-					"fontSize": "calc(1.15 * var(--wp--preset--font-size--medium))"
+					"fontSize": "calc(1.15 * var(--wp--preset--font-size--medium))",
+					"letterSpacing": "0"
 				},
 				"elements": {
 					"link": {
 						":hover": {
 							"color": {
-								"text": "var(--wp--preset--color--accent)"
+								"text": "var(--wp--preset--color--contrast-medium)"
 							},
 							"typography": {
 								"textDecoration": "none"
@@ -405,7 +514,7 @@
 			},
 			"core/post-author": {
 				"typography": {
-					"fontSize": "13px"
+					"fontSize": "14px"
 				}
 			},
 			"core/post-excerpt": {
@@ -434,7 +543,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
+			"text": "var(--wp--preset--color--contrast-medium)"
 		},
 		"spacing": {
 			"blockGap": "1.5rem",
@@ -446,7 +555,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontFamily": "var(--wp--preset--font-family--system-font)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "var(--wp--custom--typography--line-height--normal)"
 		}
@@ -465,7 +574,7 @@
 		{
 			"name": "comments",
 			"title": "Comments",
-			"area": "comments"
+			"area": "uncategorized"
 		}
 	]
 }

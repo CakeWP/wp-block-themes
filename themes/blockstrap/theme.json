@@ -89,6 +89,11 @@
 					"name": "White"
 				},
 				{
+					"slug": "dark-black",
+					"color": "#1f1b2d",
+					"name": "Dark Black"
+				},
+				{
 					"slug": "black",
 					"color": "#000",
 					"name": "Black"
@@ -118,6 +123,27 @@
 			"customLineHeight": true,
 			"customFontSize": true,
 			"fontFamilies": [
+				{
+					"fontFamily": "\"Poppins\", sans-serif",
+					"name": "Poppins (Google Font)",
+					"slug": "poppins",
+					"fontFace": [
+						{
+							"fontFamily": "Source Serif Pro",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/poppins-v20-latin-regular.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Montserrat\", sans-serif",
+					"name": "Montserrat",
+					"slug": "primary"
+				},
 				{
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
 					"slug": "system-fonts",
@@ -185,6 +211,8 @@
 			]
 		},
 		"layout": {
+			"contentSize": "840px",
+			"wideSize": null,
 			"units": [
 				"px",
 				"em",
@@ -207,7 +235,7 @@
 		},
 		"typography": {
 			"fontSize": "20px",
-			"fontFamily": "var(--wp--preset--font-family--system-fonts)",
+			"fontFamily": "var(--wp--preset--font-family--primary)",
 			"lineHeight": "1.7"
 		},
 		"spacing": {
@@ -226,7 +254,7 @@
 			},
 			"h1": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--extra-large)"
@@ -234,7 +262,7 @@
 			},
 			"h2": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
@@ -242,22 +270,22 @@
 			},
 			"h3": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				}
 			},
 			"h4": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				}
 			},
 			"h5": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				}
 			},
 			"h6": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-blue)"
+					"text": "var(--wp--preset--color--dark-black)"
 				}
 			}
 		},
@@ -388,9 +416,19 @@
 			"area": "footer"
 		},
 		{
+			"name": "main",
+			"area": "uncategorized"
+		},
+		{
 			"name": "hero",
 			"area": "hero"
+		},
+		{
+			"name": "gd-archive-item",
+			"title": "GD Archive Item",
+			"area": "uncategorized"
 		}
+		
 	],
 	"customTemplates": [
 		{
@@ -410,6 +448,20 @@
 		{
 			"name": "gd-single",
 			"title": "GD Single",
+			"postTypes": [
+				"gd_place"
+			]
+		},
+		{
+			"name": "gd-add-listing",
+			"title": "GD Add Listing",
+			"postTypes": [
+				"gd_place"
+			]
+		},
+		{
+			"name": "gd-location",
+			"title": "GD Location",
 			"postTypes": [
 				"gd_place"
 			]
