@@ -27,7 +27,7 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#256EFF",
+					"color": "#2750E1",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
@@ -52,6 +52,11 @@
 					"slug": "paragraph"
 				},
 				{
+					"color": "#757575",
+					"name": "Paragraph Alt",
+					"slug": "paragraph-alt"
+				},
+				{
 					"color": "#5C5C5C",
 					"name": "Meta",
 					"slug": "meta"
@@ -60,6 +65,11 @@
 					"color": "#7C7C7C",
 					"name": "Border",
 					"slug": "border"
+				},
+				{
+					"color": "#E0E0E0",
+					"name": "Border Alt",
+					"slug": "border-alt"
 				},
 				{
 					"color": "#F7F7F7",
@@ -80,6 +90,11 @@
 					"color": "#111111",
 					"name": "Background Alt",
 					"slug": "background-alt"
+				},
+				{
+					"color": "#ffffff00",
+					"name": "Transparent",
+					"slug": "transparent"
 				}
 			]
 		},
@@ -185,6 +200,14 @@
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/jakarta/PlusJakartaSans-Bold.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Plus Jakarta Sans",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/jakarta/PlusJakartaSans-ExtraBold.woff2" ]
 						}
 					]
 				}
@@ -299,12 +322,8 @@
 		},
 		"blocks": {
 			"core/navigation": {
-				"elements": {
-					"link": {
-						"typography": {
-							"fontSize": "var(--wp--preset--font-size--tiny-plus)"
-						}
-					}
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--tiny-plus)"
 				}
 			},
 			"core/separator": {

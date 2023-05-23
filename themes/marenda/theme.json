@@ -5,7 +5,7 @@
 			"gradients": [
 				{
 					"slug": "vertical-primary-to-foreground",
-					"gradient": "linear-gradient(to left,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
+					"gradient": "linear-gradient(to left,var(--wp--preset--color--lightbg) 0%,var(--wp--preset--color--foreground) 100%)",
 					"name": "Vertical primary to foreground"
 				}
 			],
@@ -22,12 +22,17 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#648FA2",
+					"color": "#88776d",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
 					"color": "#333333",
+					"name": "Secondary"
+				},
+				{
+					"slug": "lightbg",
+					"color": "#e7ded9",
 					"name": "Secondary"
 				},
 				{
@@ -199,16 +204,6 @@
 								"textDecoration": "none"
 							}
 						},
-						":focus": {
-							"typography": {
-								"textDecoration": "underline dashed"
-							}
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						},
 						"typography": {
 							"textDecoration": "none"
 						}
@@ -360,7 +355,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var(--wp--preset--color--links)"
 				}
 			}
 		},

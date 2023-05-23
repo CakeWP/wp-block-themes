@@ -2,74 +2,11 @@
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "customTemplates": [
         {
-            "name": "about",
-            "postTypes": [
-                "page"
-            ],
-            "title": "About"
-        },
-        {
             "name": "blog",
             "postTypes": [
                 "page"
             ],
             "title": "Blog"
-        },
-        {
-            "name": "blog-sidebar",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Blog with sidebar"
-        },
-        {
-            "name": "portfolio",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Portfolio"
-        },
-        {
-            "name": "services",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Services"
-        },
-        {
-            "name": "contact",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Contact"
-        },
-        {
-            "name": "home",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Homepage"
-        },
-        {
-            "name": "page-sidebar",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Page with Sidebar"
-        },
-        {
-            "name": "single-full",
-            "postTypes": [
-                "post"
-            ],
-            "title": "Full-width Post"
-        },
-        {
-            "name": "single-portfolio_item",
-            "postTypes": [
-                "portfolio_item"
-            ],
-            "title": "Portfolio Post"
         },
         {
             "name": "blank",
@@ -80,12 +17,54 @@
             "title": "Blank"
         },
         {
+            "name": "blog-sidebar",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Blog Page with sidebar"
+        },
+        {
+            "name": "single-full",
+            "postTypes": [
+                "post"
+            ],
+            "title": "Full-width Post"
+        },
+        {
+            "name": "homepage-free",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Homepage [Free]"
+        },
+        {
+            "name": "page-with-header-image",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Page with Header Image"
+        },
+        {
             "name": "no-title",
             "postTypes": [
                 "page",
                 "post"
             ],
-            "title": "No Title"
+            "title": "Page with no Title"
+        },
+        {
+            "name": "page-sidebar",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Page with Sidebar"
+        },
+        {
+            "name": "single-portfolio_item",
+            "postTypes": [
+                "portfolio_item"
+            ],
+            "title": "Portfolio Post"
         }
     ],
     "settings": {

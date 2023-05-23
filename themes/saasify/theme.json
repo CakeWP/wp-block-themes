@@ -97,9 +97,6 @@
       "siteBlocks": {
         "overflowX": "visible"
       },
-      "videoButton": {
-        "background": "var(--wp--preset--gradient--primary),#fff"
-      },
       "subHeading": {
         "letterSpacing": "normal",
         "textTransform": "none",

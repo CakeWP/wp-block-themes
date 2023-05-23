@@ -30,6 +30,8 @@
 		},
 		"typography": {
 			"customFontSize": true,
+			"dropCap": false,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -122,6 +124,98 @@
 					],
 					"fontFamily": "Montserrat",
 					"slug": "montserrat"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "16px",
+						"min": "13px"
+					},
+					"name": "xSmall",
+					"size": "16px",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "18px",
+						"min": "14px"
+					},
+					"name": "Small",
+					"size": "18px",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "20px",
+						"min": "16px"
+					},
+					"name": "Medium",
+					"size": "20px",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "24px",
+						"min": "20px"
+					},
+					"name": "Large",
+					"size": "24px",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "30px",
+						"min": "24px"
+					},
+					"name": "xLarge",
+					"size": "30px",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "36px",
+						"min": "30px"
+					},
+					"name": "36px",
+					"size": "36px",
+					"slug": "max-36"
+				},
+				{
+					"fluid": {
+						"max": "48px",
+						"min": "36px"
+					},
+					"name": "48px",
+					"size": "48px",
+					"slug": "max-48"
+				},
+				{
+					"fluid": {
+						"max": "60px",
+						"min": "42px"
+					},
+					"name": "60px",
+					"size": "60px",
+					"slug": "max-60"
+				},
+				{
+					"fluid": {
+						"max": "72px",
+						"min": "48px"
+					},
+					"name": "72px",
+					"size": "72px",
+					"slug": "max-72"
+				},
+				{
+					"fluid": {
+						"max": "82px",
+						"min": "52px"
+					},
+					"name": "82px",
+					"size": "82px",
+					"slug": "max-82"
 				}
 			]
 		}
@@ -311,16 +405,19 @@
 			},
 			"core/site-title": {
 				"typography": {
+					"fontFamily": "var:preset|font-family|montserrat",
+					"fontSize": "var:preset|font-size|max-82",
 					"fontStyle": "normal",
 					"fontWeight": "600",
-					"lineHeight": 1.2
+					"lineHeight": 1.2,
+					"textTransform": "uppercase"
 				}
 			}
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "Montserrat",
+					"fontFamily": "var:preset|font-family|montserrat",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"lineHeight": "1.4"
@@ -329,7 +426,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|merriweather",
-			"fontSize": "20px",
+			"fontSize": "var:preset|font-size|medium",
 			"fontWeight": "300",
 			"lineHeight": "1.75"
 		}
@@ -347,5 +444,5 @@
 		}
 	],
 	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.1/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
 }

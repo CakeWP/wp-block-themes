@@ -294,6 +294,15 @@
       ]
     },
     "custom": {
+      "lightMode": {
+        "palette": {
+          "foreground": "#000",
+          "heading": "#191f31",
+          "body": "#fff",
+          "background": "#ffffff",
+          "primary": "#ce9e51"
+        }
+      },
       "spacing": {
         "small": "max(1.25rem, 5vw)",
         "medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",

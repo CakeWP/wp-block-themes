@@ -2,6 +2,9 @@
   "version":2,
   "settings": {
   	 "useRootPaddingAwareAlignments": true,
+  	 "border": {
+  	   "radius": true
+  	 },
     "color": {
     	"link": true,
       "palette": [
@@ -316,6 +319,7 @@
       "wideSize": "1080px"
     },
     "spacing": {
+    	"blockGap": true,
       "margin": true,
       "padding": true,
 	   "units": [ "px", "em", "rem", "vh", "vw" ]
@@ -412,6 +416,9 @@
 	      }
 	    },
 	    "core/button": {
+	    	"border": {
+	    	  "radius": "0.5em"
+	    	},
 	      "spacing": {
 	        "padding": {
 	          "top": "0.5rem",
@@ -419,6 +426,11 @@
 	          "bottom": "0.5rem",
 	          "left": "1rem"
 	        }
+	      }
+	    },
+	    "core/social-links": {
+	      "spacing": {
+	        "blockGap": "0.5em"
 	      }
 	    },
 	    "core/column": {
@@ -510,6 +522,7 @@
       }
     },
     "spacing": {
+    	"blockGap": "1.5em",
       "padding": {
         "top": "1.5rem",
         "right": "1.5rem",
@@ -550,16 +563,6 @@
     {
       "name": "header",
       "title": "Header",
-      "area": "header"
-    },
-    {
-    	"name": "header-hero",
-    	"title": "Header- Hero",
-    	"area": "header"
-    },
-    {
-      "name": "header-hero-title-inside",
-      "title": "Header- Hero (Title Inside)",
       "area": "header"
     },
     {

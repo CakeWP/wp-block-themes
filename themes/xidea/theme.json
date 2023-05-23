@@ -147,12 +147,22 @@
         {
           "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
           "name": "System Fonts",
-          "slug": "base"
+          "slug": "bootstrap-default"
         },
         {
+          "fontFace": [
+            {
+              "fontFamily": "\"Nunito Sans\", sans-serif",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/NunitoSans-Regular.ttf"
+              ]
+            }
+          ],
           "fontFamily": "\"Nunito Sans\", sans-serif",
           "name": "Nunito Sans",
-          "slug": "nunito"
+          "slug": "base"
         }
       ],
       "fontSizes": [

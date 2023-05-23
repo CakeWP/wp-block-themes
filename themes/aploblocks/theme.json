@@ -15,7 +15,23 @@
 			"postTypes": [
 				"page"
 			],
-			"title": "Blog (Alternative)"
+			"title": "Blog"
+		},
+		{
+			"name": "page-post-cover-head",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Page/Post Cover Header"
+		},
+		{
+			"name": "page-post-feat-cover-head",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Page/Post Feat. Cover Header"
 		},
 		{
 			"name": "404",

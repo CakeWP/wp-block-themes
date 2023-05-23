@@ -1,0 +1,197 @@
+{
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "color": "#394b41",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#DDDED7",
+          "name": "BG Alt",
+          "slug": "bg-2"
+        },
+        {
+          "color": "#26322b",
+          "name": "BG Dark",
+          "slug": "bg-3"
+        },
+        {
+          "color": "#222222",
+          "name": "Text",
+          "slug": "text-1"
+        },
+        {
+          "color": "#6D7179",
+          "name": "Text Alt",
+          "slug": "text-2"
+        },
+        {
+          "color": "#ffffff",
+          "name": "BG",
+          "slug": "bg-1"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "750px",
+      "wideSize": "1128px"
+    },
+    "spacing": {
+      "units": ["%", "px", "em", "rem", "vh", "vw"]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, 'Helvetica Neue', sans-serif",
+          "name": "System Font",
+          "slug": "system-font"
+        },
+        {
+          "fontFace": [
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "DM Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/dmsans-regular.woff2"]
+            },
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "DM Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/dmsans-bold.woff2"]
+            }
+          ],
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "name": "DM Sans",
+          "slug": "dm-sans"
+        },
+        {
+          "fontFace": [
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Noto Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/notosans-regular.woff2"]
+            },
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Noto Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/notosans-bold.woff2"]
+            },
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Noto Sans Thai",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/notosansthai-regular.woff2"]
+            },
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Noto Sans Thai",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/notosansthai-bold.woff2"]
+            }
+          ],
+          "fontFamily": "\"Noto Sans\", \"Noto Sans Thai\", sans-serif",
+          "name": "Noto Sans (EN-TH)",
+          "slug": "noto-sans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "clamp(11px, 2vw, 13px)",
+          "slug": "small"
+        },
+        {
+          "name": "Medium",
+          "size": "clamp(16px, 3vw, 18px)",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "clamp(18px, 3vw, 22px)",
+          "slug": "large"
+        },
+        {
+          "name": "Extra Large",
+          "size": "clamp(22px, 4vw, 28px)",
+          "slug": "extralarge"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/site-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "background": "var:preset|color|bg-1",
+      "text": "var:preset|color|text-1"
+    },
+    "css": "html {\n  font-size: var(--wp--preset--font-size--medium);\n  scroll-behavior: smooth;\n  scroll-padding-top: 80px;\n}\nbody {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n  min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n}\n.header-fixed {\n  position: sticky;\n  top: 0;\n  z-index: 1000;\n}\n.admin-bar .header-fixed {\n  top: var(--wp-admin--admin-bar--height);\n}\n.text-center {\n  text-align: center;\n}\n.site-footer {\n  margin-top: auto;\n}\n@media (max-width: 991px) {\n  ._desktop {\n    display: none !important;\n  }\n}\n@media (min-width: 992px) {\n  ._mobile {\n    display: none !important;\n  }\n}\n",
+    "elements": {
+      "button": {
+        "color": {
+          "background": "var:preset|color|primary",
+          "text": "var:preset|color|background"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|primary"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "var:preset|spacing|50",
+      "padding": {
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px",
+        "top": "0px"
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|dm-sans"
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header"
+    },
+    {
+      "area": "footer",
+      "name": "footer"
+    }
+  ],
+  "version": 2,
+  "$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}

@@ -48,20 +48,6 @@
       ]
     },
     {
-      "name": "single-post-sidebar-on-right",
-      "title": "Single Post (Sidebar on Right)",
-      "postTypes": [
-        "post"
-      ]
-    },
-    {
-      "name": "blog-listing",
-      "title": "Blog Listing",
-      "postTypes": [
-        "post"
-      ]
-    },
-    {
       "name": "single-post-sidebar-on-left",
       "title": "Single Post (Sidebar on Left)",
       "postTypes": [
@@ -78,6 +64,13 @@
     {
       "name": "single-page-sidebar-on-left",
       "title": "Single Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog-listing",
+      "title": "Blog Listing",
       "postTypes": [
         "page"
       ]

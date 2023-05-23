@@ -9,6 +9,9 @@
 		"position": {
 			"sticky": true
 		},
+		"dimensions": {
+			"minHeight": true
+		},
 		"color": {
 			"background": true,
 			"text": true,
@@ -171,49 +174,49 @@
 					"fluid": false,
 					"name": "Tiny",
 					"slug": "tiny",
-					"size": "calc( var(--wp--preset--font-size--x-small) / var(--wp--custom--font--scale) )"
+					"size": "10px"
 				},
 				{
 					"fluid": false,
 					"name": "X small",
 					"slug": "x-small",
-					"size": "calc( var(--wp--preset--font-size--small) / var(--wp--custom--font--scale) )"
+					"size": "clamp(11px, calc(11px + (100vw - 360px) * ( (12 -11) / (1200 - 360)) ), 12px)"
 				},
 				{
 					"fluid": false,
 					"name": "Small",
 					"slug": "small",
-					"size": "calc( var(--wp--preset--font-size--normal) / var(--wp--custom--font--scale) )"
+					"size": "clamp(12.56px, calc( 12.56px + (100vw - 360px) * ( (13.91 - 12.56) / (1200 - 360)) ), 13.91px)"
 				},
 				{
 					"name": "Medium",
 					"slug": "medium",
-					"size": "1rem"
+					"size": "clamp(14px, calc( 14px + (100vw - 360px) * ( (16 - 14) / (1200 - 360)) ), 16px)"
 				},
 				{
 					"name": "Large",
 					"slug": "large",
-					"size": "calc( var(--wp--preset--font-size--normal) * var(--wp--custom--font--scale) )"
+					"size": "clamp(15.61px, calc( 15.61px + (100vw - 360px) * ( (18.4 - 15.61) / (1200 - 360)) ), 18.4px)"
 				},
 				{
 					"name": "X Large",
 					"slug": "x-large",
-					"size": "calc( var(--wp--preset--font-size--large) * var(--wp--custom--font--scale) )"
+					"size": "clamp(17.4px, calc( 17.4px + (100vw - 360px) * ( (21.16 - 17.4) / (1200 - 360)) ), 21.16px)"
 				},
 				{
 					"name": "XX Large",
 					"slug": "xx-large",
-					"size": "calc( var(--wp--preset--font-size--x-large) * var(--wp--custom--font--scale) )"
+					"size": "clamp(19.4px, calc( 19.4px + (100vw - 360px) * ( (24.33 - 19.4) / (1200 - 360)) ), 24.33px)"
 				},
 				{
 					"name": "XXX Large",
 					"slug": "xxx-large",
-					"size": "calc( var(--wp--preset--font-size--xx-large) * var(--wp--custom--font--scale) )"
+					"size": "clamp(21.64px, calc( 21.64px + (100vw - 360px) * ( (27.98 - 21.64) / (1200 - 360)) ), 27.98px)"
 				},
 				{
 					"name": "Huge",
 					"slug": "huge",
-					"size": "calc( var(--wp--preset--font-size--xxx-large) * var(--wp--custom--font--scale) )"
+					"size": "clamp(24.12px, calc( 24.12px + (100vw - 360px) * ( (32.18 - 24.12) / (1200 - 360)) ), 32.18px)"
 				}
 			]
 		},
@@ -226,9 +229,6 @@
 			},
 			"radius": {
 				"button": "0.1rem"
-			},
-			"font": {
-				"scale": "1.15"
 			},
 			"spacing": {
 				"xx-small": "0.375rem",
@@ -314,6 +314,11 @@
 			"core/button": {
 				"color": {
 					"background": "var(--wp--preset--color--primary)"
+				}
+			},
+			"core/cover": {
+				"dimensions": {
+					"minHeight": "0"
 				}
 			},
 			"core/navigation": {
