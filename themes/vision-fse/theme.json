@@ -279,7 +279,7 @@
       },
       "link": {
         "color": {
-          "text": "var(--wp--preset--color--base)"
+          "text": "var(--wp--preset--color-vision--base)"
         },
         ":hover": {
           "typography": {

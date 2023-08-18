@@ -1,0 +1,199 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "custom": true,
+      "customGradient": true,
+      "customDuotone": true,
+      "link": true,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#6B95D3",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#7C85D3",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#1A8873",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "tertiary-light",
+          "color": "#44D0B5",
+          "name": "Tertiary Light"
+        },
+        {
+          "slug": "accent",
+          "color": "#8C8C8C",
+          "name": "Accent"
+        },
+        {
+          "slug": "accent-lite",
+          "color": "#ABABAB",
+          "name": "Accent Lite"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#F4F2F2",
+          "name": "Background Alternative"
+        },
+        {
+          "slug": "foreground",
+          "color": "#595959",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#ffffff",
+          "name": "Background"
+        },
+        {
+          "name": "Heading Color",
+          "color": "#2A2A2A",
+          "slug": "heading-color"
+        },
+        {
+          "name": "Sub Heading Color",
+          "color": "#515151",
+          "slug": "sub-heading-color"
+        },
+        {
+          "name": "Foreground Alternative",
+          "color": "#FEFEFE",
+          "slug": "foregound-alt"
+        },
+        {
+          "name": "Border Color",
+          "color": "#424242",
+          "slug": "border-color"
+        },
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ]
+    },
+
+    "typography": {
+      "dropCap": true,
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Outfit",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": ["file:./assets/fonts/outfit/Outfit-VariableFont_wght.ttf"]
+            }
+          ],
+          "fontFamily": "\"Outfit\", sans-serif",
+          "name": "Outfit",
+          "slug": "outfit"
+        },
+        {
+          "fontFamily": "\"IBM Plex Sans\", sans-serif",
+          "name": "IBM Plex Sans",
+          "slug": "ibm-plex-sans",
+          "fontFace": [
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "300",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "300",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"IBM Plex Serif\", sans-serif",
+          "name": "IBM Plex Serif",
+          "slug": "ibm-plex-serif",
+          "fontFace": [
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "200",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Serif/IBMPlexSerif-ExtraLight.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "300",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Serif/IBMPlexSerif-Light.woff2"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.woff2"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+      "fontSize": "var(--wp-preset--font-size--small)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-serif)",
+          "fontStyle": "normal",
+          "fontWeight": "var(--wp--preset--font-weight--regular)",
+          "lineHeight": "var(--wp--preset--line-height--xxSmall)"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--heading-color)",
+          "background": "var(--wp--preset--color--transparent)"
+        }
+      }
+    },
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--foreground)"
+    }
+  }
+}

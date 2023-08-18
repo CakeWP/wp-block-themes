@@ -3,48 +3,6 @@
 	"version": 2,
 	"customTemplates": [
 		{
-			"name": "product-search-results",
-			"title": "Product Search Results",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
-			"name": "taxonomy-product_cat",
-			"title": "Products by Category",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
-			"name": "taxonomy-product_tag",
-			"title": "Products by Tag",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
-			"name": "taxonomy-product_attribute",
-			"title": "Product attribute",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
-			"name": "archive-product",
-			"title": "Product Catalog",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
-			"name": "single-product",
-			"title": "Product Single",
-			"postTypes": [
-				"product"
-			]
-		},
-		{
 			"name": "page-sidebar",
 			"title": "Page - Sidebar",
 			"postTypes": [
@@ -162,6 +120,11 @@
 					"slug": "black",
 					"color": "#000000",
 					"name": "Black"
+				},
+				{
+					"slug": "accent",
+					"color": "#f1f7ff",
+					"name": "Accent"
 				}
 			],
 			"gradients": [
@@ -396,18 +359,6 @@
 						"bottom": "1rem",
 						"left": "1rem",
 						"right": "1rem"
-					},
-					"margin": {
-						"top": "0",
-						"bottom": "var:style|block-gap"
-					}
-				}
-			},
-			"core/paragraph": {
-				"spacing": {
-					"margin": {
-						"top": "0",
-						"bottom": "var:style|block-gap"
 					}
 				}
 			},
@@ -488,12 +439,6 @@
 				"typography": {
 					"fontWeight": "300",
 					"lineHeight": "1.2"
-				},
-				"spacing": {
-					"margin": {
-						"top": "0",
-						"bottom": "var:style|block-gap"
-					}
 				}
 			},
 			"h1": {

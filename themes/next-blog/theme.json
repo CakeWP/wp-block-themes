@@ -75,6 +75,10 @@
     }
   ],
   "settings": {
-    "appearanceTools": true
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    }
   }
 }

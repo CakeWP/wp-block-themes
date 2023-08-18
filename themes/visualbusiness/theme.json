@@ -37,6 +37,11 @@
       "area": "footer"
     },
     {
+      "name": "footer-light",
+      "title": "Footer Light",
+      "area": "footer"
+    },    
+    {
       "name": "sidebar",
       "title": "Sidebar",
       "area": "uncategorized"

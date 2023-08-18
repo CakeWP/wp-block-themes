@@ -1,3 +1,35 @@
 {
-"version": 2
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System",
+					"slug": "system"
+				},
+				{
+					"fontFamily": "sans-serif",
+					"name": "Sans Serif",
+					"slug": "sans-serif"
+				},
+				{
+					"fontFamily": "serif",
+					"name": "Serif",
+					"slug": "serif"
+				},
+				{
+					"fontFamily": "Arial,Helvetica Neue,Helvetica,sans-serif",
+					"name": "Arial",
+					"slug": "arial"
+				},
+				{
+					"fontFamily": "Georgia,Times,Times New Roman,serif",
+					"name": "Georgia",
+					"slug": "georgia"
+				}
+			]
+		}
+	}
 }

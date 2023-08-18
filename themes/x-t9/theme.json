@@ -136,7 +136,7 @@
 		"typography": {
 			"dropCap": false,
 			"lineHeight": true,
-			"fluid": true,
+			"fluid": false,
 			"fontFamilies": [
 				{
 					"slug": "system-font",
@@ -180,7 +180,7 @@
 					"fluid": false,
 					"name": "X small",
 					"slug": "x-small",
-					"size": "clamp(11px, calc(11px + (100vw - 360px) * ( (12 -11) / (1200 - 360)) ), 12px)"
+					"size": "clamp(11px, calc(11px + (100vw - 360px) * ( (12 - 11) / (1200 - 360)) ), 12px)"
 				},
 				{
 					"fluid": false,
@@ -332,6 +332,21 @@
 					"link": {
 						"typography": {
 							"textDecoration": "none"
+						}
+					}
+				}
+			},
+			"core/post-terms": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none",
+							"fontSize": "var(--wp--preset--font-size--x-small)"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}

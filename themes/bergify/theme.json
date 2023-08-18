@@ -28,12 +28,12 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#28B883",
+					"color": "#7E3AF2",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#0E9F6E",
+					"color": "#9061F9",
 					"name": "Secondary"
 				},
 				{
@@ -45,6 +45,20 @@
 					"slug": "quaternary",
 					"color": "#F9FAFB",
 					"name": "Quaternary"
+				},
+				{
+					"slug": "quinary",
+					"color": "#EDEBFE",
+					"name": "Quinary"
+				}
+			]
+		},
+		"shadow": {
+			"presets": [
+				{
+					"name": "Medium",
+					"slug": "md",
+					"shadow": "0px 2px 8px rgba(0, 0, 0, 0.1)"
 				}
 			]
 		},
@@ -53,7 +67,7 @@
 				"alignedMaxWidth": "50%"
 			},
 			"button": {
-				"background": "url(svg/arrow-green.svg)",
+				"background": "url(svg/arrow-purple.svg)",
 				"border": {
 					"color": "var(--wp--custom--color--foreground)",
 					"radius": "12px",
@@ -85,10 +99,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "0.5625em",
-						"bottom": "0.5625em",
-						"left": "1.0625em",
-						"right": "1.0625em"
+						"top": "calc(0.667em + 2px)",
+						"bottom": "calc(0.667em + 2px)",
+						"left": "calc(1.333em + 2px)",
+						"right": "calc(1.333em + 2px)"
 					}
 				},
 				"typography": {
@@ -109,13 +123,18 @@
 				"secondary": "var(--wp--preset--color--secondary)",
 				"tertiary": "var(--wp--preset--color--tertiary)",
 				"quaternary": "var(--wp--preset--color--quaternary)",
-				"selection": "var(--wp--preset--color--primary)",
+				"quinary": "var(--wp--preset--color--quinary)",
+				"selection": "var(--wp--preset--color--secondary)",
+				"accent": "var(--wp--preset--color--primary)",
+				"accent-bg": "var(--wp--preset--color--quinary)",
+				"highlight": "var(--wp--preset--color--secondary)",
 				"danger": "#F04444",
-				"border": "#E5E7EB"
+				"border": "#E5E7EB",
+				"shadow": "rgba(0, 0, 0, 0.1)"
 			},
 			"details":{
-				"background": "url(svg/plus-black.svg)",
-				"close": "url(svg/x-green.svg)"
+				"background": "url(svg/pro-chevron-down.svg)",
+				"close": "url(svg/pro-chevron-up.svg)"
 			},
 			"facts":{
 				"border":{
@@ -271,7 +290,7 @@
 				}
 			},
 			"reply":{
-				"background": "url(svg/reply-green.svg)"
+				"background": "url(svg/reply-purple.svg)"
 			},
 			"separator": {
 				"opacity": 1,
@@ -305,6 +324,7 @@
 		"typography": {
 			"customFontSize": true,
 			"lineHeight": true,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
@@ -335,13 +355,22 @@
 				},
 				{
 					"name": "Large",
-					"size": "clamp(28px, 3vw, 36px)",
+					"size": "3vw",
+					"fluid": {
+						"min": "28px",
+						"max": "36px"
+					},
 					"slug": "large"
 				},
 				{
 					"name": "Huge",
-					"size": "clamp(30px, 4vw, 48px)",
+					"size": "4vw",
+					"fluid": {
+						"min": "30px",
+						"max": "48px"
+					},
 					"slug": "huge"
+					
 				}
 			]
 		}
@@ -394,19 +423,24 @@
 			},
 			"core/navigation": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--normal)"
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontWeight": "500"
 				},
 				"color": {
 					"text": "var(--wp--custom--color--foreground)"
-				}
-			},
-			"core/post-content": {
-				"spacing": {
-					"padding": {
-						"left": "var(--wp--custom--post-content--padding--left)",
-						"right": "var(--wp--custom--post-content--padding--right)"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--custom--color--highlight)"
+							}
+						}
 					}
 				}
+			},
+			"core/navigation-link": {
+				"css": "&.is-style-outline-button { border: 1px solid var(--wp--custom--color--border); font-weight: 600; border-radius: var(--wp--custom--button--border--radius); padding: var(--wp--custom--button--spacing--padding--top) var(--wp--custom--button--spacing--padding--left); }"
 			},
 			"core/post-date": {
 				"typography": {
@@ -468,9 +502,22 @@
 					}
 				}
 			},
+			"core/quote": {
+				"border": {
+					"color": "var(--wp--custom--color--secondary)",
+					"style": "solid",
+					"width": "0"
+				},
+				"typography": {
+					"fontSize": "24px",
+					"fontStyle": "italic",
+					"fontWeight": "500",
+					"lineHeight": "32px"
+				}
+			},
 			"core/separator": {
 				"color": {
-					"text": "var(--wp--custom--color--foreground)"
+					"text": "var(--wp--custom--color--border)"
 				},
 				"border": {
 					"color": "currentColor",
@@ -484,17 +531,13 @@
 					"fontWeight": "700"
 				}
 			},
-			"core/quote": {
+			"core/template-part": {
 				"border": {
-					"color": "var(--wp--custom--color--secondary)",
-					"style": "solid",
-					"width": "0"
-				},
-				"typography": {
-					"fontSize": "24px",
-					"fontStyle": "italic",
-					"fontWeight": "500",
-					"lineHeight": "32px"
+					"bottom": {
+						"color": "var(--wp--custom--color--tertiary)",
+						"style": "solid",
+						"width": "0px"
+					}
 				}
 			}
 		},
@@ -520,7 +563,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "clamp(23px, 2vw, 25px)"
 				}
 			},
 			"h5": {
@@ -535,11 +578,11 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--custom--color--secondary)"
+					"text": "var(--wp--custom--color--accent)"
 				},
 				":hover": {
 					"color": {
-						"text": "var(--wp--custom--color--primary)"
+						"text": "var(--wp--custom--color--highlight)"
 					}
 				}
 			}
@@ -585,6 +628,26 @@
 			"name": "form-cf7",
 			"title": "Contact Form (CF7)",
 			"area": "uncategorized"
+		},
+		{
+			"name": "form-cf7-shadow",
+			"title": "Contact Form with Shadow (CF7)",
+			"area": "uncategorized"
+		},
+		{
+			"name": "form-cf7-signup",
+			"title": "Sign-up Form (CF7)",
+			"area": "uncategorized"
+		},
+		{
+			"name": "form-cf7-newsletter",
+			"title": "Newsletter Form (CF7)",
+			"area": "uncategorized"
+		},
+		{
+			"name": "spacer",
+			"title": "Spacer (vertical)",
+			"area": "uncategorized"
 		}
 	],
 	"customTemplates": [
@@ -592,6 +655,11 @@
 			"name": "page-title",
 			"title": "Page with Title",
 			"postTypes": [ "page" ]
+		},
+		{
+			"name": "post-sidebar",
+			"title": "Post with Sidebar",
+			"postTypes": [ "post" ]
 		}
 	]
 }

@@ -329,7 +329,7 @@
 					
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -413,7 +413,7 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -450,7 +450,7 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -460,9 +460,6 @@
 							"typography": {
 								"textDecoration": "none"
 							}
-						},
-						"typography": {
-							"textDecoration": "none"
 						}
 					}
 				}
@@ -480,7 +477,7 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -490,9 +487,6 @@
 							"typography": {
 								"textDecoration": "none"
 							}
-						},
-						"typography": {
-							"textDecoration": "none"
 						}
 					}
 				}
@@ -511,13 +505,6 @@
 				"spacing": {
 					"margin": {
 						"top": "var(--wp--preset--spacing--40)"
-					}
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						}
 					}
 				}
 			},
@@ -601,7 +588,7 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline"
 							}
 						},
 						":active": {
@@ -702,7 +689,7 @@
 				},
 				":focus": {
 					"typography": {
-						"textDecoration": "underline dashed"
+						"textDecoration": "underline"
 					}
 				},
 				":active": {
@@ -747,13 +734,13 @@
 		},
 		{
 			"area": "uncategorized",
-			"name": "comments",
-			"title": "Comments"
+			"name": "sidebar",
+			"title": "Sidebar"
 		},
 		{
 			"area": "uncategorized",
-			"name": "post-meta",
-			"title": "Post Meta"
+			"name": "contact-form",
+			"title": "Contact Form"
 		}
 	]
 }

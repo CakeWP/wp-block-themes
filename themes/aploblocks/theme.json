@@ -34,6 +34,30 @@
 			"title": "Page/Post Feat. Cover Header"
 		},
 		{
+			"name": "page-sticky",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Page/Post Sticky Menu"
+		},
+		{
+			"name": "page-post-cover-head-sticky-menu",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Page/Post Cover Header Sticky Menu"
+		},
+		{
+			"name": "page-post-feat-cover-head-sticky-menu",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Page/Post Feat. Cover Header Sticky Menu"
+		},
+		{
 			"name": "404",
 			"postTypes": [
 				"page"

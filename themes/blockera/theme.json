@@ -1,0 +1,540 @@
+{
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "primary-900",
+					"color": "#233876",
+					"name": "Primary 900"
+				},
+				{
+					"slug": "primary-800",
+					"color": "#1E429F",
+					"name": "Primary 800"
+				},
+				{
+					"slug": "primary-700",
+					"color": "#1A56DB",
+					"name": "Primary 700"
+				},
+				{
+					"slug": "primary-600",
+					"color": "#1C64F2",
+					"name": "Primary 600"
+				},
+				{
+					"slug": "primary-500",
+					"color": "#3F83F8",
+					"name": "Primary 500"
+				},
+				{
+					"slug": "primary-400",
+					"color": "#76A9FA",
+					"name": "Primary 400"
+				},
+				{
+					"slug": "primary-300",
+					"color": "#A4CAFE",
+					"name": "Primary 300"
+				},
+				{
+					"slug": "primary-200",
+					"color": "#C3DDFD",
+					"name": "Primary 200"
+				},
+				{
+					"slug": "primary-100",
+					"color": "#E1EFFE",
+					"name": "Primary 100"
+				},
+				{
+					"slug": "primary-50",
+					"color": "#EBF5FF",
+					"name": "Primary 50"
+				},
+
+
+				{
+					"slug": "gray-900",
+					"color": "#111928",
+					"name": "Gray 900"
+				},
+				{
+					"slug": "gray-800",
+					"color": "#1F2A37",
+					"name": "Gray 800"
+				},
+				{
+					"slug": "gray-700",
+					"color": "#374151",
+					"name": "Gray 700"
+				},
+				{
+					"slug": "gray-600",
+					"color": "#4B5563",
+					"name": "Gray 600"
+				},
+				{
+					"slug": "gray-500",
+					"color": "#6B7280",
+					"name": "Gray 500"
+				},
+				{
+					"slug": "gray-400",
+					"color": "#9CA3AF",
+					"name": "Gray 400"
+				},
+				{
+					"slug": "gray-300",
+					"color": "#D1D5DB",
+					"name": "Gray 300"
+				},
+				{
+					"slug": "gray-200",
+					"color": "#E5E7EB",
+					"name": "Gray 200"
+				},
+				{
+					"slug": "gray-100",
+					"color": "#F3F4F6",
+					"name": "Gray 100"
+				},
+				{
+					"slug": "gray-50",
+					"color": "#F9FAFB",
+					"name": "Gray 50"
+				},
+
+				
+
+
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				}
+				
+			],
+			"gradients": [
+				{
+					"slug": "d-transparent-primary",
+					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#3858e9 50%)",
+					"name": "Diagonal transparent to primary"
+				},
+				{
+					"slug": "d-primary-transparent",
+					"gradient": "linear-gradient(to bottom right, #3858e9 49.9%, transparent 50%)",
+					"name": "Diagonal primary to transparent"
+				},
+				{
+					"slug": "d-white-primary",
+					"gradient": "linear-gradient(to bottom right,#fff 49.9%,#3858e9 50%)",
+					"name": "Diagonal white to primary"
+				},
+				{
+					"slug": "d-primary-white",
+					"gradient": "linear-gradient(to bottom right,#3858e9 49.9%,#fff 50%)",
+					"name": "Diagonal primary to white"
+				},
+				{
+					"slug": "h-primary-white",
+					"gradient": "linear-gradient(#3858e9 49.9%,#fff 50%)",
+					"name": "Horizontal primary to white"
+				},
+				{
+					"slug": "h-white-primary",
+					"gradient": "linear-gradient(#fff 49.9%,#3858e9 50%)",
+					"name": "Horizontal white to primary"
+				},
+				{
+					"slug": "v-primary-white",
+					"gradient": "linear-gradient(to right, #3858e9 49.9%,#fff 50%)",
+					"name": "Vertical primary to white"
+				},
+				{
+					"slug": "v-white-primary",
+					"gradient": "linear-gradient(to right, #fff 49.9%,#3858e9 50%)",
+					"name": "Vertical white to primary"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [ "#1b2459", "#3858e9" ],
+					"slug": "secondary-primary",
+					"name": "Secondary and primary"
+				},
+				{
+					"colors": [ "#3858e9", "#f0f0f1" ],
+					"slug": "primary-foreground",
+					"name": "Primary and foreground"
+				},
+				{
+					"colors": [ "#0c1230", "#f0f0f1" ],
+					"slug": "background-foreground",
+					"name": "background and foreground"
+				}
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
+		},
+		"layout": {
+			"contentSize": "700px",
+			"wideSize": "1100px"
+		},
+
+		
+		"typography": {
+			"dropCap": true,
+			"fontFamilies": [
+				{
+					"name": "System",
+					"slug": "system",
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+				},
+				{
+					"name": "Serif",
+					"slug": "serif",
+					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
+				},
+				{
+					"name": "Monospace",
+					"slug": "monospace",
+					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
+				},
+				{
+					"name": "Lora",
+					"slug": "lora",
+					"fontFamily": "Lora,\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif",
+					"fontFace": [
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "200 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/lora-v23-latin-ext_latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "200 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/lora-v23-latin-ext_latin-italic.woff2" ]
+						}
+					]
+				}
+			],
+			"customFontSize": true,
+			"lineHeight": true,
+			"fluid": true,
+			"fontSizes":[
+				{
+					"name": "text-9xl",
+					"size": "clamp(96px, 6.6vw, 128px)",
+					"slug": "text-8xl",
+					"fluid": {
+					  "min": "96px",
+					  "max": "128px"
+					}
+				  },
+				{
+					"name": "text-8xl",
+					"size": "clamp(72px, 6.6vw, 96px)",
+					"slug": "text-8xl",
+					"fluid": {
+					  "min": "72px",
+					  "max": "96px"
+					}
+				  },
+		{
+          "name": "text-7xl",
+          "size": "clamp(48px, 6.6vw, 72px)",
+          "slug": "text-7xl",
+          "fluid": {
+            "min": "48px",
+            "max": "72px"
+          }
+        },
+        {
+          "name": "text-6xl",
+          "size": "clamp(36px, 4.8vw, 60px)",
+          "slug": "text-6xl",
+          "fluid": {
+            "min": "36px",
+            "max": "60px"
+          }
+        },
+        {
+          "name": "text-5xl",
+          "size": "clamp(30px, 3.6vw, 48px)",
+          "slug": "text-5xl",
+          "fluid": {
+            "min": "30px",
+            "max": "48px"
+          }
+        },
+        {
+          "name": "text-4xl",
+          "size": "clamp(24px, 3vw, 36px)",
+          "slug": "text-4xl",
+          "fluid": {
+            "min": "24px",
+            "max": "36px"
+          }
+        },
+        {
+          "name": "text-3xl",
+          "size": "clamp(22px, 2.4vw, 30px)",
+          "slug": "text-3xl",
+          "fluid": {
+            "min": "22px",
+            "max": "30px"
+          }
+        },
+        {
+          "name": "text-2xl",
+          "size": "clamp(20px, 2vw, 24px)",
+          "slug": "text-2xl",
+          "fluid": {
+            "min": "20px",
+            "max": "24px"
+          }
+        },
+        {
+          "name": "text-xl",
+          "size": "clamp(18px, 1.8vw, 20px)",
+          "slug": "text-xl",
+          "fluid": {
+            "min": "18px",
+            "max": "20px"
+          }
+        },
+        {
+          "name": "text-lg",
+          "size": "clamp(16px, 1.6vw, 18px)",
+          "slug": "text-lg",
+          "fluid": {
+            "min": "16px",
+            "max": "18px"
+          }
+        },
+        {
+          "name": "text-base",
+          "size": "clamp(14px, 1.6vw, 16px)",
+          "slug": "text-base",
+          "fluid": {
+            "min": "14px",
+            "max": "16px"
+          }
+        },
+        {
+          "name": "text-sm",
+          "size": "clamp(13px, 1.4vw, 14px)",
+          "slug": "text-sm",
+          "fluid": {
+            "min": "13px",
+            "max": "14px"
+          }
+        },
+		{
+			"name": "text-xs",
+			"size": "clamp(11px, 1.2vw, 12px)",
+			"slug": "text-xs",
+			"fluid": {
+			  "min": "11px",
+			  "max": "12px"
+			}
+		  }
+			]
+		},
+		"custom": {
+			"h-spacing": "2.375rem",
+			"v-spacing": "1.25rem",
+			"text-shadow": "0 2px 8px rgba(0, 0, 0, 0.9)",
+			"button-shadow": "0 8px 8px 0 rgba(0, 0, 0, 0.2)",
+			"small-button-shadow": "0 1px 1px 0 rgba(0, 0, 0, 0.2)",
+			"button-highlight": "0 0 0 #fff",
+			"button-border-color": "rgba(0, 0, 0, 0.05)",
+			"button-border-radius": "4px",
+			"button-padding": "0.9rem 1.2rem"
+		}
+	},
+	"styles": {
+		"spacing":{
+			"blockGap": "var(--wp--custom--v-spacing)"
+		},
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--gray-500)"
+		},
+		"typography": {
+			"fontSize": "var(--wp--preset--font-size--20)",
+			"fontFamily": "var(--wp--preset--font-family--system)",
+			"lineHeight": "1.2"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--primary-700)"
+				}
+			}
+		},
+		"blocks": {
+			"core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary-700)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-lg)",
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)",
+					"lineHeight": "1"
+				},
+				"border": {
+					"radius": "4px",
+					"width": "0px"
+
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.9rem",
+						"right": "1.2rem",
+						"bottom": "0.9rem",
+						"left": "1.2rem"
+					}
+				}
+			},
+			"core/code": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				}
+			},
+			"core/post-navigation-link": {
+				"spacing": {
+					"margin": {
+						"top": "calc(var(--wp--custom--v-spacing) * 3)",
+						"bottom": "var(--wp--custom--v-spacing)"
+					}
+				}
+			},
+			"core/query-pagination": {
+				"spacing": {
+					"margin": {
+						"top": "calc(var(--wp--custom--v-spacing) * 3) !important"
+					}
+				}
+			},
+			"core/post-author": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary-700)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary-700)"
+						}
+					}
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary-700)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary-700)"
+						}
+					}
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary-700)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary-700)"
+						}
+					}
+				}
+			},
+			"core/latest-comments": {
+				"spacing": {
+					"padding": {
+						"left": "0px"
+					}
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "narrow-header",
+			"title": "Narrow Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		},
+		{
+			"name": "narrow-footer",
+			"title": "Narrow Footer",
+			"area": "footer"
+		},
+		{
+			"name": "sidebar",
+			"title": "Sidebar",
+			"area": "uncategorized"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "no-title",
+			"title": "No title",
+			"postTypes": [ "post","page" ]
+		},
+		{
+			"name": "featured-image",
+			"title": "Featured image in header",
+			"postTypes": [ "post","page" ]
+		},
+		{
+			"name": "sidebar-page-template",
+			"title": "Page with sidebar",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "sidebar-post-template",
+			"title": "Post with sidebar",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "single-product",
+			"title": "WooCommerce single product (Requires WooCommerce)"
+		},
+		{
+			"name": "archive-product",
+			"title": "WooCommerce product archive (Requires WooCommerce)"
+		}
+	]
+}

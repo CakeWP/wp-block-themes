@@ -290,6 +290,12 @@
           "lineHeight": "var(--wp--custom--typography--line-height--normal)"
         }
       },
+      "core/details": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--normal)",
+          "lineHeight": "var(--wp--custom--typography--line-height--normal)"
+        }
+      },
       "core/list": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--normal)",

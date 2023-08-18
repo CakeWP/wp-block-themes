@@ -218,11 +218,6 @@
           "fontFamily": "'Inter', sans-serif",
           "name": "Inter Sans Serif",
           "slug": "Inter"
-        },
-        {
-          "fontFamily": "'Kumbh-Sans', sans-serif",
-          "name": "Kumbh Sans Sans Serif",
-          "slug": "kumbh-sans"
         }
       ],
       "fontSizes": [

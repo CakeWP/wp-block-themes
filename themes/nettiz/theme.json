@@ -1,0 +1,255 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"customTemplates": [],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"gradients": [],
+			"palette": [
+				{
+					"slug": "theme-0",
+					"name": "Dark Grey",
+					"color": "#666666"
+				},
+				{
+					"slug": "theme-1",
+					"name": "Light Yellow",
+					"color": "#fecb5b"
+				},
+				{
+					"slug": "theme-2",
+					"name": "Cream",
+					"color": "#fefcfa"
+				},
+				{
+					"slug": "theme-3",
+					"name": "Dark Yellow",
+					"color": "#ffb31b"
+				},
+				{
+					"slug": "theme-4",
+					"name": "Light Grey",
+					"color": "#e1e1e1"
+				},
+				{
+					"slug": "theme-5",
+					"name": "Grey",
+					"color": "#818181"
+				},
+				{
+					"slug": "theme-6",
+					"name": "Light Black",
+					"color": "#3e3a3a"
+				}
+			]
+		},
+		"custom": {
+			"headings": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--primary)"
+				}
+			}
+		},
+		"layout": {},
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"blockGap": true,
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "regular",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-v12-latin-800.woff2"
+							]
+						}
+					],
+					"fontFamily": "Mulish",
+					"name": "Mulish",
+					"slug": "mulish"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Heebo",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/heebo/heebo-v21-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "regular",
+							"src": [
+								"file:./assets/fonts/heebo/heebo-v21-latin-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/heebo/heebo-v21-latin-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/heebo/heebo-v21-latin-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Heebo",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/heebo/heebo-v21-latin-700.woff2"
+							]
+						}
+					],
+					"fontFamily": "Heebo",
+					"name": "Heebo",
+					"slug": "heebo"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					},
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"fluid": false,
+					"size": "2.25rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "4rem",
+						"max": "10rem"
+					},
+					"size": "10rem",
+					"slug": "xx-large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "0"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|black"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|theme-1"
+					}
+				}
+			}
+		},
+		"color": {
+			"text": "var:preset|color|theme-6"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2
+}
