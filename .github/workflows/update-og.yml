@@ -1,0 +1,39 @@
+name: Update Block Themes OG Images
+
+on: workflow_dispatch
+
+jobs:
+  generate-og:
+    runs-on: ubuntu-20.04
+    container: lironavon/docker-puppeteer-container:14.16.0
+    needs: update
+    env:
+      CI: true
+    steps:
+      - name: setup git in container
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: install dependencies
+        run: npm ci
+
+      - name: generate og images
+        run: npm run generate:og
+
+      - name: Setup Git User
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "github-action"
+
+      - name: Commit files
+        run: |
+          git pull
+          git add .
+          git commit -m "😮 Update Og Images"
+
+      - name: Push changed files to main
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

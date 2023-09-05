@@ -1,0 +1,193 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Poppins\", sans-serif",
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "300",
+              "fontStyle": "light",
+              "fontStretch": "light",
+              "src": ["file:./fonts/poppins/Poppins-Light.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "regular",
+              "fontStretch": "regular",
+              "src": ["file:./fonts/poppins/Poppins-Regular.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "500",
+              "fontStyle": "medium",
+              "fontStretch": "medium",
+              "src": ["file:./fonts/poppins/Poppins-Medium.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/poppins/Poppins-SemiBold.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/poppins/Poppins-Bold.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "800",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/poppins/Poppins-ExtraBold.ttf"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "900",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/poppins/Poppins-Black.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Playfair Display\", serif",
+          "name": "Playfair Display",
+          "slug": "playfair-display",
+          "fontFace": [
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "400",
+              "fontStyle": "regular",
+              "fontStretch": "regular",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-Regular.ttf"]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "500",
+              "fontStyle": "medium",
+              "fontStretch": "medium",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-Medium.ttf"]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-SemiBold.ttf"]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-Bold.ttf"]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "800",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-ExtraBold.ttf"]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontWeight": "900",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./fonts/playfair-display/PlayfairDisplay-Black.ttf"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "customTemplates": [{
+      "name": "blank",
+      "title": "Blank",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page (No Title / Feature Image)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog-sidebar-on-left",
+      "title": "Blog Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog-sidebar-on-right",
+      "title": "Blog Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-right",
+      "title": "Single Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-left",
+      "title": "Single Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-post-sidebar-on-right",
+      "title": "Single Post (Sidebar on Right)",
+      "postTypes": [
+        "post"
+      ]
+    },
+    {
+      "name": "single-post-sidebar-on-left",
+      "title": "Single Post (Sidebar on Left)",
+      "postTypes": [
+        "post"
+      ]
+    }
+  ],
+  "templateParts": [{
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    },
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "area": "uncategorized"
+    }
+  ]
+}

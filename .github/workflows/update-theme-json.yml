@@ -1,0 +1,32 @@
+name: Update Block Themes JSON file
+
+on: workflow_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Update Themes
+        run: |
+          chmod +x ${{ github.workspace }}/update.sh
+          ${{ github.workspace }}/update.sh
+
+      - name: Setup Git User
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "github-action"
+
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "😎 Update themes"
+
+      - name: Push changed files to main
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
