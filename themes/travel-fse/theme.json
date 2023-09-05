@@ -21,6 +21,11 @@
 					"name": "Body Text"
 				},
 				{
+					"slug": "light-title-color",
+					"color": "#140000",
+					"name": "Light Title Color"
+				},
+				{
 					"slug": "hover",
 					"color": "#F09440",
 					"name": "Hover"
@@ -214,6 +219,58 @@
 							"fontStretch": "",
 							"src": [
 								"file:./assets/font/poppins/Poppins-Bold.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Noto Sans JP\", sans-serif",
+					"name": "Noto Sans JP",
+					"slug": "noto-sans-jp",
+					"fontFace": [
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/font/noto-sans-jp/NotoSansJP-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/font/noto-sans-jp/NotoSansJP-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/font/noto-sans-jp/NotoSansJP-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/font/noto-sans-jp/NotoSansJP-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "",
+							"src": [
+								"file:./assets/font/noto-sans-jp/NotoSansJP-Bold.ttf"
 							]
 						}
 					]

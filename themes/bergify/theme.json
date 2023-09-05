@@ -355,7 +355,7 @@
 				},
 				{
 					"name": "Large",
-					"size": "3vw",
+					"size": "30px",
 					"fluid": {
 						"min": "28px",
 						"max": "36px"
@@ -364,7 +364,7 @@
 				},
 				{
 					"name": "Huge",
-					"size": "4vw",
+					"size": "40px",
 					"fluid": {
 						"min": "30px",
 						"max": "48px"

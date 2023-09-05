@@ -24,7 +24,7 @@
 				{
 					"slug": "secondary-to-tertiary",
 					"gradient": "linear-gradient(-135deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%)",
-					"name": "secondary to tertiary"
+					"name": "Secondary to Tertiary"
 				}
 			],
 			"palette": [

@@ -284,12 +284,6 @@
           }
         }
       },
-      "core/paragraph": {
-        "typography": {
-          "fontSize": "var(--wp--preset--font-size--normal)",
-          "lineHeight": "var(--wp--custom--typography--line-height--normal)"
-        }
-      },
       "core/details": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--normal)",
@@ -359,10 +353,23 @@
             }
           }
         }
-      }
+      },
+      "core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+      "core/post-terms": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			}	
+      
     },
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--manrope)"
+      "fontFamily": "var(--wp--preset--font-family--manrope)",
+      "fontSize": "var(--wp--preset--font-size--normal)",
+      "lineHeight": "var(--wp--custom--typography--line-height--normal)"
     },
     "elements": {
       "button": {

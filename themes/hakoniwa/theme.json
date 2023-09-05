@@ -94,14 +94,9 @@
 			"customLineHeight": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system,BlinkMacSystemFont,Roboto,\"Droid Sans\",Meiryo,\"Hiragino Kaku Gothic Pro\",\"MS PMincho\",sans-serif",
+					"fontFamily": "-apple-system,BlinkMacSystemFont,Roboto,\"Droid Sans\",Meiryo,YuGothic,\"Hiragino Kaku Gothic Pro\",\"MS PMincho\",sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
-				},
-				{
-					"fontFamily": "\"Yu Mincho\", YuMincho",
-					"name": "yu-mincho",
-					"slug": "yu-mincho"
 				},
 				{
 					"fontFamily": "\"Yu Mincho\", YuMincho, \"Hiragino Mincho ProN W3\", \"Hiragino Mincho ProN\", \"HG明朝E\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
@@ -123,7 +118,7 @@
 				{
 					"name": "main-content",
 					"slug": "main-content",
-					"size": "clamp(0.95rem, 0.925rem + 0.13vw, 1rem)"
+					"size": "clamp(1rem, 0.964rem + 0.18vw, 1.1rem)"
 				},
 				{
 					"name": "3xl",
@@ -359,11 +354,6 @@
 						"background": "var(--wp--preset--color--secondary)",
 						"text": "var(--wp--preset--color--base)"
 					}
-				},
-				":visited": {
-					"color": {
-						"text": "var(--wp--preset--color--contrast)"
-					}
 				}
 			},
 			"link": {
@@ -415,6 +405,11 @@
 		{
 			"name": "header-button",
 			"title": "Header Button",
+			"area": "header"
+		},
+		{
+			"name": "header-wide-and-search-button",
+			"title": "Header wide and search button",
 			"area": "header"
 		},
 		{

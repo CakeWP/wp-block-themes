@@ -309,6 +309,11 @@
 			"area": "uncategorized",
 			"name": "loop-with-cover",
 			"title": "Loop with cover"
+		},
+		{
+			"area": "sidebar",
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	],
 	"title": "Late Night",

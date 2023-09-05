@@ -105,17 +105,17 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#210D9A",
+          "color": "#341fa8",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#F6BB22",
+          "color": "#FB9E2D",
           "name": "Secondary"
         },
         {
           "slug": "tertiary",
-          "color": "#6A37B3",
+          "color": "#8b5ecb",
           "name": "Tertiary"
         },
         {
@@ -189,12 +189,12 @@
 
       "gradients": [
         {
-          "gradient": "linear-gradient(290deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--primary) 100%)",
+          "gradient": "linear-gradient(320deg, var(--wp--preset--color--tertiary) 30%, var(--wp--preset--color--primary) 70%)",
           "name": "First Primary Gradient",
           "slug": "first-primary-gradient"
         },
         {
-          "gradient": "linear-gradient(90deg, var(--wp--preset--color--accent) -50%,var(--wp--preset--color--primary) 100%)",
+          "gradient": "linear-gradient(90deg, var(--wp--preset--color--tertiary) -50%,var(--wp--preset--color--primary) 100%)",
           "name": "Second Primary Gradient",
           "slug": "second-primary-gradient"
         },
@@ -470,6 +470,27 @@
         {
           "fontFace": [
             {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": ["file:./assets/fonts/plus-jakarta-sans/PlusJakartaSans-VariableFont_wght.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": ["file:./assets/fonts/plus-jakarta-sans/PlusJakartaSans-Italic-VariableFont_wght.ttf"]
+            }
+          ],
+          "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+          "name": "Plus Jakarta Sans",
+          "slug": "plus-jakarta-sans"
+        },
+        {
+          "fontFace": [
+            {
               "fontFamily": "Open Sans",
               "fontStretch": "normal",
               "fontStyle": "normal",
@@ -586,7 +607,7 @@
       "h1": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xxx-large)",
-          "fontWeight": "var(--wp--preset--font-weight--medium)",
+          "fontWeight": "600",
           "lineHeight": "var(--wp--preset--line-height--initial)"
         },
         "spacing": {
@@ -598,7 +619,7 @@
       "h2": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)",
-          "fontWeight": "var(--wp--preset--font-weight--medium)",
+          "fontWeight": "600",
           "lineHeight": "var(--wp--preset--line-height--xx-small)"
         },
         "spacing": {
@@ -611,7 +632,7 @@
       "h3": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--x-large)",
-          "fontWeight": "var(--wp--preset--font-weight--medium)",
+          "fontWeight": "600",
           "lineHeight": "var(--wp--preset--line-height--x-small)"
         },
         "spacing": {
@@ -624,7 +645,7 @@
       "h4": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--large)",
-          "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
+          "fontWeight": "500",
           "lineHeight": "var(--wp--preset--line-height--x-small)"
         },
         "spacing": {
@@ -637,7 +658,7 @@
       "h5": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--medium)",
-          "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
+          "fontWeight": "500",
           "lineHeight": "var(--wp--preset--line-height--medium)"
         },
         "spacing": {
@@ -660,7 +681,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--league-spartan)",
+          "fontFamily": "var(--wp--preset--font-family--plus-jakarta-sans)",
           "fontStyle": "normal",
           "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
           "lineHeight": "var(--wp--preset--line-height--xxSmall)"

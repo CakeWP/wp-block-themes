@@ -1,5 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
@@ -298,78 +299,6 @@
 					"slug": "ice-cubo-iceish",
 					"name": "Ice Cubo Iceish"
 				}
-			],
-			"gradients": [
-				{
-					"slug": "darko-to-white-linear-gradual",
-					"gradient": "linear-gradient(180deg,var(--wp--preset--color--darko) 0%,var(--wp--preset--color--white) 100%)",
-					"name": "Darko to white linear gradual"
-				},
-				{
-					"slug": "darko-to-white-linear-sharp-corner",
-					"gradient": "linear-gradient(155deg,var(--wp--preset--color--darko) 50%,var(--wp--preset--color--white) 50%)",
-					"name": "Darko to white linear sharp corner"
-				},
-				{
-					"slug": "darko-to-whiteice-linear-gradual",
-					"gradient": "linear-gradient(180deg,var(--wp--preset--color--darko) 0%,var(--wp--preset--color--white-ice) 100%)",
-					"name": "Darko to white ice linear gradual"
-				},
-				{
-					"slug": "darko-to-whiteice-linear-sharp-corner",
-					"gradient": "linear-gradient(155deg,var(--wp--preset--color--darko) 50%,var(--wp--preset--color--white-ice) 50%)",
-					"name": "Darko to white ice linear sharp corner"
-				},
-				{
-					"slug": "darko-to-primary-linear-gradual",
-					"gradient": "linear-gradient(180deg,var(--wp--preset--color--darko) 0%,var(--wp--preset--color--primary) 100%)",
-					"name": "Darko to primary linear gradual"
-				},
-				{
-					"slug": "darko-to-primary-linear-transit-corner",
-					"gradient": "linear-gradient(-30deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--primary) 39%,var(--wp--preset--color--shade-2) 48%,var(--wp--preset--color--darko-transit) 58%,var(--wp--preset--color--darko) 62%)",
-					"name": "Darko to primary linear transit corner"
-				},
-				{
-					"slug": "darko-to-primary-linear-sharp-corner",
-					"gradient": "linear-gradient(155deg,var(--wp--preset--color--darko) 50%,var(--wp--preset--color--primary) 50%)",
-					"name": "Darko to primary linear sharp corner"
-				},
-				{
-					"slug": "primary-to-white-linear-sharp-corner",
-					"gradient": "linear-gradient(155deg,var(--wp--preset--color--primary) 50%,var(--wp--preset--color--white) 50%)",
-					"name": "Primary to white linear sharp corner"
-				},
-				{
-					"slug": "primary-to-whiteice-linear-sharp-corner",
-					"gradient": "linear-gradient(155deg,var(--wp--preset--color--primary) 50%,var(--wp--preset--color--white-ice) 50%)",
-					"name": "Primary to white ice linear sharp corner"
-				},
-				{
-					"slug": "darko-to-primary-linear-gradual-aside",
-					"gradient": "linear-gradient(90deg,var(--wp--preset--color--darko) 0%,var(--wp--preset--color--primary) 100%)",
-					"name": "Darko to primary linear gradual aside"
-				},
-				{
-					"slug": "white-to-primary-radial-gradual",
-					"gradient": "radial-gradient(var(--wp--preset--color--white) 0%,var(--wp--preset--color--primary) 100%)",
-					"name": "White to primary radial gradual"
-				},
-				{
-					"slug": "white-to-primary-radial-sharp",
-					"gradient": "radial-gradient(var(--wp--preset--color--primary) 50%,var(--wp--preset--color--white) 50%)",
-					"name": "White to primary radial sharp"
-				},
-				{
-					"slug": "darko-to-primary-radial-gradual",
-					"gradient": "radial-gradient(var(--wp--preset--color--primary) 0%,var(--wp--preset--color--darko) 100%)",
-					"name": "Darko to primary radial gradual"
-				},
-				{
-					"slug": "darko-to-primary-radial-sharp",
-					"gradient": "radial-gradient(var(--wp--preset--color--primary) 50%,var(--wp--preset--color--darko) 50%)",
-					"name": "Darko to primary radial sharp"
-				}
 			]
 		},
 		"shadow": {
@@ -460,6 +389,7 @@
 			]
 		},
 		"typography": {
+			"writingMode": true,
 			"fontFamilies": [
 				{
 					"name": "sans-serif (Helvetica Neue, Helvetica, Arial)",
@@ -684,6 +614,12 @@
 					}
 				}
 			},
+			"core/details": {
+				"css": "&:not(.noice) p {border-left: 1px solid; padding-left: 1.5rem; margin-left: .25em;}"
+			},
+			"core/navigation": {
+				"css": "&:not(.noice) > .wp-block-navigation-item.current-menu-item{box-shadow: 0 2px 0;}"
+			},
 			"core/paragraph": {
 				"spacing": {
 					"margin": {
@@ -726,7 +662,7 @@
 			"core/post-excerpt": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--custom--spacing-xxxl) !important"
+						"bottom": "var(--wp--custom--spacing-xxxl)"
 					}
 				}
 			},
@@ -820,6 +756,5 @@
 				"post"
 			]
 		}
-	],
-	"version": 2
+	]
 }
