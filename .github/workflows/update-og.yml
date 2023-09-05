@@ -6,7 +6,6 @@ jobs:
   generate-og:
     runs-on: ubuntu-20.04
     container: lironavon/docker-puppeteer-container:14.16.0
-    needs: update
     env:
       CI: true
     steps:
