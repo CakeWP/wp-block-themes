@@ -141,6 +141,8 @@ async function main() {
   let themes = getThemes();
 
   for (const theme of themes) {
+    console.log(`😎 On Theme: `, theme);
+
     const page = await browser.newPage();
 
     const themeDetails = require(`../themes/${theme}/details.json`);
