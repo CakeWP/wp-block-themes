@@ -59,7 +59,7 @@ async function updateTemplateWithDetails(page, themeDetails) {
         leftoversJSONPath,
         JSON.stringify(leftoversJSON, null, 2)
       );
-      return;
+      return false;
     }
 
     const themeJSON = require(themeJSONPath);
@@ -119,6 +119,8 @@ async function updateTemplateWithDetails(page, themeDetails) {
       base64encodedImage,
       colorPalette
     );
+
+    return true;
   } catch (error) {
     console.error("🛑 Something went wrong... Skipping");
 
@@ -139,9 +141,23 @@ async function main() {
   });
 
   let themes = getThemes();
+  let totalThemeCount = themes.length;
+  const processOnlyNew = process.argv.includes("only-new");
 
-  for (const theme of themes) {
-    console.log(`😎 On Theme: `, theme);
+  for (const [index, theme] of themes.entries()) {
+    const themeStoragePath = path.resolve(
+      OG_IMAGES_DIRECTORY_PATH,
+      theme + ".jpg"
+    );
+
+    const isAlreadyDone = fs.existsSync(themeStoragePath);
+
+    if (isAlreadyDone && processOnlyNew) {
+      console.log(`🤞 OK, Skpping ${theme} because it was already done.`);
+      continue;
+    }
+
+    console.log(`${index}/${totalThemeCount} 😎 On Theme: `, theme);
 
     const page = await browser.newPage();
 
@@ -152,6 +168,8 @@ async function main() {
     await page.waitForSelector("#img");
 
     const isUpdated = await updateTemplateWithDetails(page, themeDetails);
+
+    console.log({ isUpdated });
 
     if (isUpdated) {
       const target = await page.$(".home-container");
