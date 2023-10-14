@@ -13,18 +13,28 @@
 			"gradients": [
 				{
 					"slug": "primary-to-secondary",
-					"gradient": "linear-gradient(-135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 100%)",
+					"gradient": "linear-gradient(225deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 100%)",
 					"name": "Primary to secondary"
 				},
 				{
 					"slug": "primary-to-tertiary",
-					"gradient": "linear-gradient(-135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)",
+					"gradient": "linear-gradient(225deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)",
 					"name": "Primary to tertiary"
 				},
 				{
 					"slug": "secondary-to-tertiary",
-					"gradient": "linear-gradient(-135deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%)",
+					"gradient": "linear-gradient(225deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%)",
 					"name": "Secondary to Tertiary"
+				},
+				{
+					"slug": "light-blue-to-beige",
+					"gradient": "linear-gradient(225deg, #A4DDEA 0%, #FFE7C3 50%, #FFDBB9 100%)",
+					"name": "Light blue to beige"
+				},
+				{
+					"slug": "green-to-orange",
+					"gradient": "linear-gradient(45deg, #01823A 0%, #FF9F10 100%)",
+					"name": "Green to orange"
 				}
 			],
 			"palette": [
@@ -159,7 +169,7 @@
 					"slug": "system-font"
 				},
 				{
-					"fontFamily": "\"Uncut Sans\", sans-serif",
+					"fontFamily": "\"Uncut Sans\", Arial, Helvetica Neue, Helvetica, sans-serif",
 					"name": "Uncut Sans",
 					"slug": "uncut-sans",
 					"fontFace": [
@@ -201,7 +211,7 @@
 					]
 				},
 				{
-					"fontFamily": "Arial, FreeSans, sans-serif",
+					"fontFamily": "Arial, FreeSans, \"Helvetica Neue\", Helvetica, sans-serif",
 					"name": "Arial",
 					"slug": "arial"
 				},

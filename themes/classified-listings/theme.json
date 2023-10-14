@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "customTemplates": [{
+      "name": "blank",
+      "title": "Blank",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page (No Title / Feature Image)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog-sidebar-on-left",
+      "title": "Blog Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog-sidebar-on-right",
+      "title": "Blog Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-right",
+      "title": "Single Page (Sidebar on Right)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-page-sidebar-on-left",
+      "title": "Single Page (Sidebar on Left)",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "single-post-sidebar-on-right",
+      "title": "Single Post (Sidebar on Right)",
+      "postTypes": [
+        "post"
+      ]
+    },
+    {
+      "name": "single-post-sidebar-on-left",
+      "title": "Single Post (Sidebar on Left)",
+      "postTypes": [
+        "post"
+      ]
+    }
+  ],
+  "templateParts": [{
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    },
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "area": "uncategorized"
+    }
+  ],
+  "settings": {
+    "appearanceTools": true
+  }
+}

@@ -512,6 +512,9 @@
 			"woocommerce/checkout-order-summary-cart-items-block": {
 				"css": "& .wc-block-components-product-metadata__description{display:none}"
 			},
+			"woocommerce/mini-cart-products-table-block": {
+				"css": "& .wc-block-components-product-metadata__description{display:none}"
+			},
 			"woocommerce/cart": {
 				"css": ".wp-element-button { background: none; background-color: var(--wp--preset--color--primary) !important;border-radius: 5px;color: var(--wp--preset--color--textonprimary)!important;font-family: var(--wp--preset--font-family--secondary)!important;} & .wp-element-button:hover { opacity: 0.9; }& .wc-block-components-product-add-to-cart-button{padding:5px 20px; min-height:1em}& .wp-block-woocommerce-cart-cross-sells-block .wc-block-components-product-sale-badge{position:absolute; top:10px; right:10px} & ins{text-decoration:none}& .wc-block-cart-items tr{border:none}& .wc-block-components-product-name{text-decoration:none}& .wc-block-cart .wc-block-cart-items td:after{border-color:var(--wp--preset--color--lightborder); opacity:1}& .wc-block-cart .wc-block-cart-items:after{border-color:var(--wp--preset--color--lightborder); opacity:1}& .wc-block-cart-item__product .price{font-size:var(--wp--preset--font-size--small); opacity:0.7}& .wc-block-components-product-metadata__description{display:none}& .wc-block-cart .wc-block-cart-items td:last-child{padding-right:0}& .wc-block-cart-item__remove-link{color: var(--wp--preset--color--accent) !important;}& .wc-block-components-sidebar-layout{align-items:flex-start;}& .wc-block-components-sidebar{padding:25px !important;border: 2px solid var(--wp--preset--color--lightborder);background:#00000003}& .wc-block-cart .wc-block-cart__totals-title{font-size: 20px;margin: 0 0 20px 0;text-transform: uppercase;text-align:left; display:block !important}& .wc-block-components-totals-wrapper:after{border-color: var(--wp--preset--color--lightborder);opacity:1}& .wp-block-woocommerce-cart-order-summary-block{font-size: var(--wp--preset--font-size--normal);}& .is-small.wc-block-cart .wc-block-components-sidebar .wc-block-cart__totals-title{display:block}& .wc-block-components-sidebar .wc-block-components-totals-item{padding:0}& .wc-block-components-sidebar .wc-block-components-totals-coupon-link{padding:0}"
 			},
@@ -694,12 +697,24 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"lineHeight": 1.3
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--custom--spacing--blockbottom)",
+						"top": "2.8rem"
+					}
 				}
 			},
 			"h3": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--big)",
 					"lineHeight": 1.3
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--custom--spacing--blockbottom)",
+						"top": "1.8rem"
+					}
 				}
 			},
 			"h4": {

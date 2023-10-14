@@ -15,6 +15,21 @@
 					"name": "Background"
 				},
 				{
+					"slug": "light",
+					"color": "#fefefe",
+					"name": "Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#010101",
+					"name": "Dark"
+				},
+				{
+					"slug": "headings",
+					"color": "#020202",
+					"name": "Headings"
+				},
+				{
 					"slug": "text-regular",
 					"color": "#606060",
 					"name": "Text Regular"
@@ -351,7 +366,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"text": "var(--wp--preset--color--headings)"
 		},
 		"elements": {
 			"h1": {
@@ -406,7 +421,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--headings)"
 				}
 			}
 		},

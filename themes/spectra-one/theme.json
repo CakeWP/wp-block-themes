@@ -360,7 +360,12 @@
     "elements": {
       "link": {
         "color": {
-          "text": "var(--wp--preset--color--heading)"
+          "text": "var(--wp--preset--color--primary)"
+        },
+        ":hover": {
+          "color": {
+            "text": "var(--wp--preset--color--secondary)"
+          }
         },
         "typography": {
           "textDecoration": "none"

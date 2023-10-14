@@ -227,7 +227,7 @@
         },
         {
           "slug": "medium",
-          "size": "0.8rem",
+          "size": "16px",
           "name": "Medium"
         },
         {
@@ -365,7 +365,7 @@
         },
         {
           "slug": "body-text",
-          "color": "#333333",
+          "color": "#323232",
           "name": "Body Text"
         },
         {
@@ -803,14 +803,19 @@
       "area": "header"
     },
     {
-      "name": "header-transparent",
-      "title": "Header Transparent (Note: It will not be visible in template part. Please go through front page site editor.)",
-      "area": "header"
-    },
-    {
       "name": "footer",
       "title": "Footer",
       "area": "footer"
+    },
+    {
+      "name": "header-with-cart-banner",
+      "title": "Header With Cart Banner",
+      "area": "header"
+    },
+    {
+      "name": "header-with-cart",
+      "title": "Header With Cart",
+      "area": "header"
     },
     {
       "name": "post-content",

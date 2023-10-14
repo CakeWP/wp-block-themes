@@ -6,7 +6,12 @@
 				{
 					"slug": "vertical-primary-to-foreground",
 					"gradient": "linear-gradient(to left,var(--wp--preset--color--lightbg) 0%,var(--wp--preset--color--foreground) 100%)",
-					"name": "Vertical primary to foreground"
+					"name": "Vertical lightbg to foreground"
+				},
+				{
+					"slug": "vertical-lightbg-to-foreground",
+					"gradient": "linear-gradient(-45deg, var(--wp--preset--color--foreground), var(--wp--preset--color--secondary))",
+					"name": "Vertical primary to foreground 2"
 				}
 			],
 			"palette": [
@@ -32,8 +37,8 @@
 				},
 				{
 					"slug": "lightbg",
-					"color": "#e7ded9",
-					"name": "Secondary"
+					"color": "#f7f7f7",
+					"name": "Light Background"
 				},
 				{
 					"slug": "light",

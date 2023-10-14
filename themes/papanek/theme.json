@@ -161,6 +161,117 @@
               ]
             }
           ]
+        },
+        {
+          "fontFamily": "\"Syne\", sans-serif",
+          "slug": "syne",
+          "name": "Syne",
+          "fontFace": [
+            {
+              "fontFamily": "Syne",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Syne-VariableFont_wght.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Syne",
+              "fontWeight": "500",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Syne-VariableFont_wght.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Syne",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Syne-VariableFont_wght.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Poppins\", sans-serif",
+          "slug": "poppins",
+          "name": "Poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Poppins-Regular"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "500",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Poppins-Medium"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Poppins-SemiBold"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/Poppins-Bold"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "slug": "dmsans",
+          "name": "DM Sans",
+          "fontFace": [
+            {
+              "fontFamily": "DM Sans",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+              ]
+            },
+            {
+              "fontFamily": "DM Sans",
+              "fontWeight": "500",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+              ]
+            },
+            {
+              "fontFamily": "DM Sans",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+              ]
+            }
+          ]
         }
       ],
       "fontSizes": [

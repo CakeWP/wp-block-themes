@@ -70,11 +70,6 @@
 			"postTypes": ["page", "post"]
 		},
 		{
-			"name": "page-without-title",
-			"title": "Page Without Title",
-			"postTypes": ["page", "post"]
-		},
-		{
 			"name": "page-header-footer-only",
 			"title": "Header and Footer Only",
 			"postTypes": ["page", "post"]
@@ -94,10 +89,11 @@
 		"appearanceTools": true,
 		"color": {
 			"link": true,
+			"defaultPalette": false,
 			"gradients": [
 				{
 					"slug": "vertical-background-to-background-light",
-					"gradient": "linear-gradient(0deg, #fff 35%, var(--wp--preset--color--background-light) 35%)",
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--background) 35%, var(--wp--preset--color--background-light) 35%)",
 					"name": "Background Light to White"
 				}
 			],
@@ -148,9 +144,19 @@
 					"name": "Background Light"
 				},
 				{
+					"slug": "primary",
+					"color": "#000000",
+					"name": "Primary"
+				},
+				{
 					"slug": "secondary",
 					"color": "#F9F3F0",
 					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#F8F7F4",
+					"name": "Tertiary"
 				},
 				{
 					"slug": "stroke",

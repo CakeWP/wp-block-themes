@@ -17,6 +17,21 @@
 					"name": "Background"
 				},
 				{
+					"slug": "light",
+					"color": "#fefefe",
+					"name": "Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#010101",
+					"name": "Dark"
+				},
+				{
+					"slug": "headings",
+					"color": "#020202",
+					"name": "Headings"
+				},
+				{
 					"slug": "text-regular",
 					"color": "#606060",
 					"name": "Text Regular"
@@ -37,11 +52,6 @@
 					"name": "Background Light"
 				},
 				{
-					"slug": "stroke",
-					"color": "#E7E7E7",
-					"name": "Stroke"
-				},
-				{
 					"slug": "primary",
 					"color": "#000000",
 					"name": "Primary"
@@ -50,6 +60,16 @@
 					"slug": "secondary",
 					"color": "#F9F9F9",
 					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#F2F2F2",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "stroke",
+					"color": "#E7E7E7",
+					"name": "Stroke"
 				}
 			]
 		},
@@ -247,7 +267,7 @@
 							"textDecoration": "none"
 						},
 						"color": {
-							"text": "var(--wp--preset--color--tertiary)"
+							"text": "var(--wp--preset--color--primary)"
 						}
 					}
 				}
@@ -345,7 +365,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"text": "var(--wp--preset--color--headings)"
 		},
 		"elements": {
 			"h1": {
@@ -400,7 +420,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--headings)"
 				}
 			}
 		},

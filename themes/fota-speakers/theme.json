@@ -1,0 +1,143 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "header-with-banner",
+      "title": "Header with Banner",
+      "area": "header"
+    }
+  ],
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "custom": true,
+      "customGradient": true,
+      "customDuotone": true,
+      "link": true,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#20CDA3",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#FFA726",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#01D7DE",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "tertiary-light",
+          "color": "#C3E9C2",
+          "name": "Tertiary Light"
+        },
+        {
+          "slug": "accent",
+          "color": "#3CE4BC",
+          "name": "Accent"
+        },
+        {
+          "slug": "accent-lite",
+          "color": "#7FFDDE",
+          "name": "Accent Lite"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#131318",
+          "name": "Background Alternative"
+        },
+        {
+          "slug": "foreground",
+          "color": "#CFCFCF",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#0D0C0F",
+          "name": "Background"
+        },
+        {
+          "name": "Heading Color",
+          "color": "#ffffff",
+          "slug": "heading-color"
+        },
+        {
+          "name": "Sub Heading Color",
+          "color": "#9EA3B5",
+          "slug": "sub-heading-color"
+        },
+        {
+          "name": "Foreground Alternative",
+          "color": "#676767",
+          "slug": "foreground-alt"
+        },
+        {
+          "name": "Border Color",
+          "color": "#27282E",
+          "slug": "border-color"
+        },
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#1F3584", "#ffffff"],
+          "slug": "primary-white",
+          "name": "Primary White"
+        },
+        {
+          "colors": ["#ffffff", "#1F3584"],
+          "slug": "white-primary",
+          "name": "White Primary"
+        },
+        {
+          "colors": ["#15B2F5", "#ffffff"],
+          "slug": "secondary-white",
+          "name": "Secondary White"
+        },
+        {
+          "colors": ["#ffffff", "#15B2F5"],
+          "slug": "white-secondary",
+          "name": "White Secondary"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--plus-jakarta-sans)",
+      "fontSize": "var(--wp-preset--font-size--small)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--plus-jakarta-sans)",
+          "fontStyle": "normal",
+          "fontWeight": "var(--wp--preset--font-weight--regular)",
+          "lineHeight": "var(--wp--preset--line-height--xxSmall)"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--heading-color)",
+          "background": "var(--wp--preset--color--transparent)"
+        }
+      }
+    },
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--foreground)"
+    }
+  }
+}

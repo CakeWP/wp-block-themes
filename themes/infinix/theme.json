@@ -31,9 +31,18 @@
 		{
 			"name": "blog-posts",
 			"postTypes": [
-				"page"
+				"page",
+				"post"
 			],
 			"title": "Blog Posts"
+		},
+		{
+			"name": "archive-with-sidebar-on-right",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Archvie With Sidebar on Right"
 		}
 	],
 	"settings": {
@@ -211,6 +220,22 @@
 					"fontFamily": "\"Roboto\", serif",
 					"name": "Roboto",
 					"slug": "roboto"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Dancing Script",
+							"fontWeight": "400 500 600 700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/dancing-script/DancingScript-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Dancing Script\", cursive",
+					"name": "Dancing Script",
+					"slug": "dancing-script"
 				},
 				{
 					"fontFace": [
@@ -885,6 +910,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-top",
+			"title": "Header Top"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
@@ -898,6 +928,16 @@
 			"area": "uncategorized",
 			"name": "comments",
 			"title": "Comments"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar-default",
+			"title": "Sidebar Default"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar-products",
+			"title": "Sidebar Products"
 		}
 	]
 }

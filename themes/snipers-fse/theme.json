@@ -1,0 +1,282 @@
+{
+	    "$schema": "https://schemas.wp.org/trunk/theme.json",
+	    "version": 2,
+	     "templateParts": [
+		{
+		    "name": "header",		   
+		    "title": "Header",
+		    "area": "header"
+		},		
+		{
+		    "name": "footer",
+		    "title": "Footer",
+		    "area": "footer"
+		}
+	    ],
+	    "customTemplates": [
+		{
+			"name": "front",
+			"title": "Front Page",
+			"postTypes": [
+				"page"
+			]
+		}
+	    ],
+	    "settings": {
+			"appearanceTools": true,
+			"layout": {
+			    "contentSize": "800px",
+			    "wideSize": "1170px"
+			},       
+			"typography": {
+			    "fontFamilies": [
+				{
+				    "fontFamily": "'Teko', sans-serif;",
+				    "name": "Teko",
+				    "slug": "teko",
+				    "fontFace": [
+					{
+					    "fontFamily": "'Teko', sans-serif;",
+					    "fontWeight": "300",
+					    "fontStyle": "lite",
+					    "src": ["file:./assests/fonts/teko/Teko-Light.ttf"]
+					},
+					{
+					    "fontFamily": "'Teko', sans-serif;",
+					    "fontWeight": "400",
+					    "fontStyle": "regular",
+					    "src": ["file:./assests/fonts/teko/Teko-Regular.ttf"]
+					},
+					{
+					    "fontFamily": "'Teko', sans-serif;",
+					    "fontWeight": "500",
+					    "fontStyle": "medium",
+					    "src": ["file:./assests/fonts/teko/Teko-Medium.ttf"]
+					},
+					{
+					    "fontFamily": "'Teko', sans-serif;",
+					    "fontWeight": "600",
+					    "fontStyle": "semi bold",
+					    "src": ["file:./assests/fonts/teko/Teko-SemiBold.ttf"]
+					},
+					{
+					    "fontFamily": "'Teko', sans-serif;",
+					    "fontWeight": "700",
+					    "fontStyle": "bold",
+					    "src": ["file:./assests/fonts/teko/Teko-Bold.ttf"]
+					}
+				    ]
+				},
+				{
+				    "fontFamily": "'Poppins', sans-serif;",
+				    "name": "Poppins",
+				    "slug": "poppins",
+				    "fontFace": [
+					{
+					    "fontFamily": "'Poppins', sans-serif;",
+					    "fontWeight": "400",
+					    "fontStyle": "normal",
+					    "src": ["file:./assests/fonts/poppins/Poppins-Regular.ttf"]
+					},
+					{
+					    "fontFamily": "'Poppins', sans-serif;",
+					    "fontWeight": "700",
+					    "fontStyle": "bold",
+					    "src": ["file:./assests/fonts/poppins/Poppins-Bold.ttf"]
+					}
+				    ]
+				}	
+			    ],
+				"fontSizes": [
+					
+					{
+						"name": "Body Text",
+						"slug": "body-text",
+						"size": "16px"
+					},
+					{
+						"name": "Small",
+						"slug": "small",
+						"size": "20px"
+					},
+					{
+						"name": "Medium",
+						"slug": "medium",
+						"size": "24px"
+					},
+					{
+						"name": "Regular",
+						"slug": "regular",
+						"size": "28px"
+					},
+					{
+						"name": "Large",
+						"slug": "large",
+						"size": "32px"
+					},
+					{
+						"name": "Semi-Large",
+						"slug": "semi-large",
+						"size": "36px"
+					},
+					{
+						"name": "Extra-Large",
+						"slug": "extra-large",
+						"size": "40px"
+					}
+					]
+				},
+			"color": {
+					
+			"palette": [
+				{				
+					"name": "Body Text",
+					"slug": "body-text",
+					"color": "#282828"
+				},
+				{
+					"name": "Foreground",
+					"slug": "foreground",
+					"color": "#ffffff"
+				},
+				{				
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#ff5000"
+				},
+				{				
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#282828"
+				}
+			]
+		},
+
+		"spacing": {
+		    "padding": true,
+		    "margin": true,
+		    "units": [ "px", "em", "rem", "vh", "vw", "%" ]
+		},
+		"border": {
+		    "radius": true,
+		    "color": true,
+		    "style": true,
+		    "width": true
+		}
+	    },
+	    "styles": {
+			"color": {
+				"background": "var(--wp--preset--color--white)",
+				"text": "var(--wp--preset--color--grey)"
+			},
+			"typography": {
+				"fontFamily": "var(--wp--preset--font-family--poppins)",
+				"lineHeight": "1.5",
+				"fontSize": "16px"
+			
+			},
+			"spacing": {
+				"blockGap": "24px"
+			},
+			"elements": {
+					"h1": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--extra-large)",
+						"lineHeight": "1.5"
+					},
+					"spacing": {
+						"margin": {
+						"bottom": "var(--wp--preset--spacing--small)"
+						}
+					}
+					},
+					"h2": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--semi-large)",
+						"lineHeight": "1.3"
+					},
+					"spacing": {
+						"margin": {
+							"top": "var(--wp--preset--spacing--medium)",
+							"bottom": "var(--wp--preset--spacing--x-small)"
+						}
+					}		    
+					},
+					"h3": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--large)",
+						"lineHeight": "1.2"
+					},
+					"spacing": {
+						"margin": {
+						"bottom": "var(--wp--preset--spacing--small)"
+						}
+					}		    
+					},
+					"h4": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--regular)",
+						"lineHeight": "1.1"
+					},
+					"spacing": {
+						"margin": {
+						"bottom": "var(--wp--preset--spacing--small)"
+						}
+					}		    
+					},
+					"h5": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--medium)",
+						"lineHeight": "1"
+					},
+					"spacing": {
+						"margin": {
+						"bottom": "var(--wp--preset--spacing--small)"
+						}
+					}		    
+					},
+					"h6": {
+					"typography": {
+						"fontSize": "var(--wp--preset--font-size--small)",
+						"lineHeight": "1"
+					},
+					"spacing": {
+						"margin": {
+						"bottom": "var(--wp--preset--spacing--small)"
+						}
+					}		    
+					}			
+				
+			},
+		"blocks": {		   
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "600",
+					"lineHeight": "normal"
+				},
+				"elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--primary)"
+                        }
+                    }
+                }
+			},
+			"spacing": {
+				"padding": {
+					"top": "0",
+					"right": "0",
+					"bottom": "0",
+					"left": "0"
+				},
+				"margin": {
+					"top": "0",
+					"right": "0",
+					"bottom": "0",
+					"left": "0"
+				}
+			}		
+	    }
+	}	   
+}

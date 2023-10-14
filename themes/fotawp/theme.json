@@ -80,14 +80,14 @@
       "postTypes": ["product"]
     },
     {
-      "name": "page-cart",
+      "name": "cart",
       "title": "WooCommerce Cart Page",
-      "postTypes": ["product"]
+      "postTypes": ["page", "post"]
     },
     {
-      "name": "page-checkout",
+      "name": "checkout",
       "title": "WooCommerce Checkout Page",
-      "postTypes": ["product"]
+      "postTypes": ["page", "post"]
     },
     {
       "name": "archive-product",
